@@ -1,163 +1,129 @@
-export PATH="/Users/khurshidddbek/fvm/default/bin:$PATH"
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+# =============================================================================
+#                               ЗАГОЛОВОК
+# =============================================================================
 
-# Это необходимо для того, чтобы вы могли запускать установленные через cargo программы из терминала без указания полного пути.
-export PATH="$HOME/.cargo/bin:$PATH"
-
-# для андроид эмуляторов.
-export PATH="$PATH:/Users/khurshidddbek/Library/Android/sdk/emulator"
-export PATH="$PATH:/Users/khurshidddbek/Library/Android/sdk/platform-tools"
-
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
+# Задаём путь к oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# Устанавливаем тему Powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
-# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
-
-# Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# You can also set it to another string to have that shown instead of the default red dots.
-# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
-# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
+# Плагины oh-my-zsh
 plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
 
+# =============================================================================
+#                               ПУТИ
+# =============================================================================
+
+# Функция для добавления путей к PATH
+add_to_path() {
+  if [[ -d "$1" && ":$PATH:" != *":$1:"* ]]; then
+    export PATH="$1:$PATH"
+  fi
+}
+
+# Добавляем пользовательские пути
+add_to_path "/Users/khurshidddbek/fvm/default/bin"
+add_to_path "$HOME/.pub-cache/bin"
+add_to_path "$HOME/.cargo/bin"
+add_to_path "/Users/khurshidddbek/Library/Android/sdk/emulator"
+add_to_path "/Users/khurshidddbek/Library/Android/sdk/platform-tools"
+add_to_path "$HOME/.local/bin"
+
+# =============================================================================
+#                           POWERLEVEL10K НАСТРОЙКА
+# =============================================================================
+
+# Включаем мгновенный промпт Powerlevel10k (должно быть близко к верху файла)
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# Загружаем конфигурацию Powerlevel10k
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# =============================================================================
+#                            OH-MY-ZSH ИНИЦИАЛИЗАЦИЯ
+# =============================================================================
+
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+# =============================================================================
+#                               ОПЦИИ SHELL
+# =============================================================================
 
-# export MANPATH="/usr/local/man:$MANPATH"
+# Включение автоматической коррекции команд
+ENABLE_CORRECTION="true"
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+# Настройки автозавершения и других функций
+# Вы можете раскомментировать и настроить по своему усмотрению
+# CASE_SENSITIVE="true"
+# HYPHEN_INSENSITIVE="true"
+# COMPLETION_WAITING_DOTS="true"
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+# Настройки автообновления oh-my-zsh
+zstyle ':omz:update' mode auto      # Автоматическое обновление без запроса
+zstyle ':omz:update' frequency 90    # Частота автообновления (в днях)
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+# =============================================================================
+#                              АЛИАСЫ
+# =============================================================================
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-# download utils
+# Альтернативные команды для загрузки видео и аудио
 alias download-video='yt-dlp --cookies-from-browser safari --postprocessor-args "-c:v libx264 -crf 23 -preset veryfast"'
 alias download-audio='yt-dlp -x --audio-format mp3 --cookies-from-browser safari'
 
-# tools
+# Инструменты
 alias yeelight-toggle='miiocli yeelight --ip 192.168.100.14 --token 8e4593bc136408b71af17dadbcb61bb5 toggle'
-# flutter version manager
+
+# Менеджеры версий Flutter и Dart
 alias f="fvm flutter"
 alias d="fvm dart"
-# compression with ffmpeg
+
+# Сжатие видео с помощью ffmpeg
 alias compress-video='function _cv(){ ffmpeg -i "$1" -vcodec libx264 -crf 24 "${1%.*}_compressed.mp4"; }; _cv'
-# flutter utils
-alias reinstall-pods='f clean && f pub get && cd ios && rm -rf Pods Podfile.lock && pod repo update && pod install && cd ..  && noti -t "Cocoapods" -m "Pods reinstalled successfully"'
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# shell history searcher plugin: https://github.com/cantino/mcfly
-eval "$(mcfly init zsh)"
+# Утилиты для Flutter
+alias reinstall-pods='f clean && f pub get && cd ios && rm -rf Pods Podfile.lock && pod repo update && pod install && cd .. && noti -t "Cocoapods" -m "Pods reinstalled successfully"'
 
-# smarter cd commands plugin: https://github.com/ajeetdsouza/zoxide
-eval "$(zoxide init zsh)"
+# =============================================================================
+#                              ФУНКЦИИ
+# =============================================================================
 
-## [Completion] 
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh ]] && . /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
+# Уведомление при выполнении команды
+notify_command() {
+  command="$@"
+  output=$(eval "$command" 2>&1)  # Выполняем команду и сохраняем вывод
 
-function notify_command() {
-   command="$@"
-   output=$(eval "$command" 2>&1)  # Run the command and capture its output
+  command_status=$?  # Сохраняем статус выполнения команды
+  echo "$output"      # Выводим результат команды
 
-   command_status=$?  # Store the exit status of the command
-   echo "$output"  # Print the captured output of the command
-
-   afplay /Users/khurshidddbek/Do\ not\ delete/Morse.aiff &> /dev/null  # Play the sound
-   return $command_status  # Return the exit status of the original command
+  # Воспроизводим звук уведомления
+  afplay /Users/khurshidddbek/Do\ not\ delete/Morse.aiff &> /dev/null
+  return $command_status  # Возвращаем исходный статус команды
 }
 
+# =============================================================================
+#                          ПЛАГИНЫ И ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ
+# =============================================================================
 
-# Created by `pipx` on 2024-10-18 06:32:22
+# История команд с отметками времени (можно настроить формат)
+# HIST_STAMPS="yyyy-mm-dd"
+
+# Инициализация плагинов mcfly и zoxide
+eval "$(mcfly init zsh)"
+eval "$(zoxide init zsh)"
+
+# Настройка автодополнения Dart
+[[ -f /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh ]] && . /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh || true
+
+# =============================================================================
+#                            ЗАВЕРШЕНИЕ ФАЙЛА
+# =============================================================================
+
+# Добавляем пути, созданные pipx
 export PATH="$PATH:/Users/khurshidddbek/.local/bin"
