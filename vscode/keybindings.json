@@ -1,0 +1,15 @@
+// Настраиваемые сочетания клавиш. Эти настройки переопределяют сочетания по умолчанию.
+[
+    {
+        // Создать новый файл в файловом проводнике
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        // Создать новую папку в файловом проводнике
+        "key": "shift+a",
+        "command": "explorer.newFolder",
+        "when": "filesExplorerFocus && !inputFocus"
+    }
+]
