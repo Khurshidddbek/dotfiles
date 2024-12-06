@@ -7,15 +7,18 @@ LOG_FILE="$REPO_DIR/biweekly_update.log"
 # Переходим в директорию репозитория
 cd $REPO_DIR || exit
 
-# Запускаем обновление Brewfile и ждём завершения
+# Исключаем лог-файл из индекса (если ещё не добавлен в .gitignore)
+git update-index --assume-unchanged "$LOG_FILE"
+
+# Запускаем обновление Brewfile
 ~/dotfiles/scripts/update_brewfile.sh
 
-# Проверяем, есть ли изменения
-if git status --porcelain | grep -q "."; then
+# Проверяем изменения без учёта лог-файла
+if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
     echo "$(date): Обнаружены изменения. Начинаем обработку..." >> "$LOG_FILE"
 
     # Цикл по изменённым файлам или папкам
-    git status --porcelain | while read -r status file; do
+    git status --porcelain | grep -v "$LOG_FILE" | while read -r status file; do
         case "$file" in
             homebrew/Brewfile)
                 git add homebrew/Brewfile
@@ -43,14 +46,14 @@ if git status --porcelain | grep -q "."; then
         esac
     done
 
-    # Отправляем изменения
+    # Добавляем лог-файл в коммит
+    git add "$LOG_FILE"
+    git commit -m "Обновлены логи выполнения задач"
     git push
-    echo "$(date): Изменения успешно отправлены." >> "$LOG_FILE"
-else
-    echo "$(date): Изменений нет. Завершаем." >> "$LOG_FILE"
-fi
+    echo "$(date): Изменения и логи успешно отправлены." >> "$LOG_FILE"
 
-# Добавляем лог-файл в репозиторий
-git add "$LOG_FILE"
-git commit -m "Обновлены логи выполнения задачи"
-git push
+    # Возвращаем лог-файл в отслеживаемые (если нужно)
+    git update-index --no-assume-unchanged "$LOG_FILE"
+else
+    echo "$(date): Изменений нет. Логи остаются локально." >> "$LOG_FILE"
+fi
