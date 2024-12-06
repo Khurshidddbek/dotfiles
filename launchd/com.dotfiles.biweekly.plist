@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Файл com.dotfiles.biweekly.plist используется для настройки задачи в launchd.
+    Этот файл запускает скрипт biweekly_anacron_update.sh каждые 14 дней.
+    Скрипт biweekly_anacron_update.sh находится в репозитории dotfiles и отвечает за проверку изменений в конфигурационных файлах и их автоматическую отправку в GitHub.
+
+    Инструкция: Для активации задачи необходимо создать символическую ссылку этого файла в каталоге ~/Library/LaunchAgents.
+    Пример команды:
+    ln -s ~/dotfiles/launchd/com.dotfiles.biweekly.plist ~/Library/LaunchAgents/com.dotfiles.biweekly.plist
+-->
+<plist version="1.0">
+<dict>
+    <!-- Уникальный идентификатор задачи -->
+    <key>Label</key>
+    <string>com.dotfiles.biweekly</string>
+    
+    <!-- Команда для выполнения -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/khurshidddbek/dotfiles/scripts/biweekly_anacron_update.sh</string>
+    </array>
+    
+    <!-- Запуск задачи через 10 минут после загрузки системы -->
+    <key>StartInterval</key>
+    <integer>1209600</integer> <!-- 14 дней = 1209600 секунд -->
+
+    <!-- Задержка перед выполнением -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Обеспечить, чтобы задача не выполнялась до полной загрузки системы -->
+    <key>KeepAlive</key>
+    <dict>
+        <key>AfterInitialDelay</key>
+        <integer>600</integer> <!-- Задержка в секундах (10 минут) -->
+    </dict>
+</dict>
+</plist>
