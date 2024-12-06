@@ -2,12 +2,13 @@
 
 # Путь к репозиторию
 REPO_DIR=~/dotfiles
-
-# Сообщение для логов
 LOG_FILE="$REPO_DIR/biweekly_update.log"
 
 # Переходим в директорию репозитория
 cd $REPO_DIR || exit
+
+# Запускаем обновление Brewfile и ждём завершения
+~/dotfiles/scripts/update_brewfile.sh
 
 # Проверяем, есть ли изменения
 if git status --porcelain | grep -q "."; then
@@ -42,9 +43,14 @@ if git status --porcelain | grep -q "."; then
         esac
     done
 
-    # Отправляем изменения в GitHub
+    # Отправляем изменения
     git push
     echo "$(date): Изменения успешно отправлены." >> "$LOG_FILE"
 else
     echo "$(date): Изменений нет. Завершаем." >> "$LOG_FILE"
 fi
+
+# Добавляем лог-файл в репозиторий
+git add "$LOG_FILE"
+git commit -m "Обновлены логи выполнения задачи"
+git push
