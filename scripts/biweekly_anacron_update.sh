@@ -52,6 +52,12 @@ if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
     git push
     echo "$(date): Изменения и логи успешно отправлены." >> "$LOG_FILE"
 
+    # Уведомление через noti с контекстом
+    current_time=$(date '+%Y-%m-%d %H:%M:%S')
+    noti -t "Git Push: dotfiles" -m "Задача biweekly обновлена и отправлена в GitHub.
+
+Время: $current_time" -e
+
     # Возвращаем лог-файл в отслеживаемые (если нужно)
     git update-index --no-assume-unchanged "$LOG_FILE"
 else

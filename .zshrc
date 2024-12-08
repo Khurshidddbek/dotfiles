@@ -121,6 +121,9 @@ eval "$(zoxide init zsh)"
 # Настройка автодополнения Dart
 [[ -f /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh ]] && . /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh || true
 
+# Настройка автодополнения Flutter
+source ~/dotfiles/flutter/flutter-completion
+
 # =============================================================================
 #                            ЗАВЕРШЕНИЕ ФАЙЛА
 # =============================================================================
