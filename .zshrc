@@ -84,6 +84,9 @@ alias yeelight-toggle='miiocli yeelight --ip 192.168.100.14 --token 8e4593bc1364
 alias f="fvm flutter"
 alias d="fvm dart"
 
+# Добавление пути для Pub
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 # Сжатие видео с помощью ffmpeg
 alias compress-video='function _cv(){ ffmpeg -i "$1" -vcodec libx264 -crf 24 "${1%.*}_compressed.mp4"; }; _cv'
 
@@ -130,3 +133,6 @@ source ~/dotfiles/flutter/flutter-completion
 
 # Добавляем пути, созданные pipx
 export PATH="$PATH:/Users/khurshidddbek/.local/bin"
+
+# Added by Windsurf
+export PATH="/Users/khurshidddbek/.codeium/windsurf/bin:$PATH"
