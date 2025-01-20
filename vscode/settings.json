@@ -21,7 +21,6 @@
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "hidden",
     "workbench.editor.tabSizing": "shrink",
-    "workbench.layoutControl.enabled": false,
     "window.density.editorTabHeight": "compact",
     "explorer.compactFolders": false,
     // Настройки терминала
@@ -95,5 +94,6 @@
         "plaintext": true,
         "markdown": false,
         "scminput": false
-    }
+    },
+    "workbench.layoutControl.enabled": false
 }
