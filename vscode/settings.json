@@ -17,7 +17,6 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.inlineSuggest.enabled": true,
     "window.zoomLevel": 1,
-    "window.commandCenter": false,
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "hidden",
     "workbench.editor.tabSizing": "shrink",
@@ -95,5 +94,6 @@
         "markdown": false,
         "scminput": false
     },
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false
 }
