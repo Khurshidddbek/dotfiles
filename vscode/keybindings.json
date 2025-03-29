@@ -11,5 +11,9 @@
         "key": "shift+a",
         "command": "explorer.newFolder",
         "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
     }
 ]
