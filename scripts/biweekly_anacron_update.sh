@@ -13,6 +13,9 @@ git update-index --assume-unchanged "$LOG_FILE"
 # Запускаем обновление Brewfile
 ~/dotfiles/scripts/update_brewfile.sh
 
+# Запускаем обновление списка расширений
+~/dotfiles/scripts/update_extensions.sh
+
 # Проверяем изменения без учёта лог-файла
 if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
     echo "$(date): Обнаружены изменения. Начинаем обработку..." >> "$LOG_FILE"
