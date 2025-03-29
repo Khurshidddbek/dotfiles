@@ -32,6 +32,10 @@ if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
                 git add vscode/
                 git commit -m "Автоматическое обновление VS Code конфигурации"
                 ;;
+            cursor/*)
+                git add cursor/
+                git commit -m "Автоматическое обновление Cursor конфигурации"
+                ;;
             .zshrc)
                 git add .zshrc
                 git commit -m "Автоматическое обновление .zshrc"
