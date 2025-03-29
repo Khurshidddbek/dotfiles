@@ -1,0 +1,102 @@
+{
+  // Общие настройки редактора и интерфейса
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "on",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.inlineSuggest.enabled": true,
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.tabSizing": "shrink",
+  "window.density.editorTabHeight": "compact",
+  "explorer.compactFolders": false,
+  // Настройки терминала
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+  // Настройки для конкретных языков
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.flutterSdkPaths": [
+    ".fvm/flutter_sdk"
+  ],
+  "dart.previewFlutterUiGuides": true,
+  "dart.enableCompletionCommitCharacters": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dartimportsorter.sortOnSave": true,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "javascript.suggest.completeFunctionCalls": true,
+  // Настройки Git и GitLens
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo",
+  // Исключения для поиска и наблюдателя файлов
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  // Настройки оптимизации изображений
+  "optimizeImages.app": "ImageOptim.app",
+  "optimizeImages.searchStartingPath": "assets",
+  // TODO Highlight
+  "todohighlight.exclude": [
+    "**/node_modules/**"
+  ],
+  "todohighlight.include": [
+    "**/*.js"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "todo:",
+      "color": "yellow"
+    }
+  ],
+  // Прочие настройки
+  "files.autoSave": "afterDelay",
+  "security.workspace.trust.untrustedFiles": "open",
+  "python.formatting.provider": "none",
+  "redhat.telemetry.enabled": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.rulers": [],
+  "update.showReleaseNotes": false,
+  "workbench.remoteIndicator.showExtensionRecommendations": false
+}
