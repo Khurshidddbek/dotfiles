@@ -136,3 +136,10 @@ export PATH="$PATH:/Users/khurshidddbek/.local/bin"
 
 # Added by Windsurf
 export PATH="/Users/khurshidddbek/.codeium/windsurf/bin:$PATH"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh ]] && . /Users/khurshidddbek/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+export PATH="/Users/khurshidddbek/.shorebird/bin:$PATH"
