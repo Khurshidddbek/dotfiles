@@ -1,9 +1,10 @@
 dart-code.dart-code
 dart-code.flutter
 eamodio.gitlens
-github.copilot
-github.copilot-chat
-ms-python.autopep8
-redhat.vscode-xml
+hzgood.dart-data-class-generator
+localizely.flutter-intl
+nash.awesome-flutter-snippets
+pkief.material-icon-theme
+simonsiefke.svg-preview
 usernamehw.errorlens
 wayou.vscode-todo-highlight
