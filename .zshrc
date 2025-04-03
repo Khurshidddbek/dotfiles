@@ -73,22 +73,8 @@ zstyle ':omz:update' frequency 90    # Частота автообновлени
 #                              АЛИАСЫ
 # =============================================================================
 
-# Альтернативные команды для загрузки видео и аудио
-alias download-video='yt-dlp --cookies-from-browser safari --postprocessor-args "-c:v libx264 -crf 23 -preset veryfast"'
-alias download-audio='yt-dlp -x --audio-format mp3 --cookies-from-browser safari'
-
-# Инструменты
-alias yeelight-toggle='miiocli yeelight --ip 192.168.100.14 --token 8e4593bc136408b71af17dadbcb61bb5 toggle'
-
-# Менеджеры версий Flutter и Dart
-alias f="fvm flutter"
-alias d="fvm dart"
-
 # Добавление пути для Pub
 export PATH="$PATH":"$HOME/.pub-cache/bin"
-
-# Сжатие видео с помощью ffmpeg
-alias compress-video='function _cv(){ ffmpeg -i "$1" -vcodec libx264 -crf 24 "${1%.*}_compressed.mp4"; }; _cv'
 
 # Утилиты для Flutter
 alias reinstall-pods='f clean && f pub get && cd ios && rm -rf Pods Podfile.lock && pod repo update && pod install && cd .. && noti -t "Cocoapods" -m "Pods reinstalled successfully"'
