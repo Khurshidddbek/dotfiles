@@ -36,6 +36,14 @@ if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
                 git commit -m "Автоматическое обновление VS Code конфигурации"
                 ;;
             cursor/*)
+                # Проверяем файлы на наличие ключей
+                if ! ./scripts/security_check.sh cursor/; then
+                    noti -t "Ошибка безопасности: dotfiles" -m "Обнаружены потенциальные API ключи в файлах конфигурации Cursor.
+                    
+Пожалуйста, используйте переменные окружения вместо прямого указания ключей." -e
+                    # Выходим немедленно, не записывая в лог
+                    exit 1
+                fi
                 git add cursor/
                 git commit -m "Автоматическое обновление Cursor конфигурации"
                 ;;
