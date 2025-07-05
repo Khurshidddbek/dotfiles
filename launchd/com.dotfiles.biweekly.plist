@@ -21,19 +21,14 @@
         <string>/Users/khurshidddbek/dotfiles/scripts/biweekly_anacron_update.sh</string>
     </array>
     
-    <!-- Запуск задачи через 10 минут после загрузки системы -->
+    <!-- Интервал запуска задачи (30 дней ≈ 2592000 секунд) -->
     <key>StartInterval</key>
-    <integer>1209600</integer> <!-- 14 дней = 1209600 секунд -->
+    <integer>2592000</integer>
 
-    <!-- Задержка перед выполнением -->
-    <key>RunAtLoad</key>
-    <true/>
-
-    <!-- Обеспечить, чтобы задача не выполнялась до полной загрузки системы -->
-    <key>KeepAlive</key>
-    <dict>
-        <key>AfterInitialDelay</key>
-        <integer>600</integer> <!-- Задержка в секундах (10 минут) -->
-    </dict>
+    <!-- Файлы для логирования вывода скрипта -->
+    <key>StandardOutPath</key>
+    <string>/Users/khurshidddbek/dotfiles/biweekly_update.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/khurshidddbek/dotfiles/biweekly_update.log</string>
 </dict>
 </plist>

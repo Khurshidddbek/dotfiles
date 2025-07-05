@@ -129,3 +129,8 @@ export PATH="/Users/khurshidddbek/.codeium/windsurf/bin:$PATH"
 ## [/Completion]
 
 export PATH="/Users/khurshidddbek/.shorebird/bin:$PATH"
+
+# Added by Windsurf
+export PATH="/Users/khurshidddbek/.codeium/windsurf/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"
