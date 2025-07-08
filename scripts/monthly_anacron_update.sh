@@ -55,6 +55,14 @@ if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
                 git add .zprofile
                 git commit -m "Автоматическое обновление .zprofile"
                 ;;
+            launchd/com.dotfiles.homebrew_monthly.plist)
+                git add launchd/com.dotfiles.homebrew_monthly.plist
+                git commit -m "Автоматическое обновление launchd-профиля Homebrew"
+                ;;
+            scripts/homebrew_monthly_update.sh|homebrew/update_homebrew.sh)
+                git add scripts/homebrew_monthly_update.sh homebrew/update_homebrew.sh
+                git commit -m "Автоматическое обновление скриптов Homebrew monthly"
+                ;;
             *)
                 echo "$(date): Неизвестный файл или папка: $file. Пропускаем." >> "$LOG_FILE"
                 ;;
@@ -69,7 +77,7 @@ if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
 
     # Уведомление через noti с контекстом
     current_time=$(date '+%Y-%m-%d %H:%M:%S')
-    noti -t "Git Push: dotfiles" -m "Задача biweekly обновлена и отправлена в GitHub.
+    noti -t "Git Push: dotfiles" -m "Задача monthly обновлена и отправлена в GitHub.
 
 Время: $current_time" -e
 
@@ -77,4 +85,4 @@ if git status --porcelain | grep -v "$LOG_FILE" | grep -q "."; then
     git update-index --no-assume-unchanged "$LOG_FILE"
 else
     echo "$(date): Изменений нет. Логи остаются локально." >> "$LOG_FILE"
-fi
+fi 
