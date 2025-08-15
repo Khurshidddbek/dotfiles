@@ -6,7 +6,6 @@
     "source.fixAll": "explicit"
   },
   "editor.accessibilitySupport": "off",
-  "editor.minimap.enabled": false,
   "editor.guides.indentation": false,
   "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -51,7 +50,7 @@
     "editor.defaultFormatter": "ms-python.autopep8"
   },
   "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
   "javascript.suggest.completeFunctionCalls": true,
   // Настройки Git и GitLens
@@ -98,5 +97,10 @@
   "window.commandCenter": false,
   "editor.rulers": [],
   "update.showReleaseNotes": false,
-  "workbench.remoteIndicator.showExtensionRecommendations": false
+  "workbench.remoteIndicator.showExtensionRecommendations": false,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "xmlTools.splitAttributesOnFormat": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 12,
 }
