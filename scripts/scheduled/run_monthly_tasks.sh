@@ -37,8 +37,17 @@ if [[ -f "$REPO_DIR/scripts/telegram/telegram.env" ]]; then
     # shellcheck source=/dev/null
     source "$REPO_DIR/scripts/telegram/telegram.env"
     set +a
-    python3 "$REPO_DIR/scripts/telegram/extract_public_chats.py"
-    python3 "$REPO_DIR/scripts/telegram/send_keepalive.py"
+    PYTHON_BIN=$(command -v python3)
+    "$PYTHON_BIN" - <<'PY'
+import importlib, subprocess, sys
+try:
+    import telethon  # noqa: F401
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '--quiet', '--user', 'telethon'])
+PY
+    # теперь запускаем
+    "$PYTHON_BIN" "$REPO_DIR/scripts/telegram/extract_public_chats.py"
+    "$PYTHON_BIN" "$REPO_DIR/scripts/telegram/send_keepalive.py"
     TELEGRAM_RC=$?
     set -e
     if [[ $TELEGRAM_RC -ne 0 ]]; then
