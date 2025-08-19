@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Файл com.dotfiles.monthly_tasks.plist запускает скрипт run_monthly_tasks.sh,
+    который включает в себя обновление Homebrew и обработку dotfiles.
+    Запускается 1-го числа каждого месяца в 03:00, а также каждые 30 дней
+    (StartInterval) на случай, если компьютер был выключен во время основного окна.
+-->
+<plist version="1.0">
+<dict>
+    <!-- Уникальный идентификатор задачи -->
+    <key>Label</key>
+    <string>com.dotfiles.monthly</string>
+
+    <!-- Команда для выполнения -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh</string>
+    </array>
+
+    <!-- Запуск 1-го числа каждого месяца в 03:00 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Day</key>
+        <integer>1</integer>
+        <key>Hour</key>
+        <integer>3</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- Резервный запуск каждые 30 дней -->
+    <key>StartInterval</key>
+    <integer>2592000</integer>
+
+    <!-- Логи -->
+    <key>StandardOutPath</key>
+    <string>/Users/khurshidddbek/dotfiles/scheduled_tasks.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/khurshidddbek/dotfiles/scheduled_tasks.log</string>
+</dict>
+</plist>

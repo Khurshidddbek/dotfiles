@@ -15,5 +15,10 @@
     {
         "key": "cmd+i",
         "command": "composerMode.agent"
+    },
+    {
+        // Закрыть все вкладки (cmd+k затем w)
+        "key": "cmd+k w",
+        "command": "workbench.action.closeAllEditors"
     }
 ]

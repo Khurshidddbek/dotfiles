@@ -163,3 +163,33 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'telethon'
 вторник, 19 августа 2025 г. 21:43:04 (+05): Telegram keep-alive завершился с ошибкой code=1
 вторник, 19 августа 2025 г. 21:43:04 (+05): Обнаружены изменения. Начинаем обработку...
+вторник, 19 августа 2025 г. 21:43:08 (+05): Изменения и логи успешно отправлены.
+вторник, 19 августа 2025 г. 21:46:24 (+05): ===== Запуск run_monthly_tasks.sh =====
+вторник, 19 августа 2025 г. 21:46:24 (+05): ===== Начало ежемесячного обновления Homebrew =====
+вторник, 19 августа 2025 г. 21:46:24 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Already up-to-date.
+вторник, 19 августа 2025 г. 21:46:29 (+05): Обновление formulae и casks…
+вторник, 19 августа 2025 г. 21:46:31 (+05): Очистка старых версий и кэша…
+вторник, 19 августа 2025 г. 21:46:35 (+05): Ежемесячное обновление Homebrew завершено.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Brewfile обновлён.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Запуск Telegram keep-alive…
+Traceback (most recent call last):
+  File "/Users/khurshidddbek/dotfiles/scripts/telegram/extract_public_chats.py", line 14, in <module>
+    from telethon import TelegramClient
+ModuleNotFoundError: No module named 'telethon'
+Traceback (most recent call last):
+  File "/Users/khurshidddbek/dotfiles/scripts/telegram/send_keepalive.py", line 12, in <module>
+    from telethon import TelegramClient
+ModuleNotFoundError: No module named 'telethon'
+вторник, 19 августа 2025 г. 21:46:38 (+05): Telegram keep-alive завершился с ошибкой code=1
+вторник, 19 августа 2025 г. 21:46:38 (+05): Обнаружены изменения. Начинаем обработку...
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: .gitignore. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: homebrew/update_homebrew.sh. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: scheduled_tasks.log. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: scripts/brew_upgrade_all.sh. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: scripts/homebrew_monthly_update.sh. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: scripts/monthly_anacron_update.sh. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: scripts/security_check.sh. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: scripts/update_brewfile.sh. Пропускаем.
+вторник, 19 августа 2025 г. 21:46:38 (+05): Неизвестный файл или папка: scripts/update_extensions.sh. Пропускаем.
