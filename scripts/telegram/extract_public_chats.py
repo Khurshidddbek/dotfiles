@@ -17,7 +17,7 @@ from telethon.tl.types import Channel, Chat
 
 API_ID = os.getenv("TELEGRAM_API_ID")
 API_HASH = os.getenv("TELEGRAM_API_HASH")
-SESSION = os.getenv("TELEGRAM_SESSION", str(Path(__file__).with_parent / "session"))
+SESSION = os.getenv("TELEGRAM_SESSION", str(Path(__file__).resolve().parent / "session"))
 
 OUTPUT_PATH = Path(__file__).with_suffix(".channels.json")
 
@@ -31,7 +31,7 @@ async def main() -> None:  # noqa: N802
         dialogs: list[Dialog] = await client.get_dialogs()
         # Добавляем архивированные диалоги (folder_id=1)
         dialogs += await client.get_dialogs(folder=1)  # archived
-        result = []
+        dedup: dict[int, dict] = {}
         for dlg in dialogs:
             ent = dlg.entity
             if not isinstance(ent, (Channel, Chat)):
@@ -39,12 +39,14 @@ async def main() -> None:  # noqa: N802
             if not getattr(ent, "username", None):
                 continue
             if getattr(ent, "creator", False):
-                result.append({
+                dedup[ent.id] = {
                     "id": ent.id,
                     "title": ent.title,
                     "username": ent.username,
                     "megagroup": getattr(ent, "megagroup", False),
-                })
+                }
+
+        result = list(dedup.values())
         OUTPUT_PATH.write_text(json.dumps(result, ensure_ascii=False, indent=2))
         print(f"Saved {len(result)} chats to {OUTPUT_PATH}")
 

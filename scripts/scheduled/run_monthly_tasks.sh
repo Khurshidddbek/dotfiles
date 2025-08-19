@@ -37,17 +37,38 @@ if [[ -f "$REPO_DIR/scripts/telegram/telegram.env" ]]; then
     # shellcheck source=/dev/null
     source "$REPO_DIR/scripts/telegram/telegram.env"
     set +a
-    PYTHON_BIN=$(command -v python3)
+    # Берём системный python (из macOS) чтобы обойти ограничения Homebrew
+    PYTHON_BIN="/usr/bin/python3"
     "$PYTHON_BIN" - <<'PY'
-import importlib, subprocess, sys
-try:
-    import telethon  # noqa: F401
-except ModuleNotFoundError:
-    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '--quiet', '--user', 'telethon'])
+import subprocess, sys
+
+def ensure_pkg(pkg: str):
+    try:
+        __import__(pkg)
+        return
+    except ModuleNotFoundError:
+        pass
+
+    base = [sys.executable, '-m', 'pip', 'install', '--quiet', '--user', pkg]
+    # Пытаемся обычной установкой
+    try:
+        subprocess.check_call(base)
+        return
+    except subprocess.CalledProcessError:
+        # В системах с PEP 668 (Homebrew) пробуем добавить --break-system-packages
+        subprocess.check_call(base[:3] + ['--break-system-packages'] + base[3:])
+
+ensure_pkg('telethon')
 PY
     # теперь запускаем
-    "$PYTHON_BIN" "$REPO_DIR/scripts/telegram/extract_public_chats.py"
-    "$PYTHON_BIN" "$REPO_DIR/scripts/telegram/send_keepalive.py"
+# выполняем тихо — подробности не пишем в общий лог
+    EXTRACT_OUT=$("$PYTHON_BIN" "$REPO_DIR/scripts/telegram/extract_public_chats.py")
+    CHAT_TOTAL=$(echo "$EXTRACT_OUT" | awk '/Saved/{print $2}')
+
+    SEND_OUT=$("$PYTHON_BIN" "$REPO_DIR/scripts/telegram/send_keepalive.py")
+    SEND_COUNT=$(echo "$SEND_OUT" | grep -c '^Sent to')
+
+    echo "$(date): Telegram keep-alive: найдено $CHAT_TOTAL чатов, отправлено сообщений: $SEND_COUNT" >> "$LOG_FILE"
     TELEGRAM_RC=$?
     set -e
     if [[ $TELEGRAM_RC -ne 0 ]]; then
@@ -124,7 +145,7 @@ while read -r file; do
       git add scripts/flutter-xcode-cloud/
       COMMIT_PARTS+=("flutter_xcode_cloud")
       ;;
-    "$LOG_FILE")
+    scheduled_tasks.log|"$LOG_FILE")
       # лог обработаем отдельно ниже
       ;;
     *)

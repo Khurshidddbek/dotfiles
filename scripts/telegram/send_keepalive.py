@@ -14,7 +14,7 @@ from telethon.errors import FloodWaitError
 
 API_ID = os.getenv("TELEGRAM_API_ID")
 API_HASH = os.getenv("TELEGRAM_API_HASH")
-SESSION = os.getenv("TELEGRAM_SESSION", str(Path(__file__).with_parent / "session"))
+SESSION = os.getenv("TELEGRAM_SESSION", str(Path(__file__).resolve().parent / "session"))
 
 CHANNELS_FILE = Path(__file__).with_name("extract_public_chats.channels.json")
 
