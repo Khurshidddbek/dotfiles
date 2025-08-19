@@ -1,2 +1,10 @@
 .cursor/.env 
 .env
+
+# Ignore Telethon session files
+*.session*
+
+# Telegram configuration (credentials & extracted data)
+scripts/telegram/*.env
+scripts/telegram/*.channels.json
+scripts/telegram/session*
