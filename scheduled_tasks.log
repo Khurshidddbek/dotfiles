@@ -143,3 +143,23 @@ ModuleNotFoundError: No module named 'telethon'
 вторник, 19 августа 2025 г. 21:31:29 (+05): Неизвестный файл или папка: . Пропускаем.
 вторник, 19 августа 2025 г. 21:31:29 (+05): Неизвестный файл или папка: . Пропускаем.
 вторник, 19 августа 2025 г. 21:31:29 (+05): Неизвестный файл или папка: . Пропускаем.
+вторник, 19 августа 2025 г. 21:42:50 (+05): ===== Запуск run_monthly_tasks.sh =====
+вторник, 19 августа 2025 г. 21:42:50 (+05): ===== Начало ежемесячного обновления Homebrew =====
+вторник, 19 августа 2025 г. 21:42:50 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Already up-to-date.
+вторник, 19 августа 2025 г. 21:42:55 (+05): Обновление formulae и casks…
+вторник, 19 августа 2025 г. 21:42:57 (+05): Очистка старых версий и кэша…
+вторник, 19 августа 2025 г. 21:43:01 (+05): Ежемесячное обновление Homebrew завершено.
+вторник, 19 августа 2025 г. 21:43:04 (+05): Brewfile обновлён.
+вторник, 19 августа 2025 г. 21:43:04 (+05): Запуск Telegram keep-alive…
+Traceback (most recent call last):
+  File "/Users/khurshidddbek/dotfiles/scripts/telegram/extract_public_chats.py", line 14, in <module>
+    from telethon import TelegramClient
+ModuleNotFoundError: No module named 'telethon'
+Traceback (most recent call last):
+  File "/Users/khurshidddbek/dotfiles/scripts/telegram/send_keepalive.py", line 12, in <module>
+    from telethon import TelegramClient
+ModuleNotFoundError: No module named 'telethon'
+вторник, 19 августа 2025 г. 21:43:04 (+05): Telegram keep-alive завершился с ошибкой code=1
+вторник, 19 августа 2025 г. 21:43:04 (+05): Обнаружены изменения. Начинаем обработку...
