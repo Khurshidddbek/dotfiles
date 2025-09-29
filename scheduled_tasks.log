@@ -1,0 +1,657 @@
+понедельник, 29 сентября 2025 г. 17:10:30 (+05): ===== Запуск run_monthly_tasks.sh =====
+понедельник, 29 сентября 2025 г. 17:10:30 (+05): ===== Начало ежемесячного обновления Homebrew =====
+понедельник, 29 сентября 2025 г. 17:10:30 (+05): Обновление индекса Homebrew…
+Error: You have not agreed to the Xcode license. Please resolve this by running:
+  sudo xcodebuild -license accept
+понедельник, 29 сентября 2025 г. 17:10:31 (+05): Обновление formulae и casks…
+Error: You have not agreed to the Xcode license. Please resolve this by running:
+  sudo xcodebuild -license accept
+Error: You have not agreed to the Xcode license. Please resolve this by running:
+  sudo xcodebuild -license accept
+понедельник, 29 сентября 2025 г. 17:10:31 (+05): Очистка старых версий и кэша…
+Error: You have not agreed to the Xcode license. Please resolve this by running:
+  sudo xcodebuild -license accept
+понедельник, 29 сентября 2025 г. 17:10:31 (+05): Ежемесячное обновление Homebrew завершено.
+понедельник, 29 сентября 2025 г. 17:10:45 (+05): ===== Запуск run_monthly_tasks.sh =====
+понедельник, 29 сентября 2025 г. 17:10:45 (+05): ===== Начало ежемесячного обновления Homebrew =====
+понедельник, 29 сентября 2025 г. 17:10:45 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 4 taps (homebrew/autoupdate, getsentry/tools, supabase/tap and dart-lang/dart).
+==> New Formulae
+dart-lang/dart/dart@3.9.3
+==> Outdated Formulae
+aom
+apktool
+ca-certificates
+cjson
+deno
+ffmpeg
+fontconfig
+freetype
+frei0r
+gdk-pixbuf
+gh
+glib
+graphviz
+harfbuzz
+jadx
+jpeg-turbo
+jpeg-xl
+libbluray
+libnghttp2
+libnghttp3
+libngtcp2
+librsvg
+libssh
+libtiff
+netpbm
+node
+openexr
+openjdk
+openjpeg
+p11-kit
+pango
+pcre2
+python@3.11
+ruby
+scrcpy
+sdl2
+sentry-cli
+sentry-wizard
+speedtest-cli
+supabase
+svt-av1
+unbound
+x264
+yt-dlp
+==> Outdated Casks
+anki
+masscode
+mitmproxy
+
+You have 44 outdated formulae and 3 outdated casks installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+понедельник, 29 сентября 2025 г. 17:11:10 (+05): Обновление formulae и casks…
+==> Upgrading 44 outdated packages:
+cjson 1.7.18 -> 1.7.19
+libtiff 4.7.0 -> 4.7.1
+deno 2.4.4 -> 2.5.2
+ffmpeg 7.1.1_4 -> 8.0_1
+gh 2.78.0 -> 2.80.0
+frei0r 2.3.3 -> 2.4.0
+freetype 2.13.3 -> 2.14.1_1
+yt-dlp 2025.8.11 -> 2025.9.26
+getsentry/tools/sentry-wizard 6.3.0 -> 6.5.0
+pango 1.56.4 -> 1.57.0
+openjpeg 2.5.3 -> 2.5.4
+gdk-pixbuf 2.42.12_1 -> 2.44.2
+harfbuzz 11.4.1 -> 12.0.0
+libbluray 1.3.4 -> 1.4.0
+glib 2.84.4 -> 2.86.0
+netpbm 11.02.17 -> 11.02.19
+aom 3.12.1 -> 3.13.1
+libnghttp3 1.11.0 -> 1.12.0
+svt-av1 3.1.0 -> 3.1.2
+libnghttp2 1.66.0 -> 1.67.1
+apktool 2.12.0 -> 2.12.1
+openexr 3.3.5_1 -> 3.4.0_2
+supabase/tap/supabase 2.34.3 -> 2.47.2
+fontconfig 2.16.0 -> 2.17.1
+openjdk 24.0.2 -> 25
+speedtest-cli 2.1.3_1 -> 2.1.3_2
+ca-certificates 2025-08-12 -> 2025-09-09
+librsvg 2.61.0 -> 2.61.1
+getsentry/tools/sentry-cli 2.52.0 -> 2.55.0
+graphviz 13.1.2 -> 14.0.0
+libssh 0.11.2 -> 0.11.3
+pcre2 10.45 -> 10.46
+jadx 1.5.2 -> 1.5.3
+x264 r3108 -> r3222
+jpeg-xl 0.11.1_2 -> 0.11.1_3
+node 24.6.0 -> 24.9.0
+unbound 1.23.1 -> 1.24.0
+sdl2 2.32.8 -> 2.32.10
+python@3.11 3.11.13 -> 3.11.13_1
+libngtcp2 1.14.0 -> 1.16.0
+p11-kit 0.25.5 -> 0.25.10
+ruby 3.4.5 -> 3.4.6
+scrcpy 3.3.1 -> 3.3.3
+jpeg-turbo 3.1.1 -> 3.1.2
+==> Fetching downloads for: freetype, fontconfig, pcre2, glib, harfbuzz, jpeg-turbo, libtiff, openjdk, ca-certificates, ruby, deno, openexr, jpeg-xl, aom, frei0r, p11-kit, libnghttp2, unbound, libbluray, cjson, libssh, openjpeg, sdl2, svt-av1, pango, x264, ffmpeg, gh, yt-dlp, libnghttp3, libngtcp2, node, sentry-wizard, gdk-pixbuf, netpbm, apktool, supabase, speedtest-cli, librsvg, sentry-cli, graphviz, jadx, python@3.11 and scrcpy
+==> Fetching freetype
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:40c5e9659d92bf629661a6580fbbf7f962cb98b81ac982dbfa23d30e4ddaf6d7
+==> Fetching fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:357516db5db5eb0cf5936333ef5845e600a0e01fbe80909b994f159b9d18bb22
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:6ddb89f2eef25f73e258a97bf4379539e24ea76e207fa3c0eb49222bdb656de2
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:7c3d1882370a0cffe94535a6db4af6d0f3d27bc10aeb3a34d0d2de46209dd12d
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:52dd2a5ed6b81feee26baff0d7f7f7ad4ebbbb291a29c444cc16ad40540f04a9
+==> Fetching jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:59f90f6a9c2dc28abc3b425c7116e30dc4c13986538c6fcf614fa1b2aee8e7d4
+==> Fetching libtiff
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:e32b6017d70bb365933cc84df9b2db416ea6e3bcc1c57fad4903f7392b13c1a7
+==> Fetching openjdk
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/blobs/sha256:058d3573acd9f7c376235721cebcd8befbb9274e0050f380987407ebc111d8be
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:a74a274a402f29cff2e1bb595a5253c20d7503a086175d57f7081821540203ce
+==> Fetching ruby
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby/blobs/sha256:8db26d72de0d97182fa05e1cc48f2e86ab03c040831f2087705fc94eb0d067a0
+==> Fetching deno
+==> Downloading https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:698629fac1172e33177ad3af37f1c347fa1e034ec552aac591360c6c2e15d3c0
+==> Fetching dependencies for openexr: openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/manifests/0.24.1
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:a77e4cad9b430d6fa58f8f600871cf4f71b7580cc4f4024ed6b678ce0c0c44ed
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:8c79277fc1662e8699332d4560a07fbf46340c9e273a05457a9fa39663d098bf
+==> Fetching jpeg-xl
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:73de0c3b5ca045185ff1dd02c030060c19be06679b3f5be7c1863ddcf82461df
+==> Fetching aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:ca79133eb9a4ec1e943322ef475811cc2be310cccfc28d4aa1326bfba0ffa0c7
+==> Fetching frei0r
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/blobs/sha256:260b59f5cdef89305e1d51b61516e5714d6ebc2253ff90c47b634897b17d0161
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:5c946df0d427b82823e679f14f4462e2f646785b4de0d167ff05e9b368a35a8c
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:01a4aa08a2238d55085fe6ad55d6946a69490f333e934f5fb23d77ab3a80c3d1
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:4b5bebe5b624febc36c93b8fb90c009a811457bb8d68fd62c7b7f348968fdbb4
+==> Fetching dependencies for libbluray: libudfread
+==> Downloading https://ghcr.io/v2/homebrew/core/libudfread/manifests/1.2.0
+==> Fetching libudfread
+==> Downloading https://ghcr.io/v2/homebrew/core/libudfread/blobs/sha256:a563689c17ca21d204a228773ec9380b5b0880bd3b0ab322170f8596be7f844a
+==> Fetching libbluray
+==> Downloading https://ghcr.io/v2/homebrew/core/libbluray/blobs/sha256:c0de9ea880e1f735514ed9857c8c862b37fb3cfdca7c929e8f0ef334900b7864
+==> Fetching cjson
+==> Downloading https://ghcr.io/v2/homebrew/core/cjson/blobs/sha256:02864d4e743d0b31edf050ab99325b77cbd34bde4a0fee2258c4903fb7cac621
+==> Fetching libssh
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh/blobs/sha256:ed8b3a5fc472d34a7dcc545125ad1b46018cb6a285f0493c983ed0057137dc1c
+==> Fetching openjpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/blobs/sha256:8e3ac331458daccf876225a4236bad7d28689ea197c6bb7d2640ec47d78a510d
+==> Fetching sdl2
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/blobs/sha256:702b9e09ac8a7cc8a99ab4e9298803bbfcd3179d7b029883fe760ceecf98e526
+==> Fetching svt-av1
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/blobs/sha256:8c2b600f85d7ff7280fbfb1eadf0c184389851b0b45181e38ab83471b172e5d9
+==> Fetching pango
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:af46edb4113ff0190d78175fb4e82296467cef2ed216267bcc3b26f151b2fe0a
+==> Fetching x264
+==> Downloading https://ghcr.io/v2/homebrew/core/x264/blobs/sha256:a613d44ead5d3999270970f41283eadfad8001061faf063945def6b8fb5145f4
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:e187d42e699e7d9c05722b37c8b8f3d03d2e874cdea67f3f04c2f3134aaa683e
+==> Fetching gh
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/blobs/sha256:386d6802edc9890f30d60ecbda5d92ae21bc5a3538c4f234b53face169b3fdc8
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blobs/sha256:c166d76277286b40f9bf6feb0431a966d059c673141fed7c39ceb4a065920818
+==> Fetching libnghttp3
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp3/blobs/sha256:1eb2c780340d21a766a0e7f4a7f2ae330377340d8a272fa0ad5d144ca709cca5
+==> Fetching libngtcp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libngtcp2/blobs/sha256:edcf609b57a4a69c71f7c246ffa39e203e2ef76bb787213a0369b0b3a4e290ad
+==> Fetching dependencies for node: uvwasi
+==> Downloading https://ghcr.io/v2/homebrew/core/uvwasi/manifests/0.0.23-1
+==> Fetching uvwasi
+==> Downloading https://ghcr.io/v2/homebrew/core/uvwasi/blobs/sha256:3bbe2380eb184f540f5b23a9cd2f92ef21a4779b04ff6068b6c3a0b4e7865c7e
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:136c6aa9a24a154d9236516d80c34a4855b144f35ca0f28a371b2cc927aee735
+==> Fetching getsentry/tools/sentry-wizard
+==> Downloading https://registry.npmjs.org/@sentry/wizard/-/wizard-6.5.0.tgz
+==> Fetching gdk-pixbuf
+==> Downloading https://ghcr.io/v2/homebrew/core/gdk-pixbuf/blobs/sha256:890146b075cb6bc6a037ab0a4fe5b6ec63257f34c9d035fcc448296a9db3386f
+==> Fetching netpbm
+==> Downloading https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:9fcb3967730836d638c0f1fe36ac3acafa87e9621e538dea0938961a59464e22
+==> Fetching apktool
+==> Downloading https://ghcr.io/v2/homebrew/core/apktool/blobs/sha256:73038ea8772d8a416a500d23d65dbee3220ebbd5ab773a13e20e298f64919d3c
+==> Fetching supabase/tap/supabase
+==> Downloading https://github.com/supabase/cli/releases/download/v2.47.2/supabase_darwin_arm64.tar.gz
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/314160187/ae8ec8dc-1051-412d-b997-33476f60a582?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-09-29T13%3A01%3A52Z&rscd=attachment%3B+filename%3Dsupabase_darwin_arm64.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-09-29T12%3A01%3A33Z&ske=2025-09-29T13%3A01%3A52Z&sks=b&skv=2018-11-09&sig=%2BlNyKddLQyibgtg7lJ0jZbdkSjxy9VobrJrUUaT2uh0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1OTE0ODQ4NywibmJmIjoxNzU5MTQ4MTg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.n-o4fzzgHnLSyFqlEoOiNYb_JMnvczVHJdfrQdmzqro&response-content-disposition=attachment%3B%20filename%3Dsupabase_darwin_arm64.tar.gz&response-content-type=application%2Foctet-stream
+==> Fetching speedtest-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/speedtest-cli/blobs/sha256:77a4dc453d1e58aee76c4145eb1e917d7514762cfd76d6014454e4f37b40fec3
+==> Fetching librsvg
+==> Downloading https://ghcr.io/v2/homebrew/core/librsvg/blobs/sha256:2a8c5077f2ce8a4abdbe08e72cdfa0b8b28c2be4ccc436220affd7cbfcd79de5
+==> Fetching getsentry/tools/sentry-cli
+==> Downloading https://downloads.sentry-cdn.com/sentry-cli/2.55.0/sentry-cli-Darwin-universal
+==> Fetching graphviz
+==> Downloading https://ghcr.io/v2/homebrew/core/graphviz/blobs/sha256:a70c98e275abbd55cb32365ac3ebeb52e79fb2610d25d4a55338a5f7c84f5785
+==> Fetching jadx
+==> Downloading https://ghcr.io/v2/homebrew/core/jadx/blobs/sha256:e37a6436f33757cb59ee48f20d318ee4a37f632847bbd32f0b1b013c2fa873d4
+==> Fetching python@3.11
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:a287ed8327504f43b1d2809b1cacd3abe5675d035335ffda961cda8f7b77ce9b
+==> Fetching scrcpy
+==> Downloading https://ghcr.io/v2/homebrew/core/scrcpy/blobs/sha256:38616ad4c6e968333bbcf8982ba6bcb6357de28890f1cc4cf2694615f7344dc7
+==> Upgrading freetype
+  2.13.3 -> 2.14.1_1 
+==> Pouring freetype--2.14.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetype/2.14.1_1: 68 files, 2.6MB
+==> Running `brew cleanup freetype`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/freetype/2.13.3... (68 files, 2.5MB)
+==> Upgrading fontconfig
+  2.16.0 -> 2.17.1 
+==> Pouring fontconfig--2.17.1.arm64_sequoia.bottle.1.tar.gz
+[34m==>[0m [1mRegenerating font cache, this may take a while[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/fontconfig/2.17.1/bin/fc-cache --force --really-force -[0m
+🍺  /opt/homebrew/Cellar/fontconfig/2.17.1: 98 files, 1.5MB
+==> Running `brew cleanup fontconfig`...
+Removing: /opt/homebrew/Cellar/fontconfig/2.16.0... (92 files, 1.5MB)
+==> Upgrading pcre2
+  10.45 -> 10.46 
+==> Pouring pcre2--10.46.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.46: 242 files, 6.8MB
+==> Running `brew cleanup pcre2`...
+Removing: /opt/homebrew/Cellar/pcre2/10.45... (242 files, 6.7MB)
+==> Upgrading glib
+  2.84.4 -> 2.86.0 
+==> Pouring glib--2.86.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.86.0: 504 files, 37.6MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.84.4... (504 files, 37.7MB)
+==> Upgrading harfbuzz
+  11.4.1 -> 12.0.0 
+==> Pouring harfbuzz--12.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.0.0: 77 files, 11.9MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/11.4.1... (77 files, 11.8MB)
+==> Upgrading jpeg-turbo
+  3.1.1 -> 3.1.2 
+==> Pouring jpeg-turbo--3.1.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.1.2: 47 files, 3.6MB
+==> Running `brew cleanup jpeg-turbo`...
+Removing: /opt/homebrew/Cellar/jpeg-turbo/3.1.1... (47 files, 3.6MB)
+==> Upgrading libtiff
+  4.7.0 -> 4.7.1 
+==> Pouring libtiff--4.7.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtiff/4.7.1: 488 files, 8.6MB
+==> Running `brew cleanup libtiff`...
+Removing: /opt/homebrew/Cellar/libtiff/4.7.0... (486 files, 8.5MB)
+==> Upgrading openjdk
+  24.0.2 -> 25 
+==> Pouring openjdk--25.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjdk/25: 557 files, 371.6MB
+==> Running `brew cleanup openjdk`...
+Removing: /opt/homebrew/Cellar/openjdk/24.0.2... (556 files, 368.9MB)
+==> Upgrading ca-certificates
+  2025-08-12 -> 2025-09-09 
+==> Pouring ca-certificates--2025-09-09.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-09-09: 4 files, 232.9KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-08-12... (4 files, 232.7KB)
+==> Upgrading ruby
+  3.4.5 -> 3.4.6 
+==> Pouring ruby--3.4.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ruby/3.4.6: 20,686 files, 57.7MB
+==> Running `brew cleanup ruby`...
+Removing: /opt/homebrew/Cellar/ruby/3.4.5... (20,486 files, 57.6MB)
+==> Upgrading deno
+  2.4.4 -> 2.5.2 
+==> Pouring deno--2.5.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.5.2: 11 files, 143.6MB
+==> Running `brew cleanup deno`...
+Removing: /opt/homebrew/Cellar/deno/2.4.4... (11 files, 139.3MB)
+==> Upgrading openexr
+  3.3.5_1 -> 3.4.0_2 
+==> Installing openexr dependency: openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/manifests/0.24.1
+Already downloaded: /Users/khurshidddbek/Library/Caches/Homebrew/downloads/d9cb0fdcaad53c0f0fd699f5f0c8dd2e268b91bab2926246eac5df845e2ff0e6--openjph-0.24.1.bottle_manifest.json
+==> Pouring openjph--0.24.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.24.1: 25 files, 622.5KB
+==> Pouring openexr--3.4.0_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.0_2: 212 files, 4.9MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.3.5_1... (210 files, 4.8MB)
+==> Upgrading jpeg-xl
+  0.11.1_2 -> 0.11.1_3 
+==> Pouring jpeg-xl--0.11.1_3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.11.1_3: 64 files, 34.4MB
+==> Running `brew cleanup jpeg-xl`...
+Removing: /opt/homebrew/Cellar/jpeg-xl/0.11.1_2... (64 files, 34.4MB)
+==> Upgrading aom
+  3.12.1 -> 3.13.1 
+==> Pouring aom--3.13.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.13.1: 28 files, 10.2MB
+==> Running `brew cleanup aom`...
+Removing: /opt/homebrew/Cellar/aom/3.12.1... (24 files, 9.8MB)
+==> Upgrading frei0r
+  2.3.3 -> 2.4.0 
+==> Pouring frei0r--2.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/frei0r/2.4.0: 164 files, 5.7MB
+==> Running `brew cleanup frei0r`...
+Removing: /opt/homebrew/Cellar/frei0r/2.3.3... (157 files, 5.6MB)
+==> Upgrading p11-kit
+  0.25.5 -> 0.25.10 
+==> Pouring p11-kit--0.25.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/p11-kit/0.25.10: 33 files, 4.3MB
+==> Running `brew cleanup p11-kit`...
+Removing: /opt/homebrew/Cellar/p11-kit/0.25.5... (31 files, 4.2MB)
+==> Upgrading libnghttp2
+  1.66.0 -> 1.67.1 
+==> Pouring libnghttp2--1.67.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.67.1: 14 files, 739.5KB
+==> Running `brew cleanup libnghttp2`...
+Removing: /opt/homebrew/Cellar/libnghttp2/1.66.0... (14 files, 841KB)
+==> Upgrading unbound
+  1.23.1 -> 1.24.0 
+==> Pouring unbound--1.24.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unbound/1.24.0: 59 files, 6.2MB
+==> Running `brew cleanup unbound`...
+Removing: /opt/homebrew/Cellar/unbound/1.23.1... (59 files, 6.2MB)
+==> Upgrading libbluray
+  1.3.4 -> 1.4.0 
+==> Installing libbluray dependency: libudfread
+==> Downloading https://ghcr.io/v2/homebrew/core/libudfread/manifests/1.2.0
+Already downloaded: /Users/khurshidddbek/Library/Caches/Homebrew/downloads/0e101e8cb6cd3d57390b8ae34720c46dc2f4f1e8f0a00aa7be37a93771109d13--libudfread-1.2.0.bottle_manifest.json
+==> Pouring libudfread--1.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libudfread/1.2.0: 13 files, 153.4KB
+==> Pouring libbluray--1.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libbluray/1.4.0: 22 files, 1.2MB
+==> Running `brew cleanup libbluray`...
+Removing: /opt/homebrew/Cellar/libbluray/1.3.4... (21 files, 1MB)
+==> Upgrading cjson
+  1.7.18 -> 1.7.19 
+==> Pouring cjson--1.7.19.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cjson/1.7.19: 24 files, 258KB
+==> Running `brew cleanup cjson`...
+Removing: /opt/homebrew/Cellar/cjson/1.7.18... (24 files, 257.3KB)
+==> Upgrading libssh
+  0.11.2 -> 0.11.3 
+==> Pouring libssh--0.11.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh/0.11.3: 25 files, 1.5MB
+==> Running `brew cleanup libssh`...
+Removing: /opt/homebrew/Cellar/libssh/0.11.2... (25 files, 1.5MB)
+==> Upgrading openjpeg
+  2.5.3 -> 2.5.4 
+==> Pouring openjpeg--2.5.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjpeg/2.5.4: 512 files, 14MB
+==> Running `brew cleanup openjpeg`...
+Removing: /opt/homebrew/Cellar/openjpeg/2.5.3... (543 files, 14.5MB)
+==> Upgrading sdl2
+  2.32.8 -> 2.32.10 
+==> Pouring sdl2--2.32.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2/2.32.10: 94 files, 6.4MB
+==> Running `brew cleanup sdl2`...
+Removing: /opt/homebrew/Cellar/sdl2/2.32.8... (94 files, 6.4MB)
+==> Upgrading svt-av1
+  3.1.0 -> 3.1.2 
+==> Pouring svt-av1--3.1.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/3.1.2: 19 files, 3.3MB
+==> Running `brew cleanup svt-av1`...
+Removing: /opt/homebrew/Cellar/svt-av1/3.1.0... (19 files, 3.3MB)
+==> Upgrading pango
+  1.56.4 -> 1.57.0 
+==> Pouring pango--1.57.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.57.0: 69 files, 3.6MB
+==> Running `brew cleanup pango`...
+Removing: /opt/homebrew/Cellar/pango/1.56.4... (69 files, 3.5MB)
+==> Upgrading x264
+  r3108 -> r3222 
+==> Pouring x264--r3222.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x264/r3222: 12 files, 4.2MB
+==> Running `brew cleanup x264`...
+Removing: /opt/homebrew/Cellar/x264/r3108... (11 files, 4.2MB)
+==> Upgrading ffmpeg
+  7.1.1_4 -> 8.0_1 
+==> Pouring ffmpeg--8.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0_1: 285 files, 52.9MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/7.1.1_4... (287 files, 52.2MB)
+==> Upgrading gh
+  2.78.0 -> 2.80.0 
+==> Pouring gh--2.80.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.80.0: 218 files, 51MB
+==> Running `brew cleanup gh`...
+Removing: /opt/homebrew/Cellar/gh/2.78.0... (214 files, 50.6MB)
+==> Upgrading yt-dlp
+  2025.8.11 -> 2025.9.26 
+==> Pouring yt-dlp--2025.9.26.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2025.9.26: 1,726 files, 19.5MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.8.11... (1,742 files, 19.6MB)
+==> Upgrading libnghttp3
+  1.11.0 -> 1.12.0 
+==> Pouring libnghttp3--1.12.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.12.0: 20 files, 589.2KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.11.0... (20 files, 579.8KB)
+==> Upgrading libngtcp2
+  1.14.0 -> 1.16.0 
+==> Pouring libngtcp2--1.16.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.16.0: 21 files, 1.3MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.14.0... (21 files, 1.2MB)
+==> Upgrading node
+  24.6.0 -> 24.9.0 
+==> Installing node dependency: uvwasi
+==> Downloading https://ghcr.io/v2/homebrew/core/uvwasi/manifests/0.0.23-1
+Already downloaded: /Users/khurshidddbek/Library/Caches/Homebrew/downloads/d9fc39e8e8eb3c4e33b14bafb8f46ce7c30a8814a9d2ff809f4a27525ec96893--uvwasi-0.0.23-1.bottle_manifest.json
+==> Pouring uvwasi--0.0.23.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/uvwasi/0.0.23: 15 files, 282.6KB
+==> Pouring node--24.9.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.9.0: 2,467 files, 75.6MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.6.0... (2,467 files, 95.8MB)
+==> Upgrading getsentry/tools/sentry-wizard
+  6.3.0 -> 6.5.0 
+[34m==>[0m [1mnpm install -ddd --global --build-from-source --cache=/Users/khurshidddbek/L[0m
+🍺  /opt/homebrew/Cellar/sentry-wizard/6.5.0: 8,778 files, 33.4MB, built in 31 seconds
+==> Running `brew cleanup sentry-wizard`...
+Removing: /opt/homebrew/Cellar/sentry-wizard/6.3.0... (8,760 files, 33.3MB)
+==> Upgrading gdk-pixbuf
+  2.42.12_1 -> 2.44.2 
+==> Pouring gdk-pixbuf--2.44.2.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/gdk-pixbuf/2.44.2/bin/gdk-pixbuf-query-loaders --update[0m
+🍺  /opt/homebrew/Cellar/gdk-pixbuf/2.44.2: 151 files, 4MB
+==> Running `brew cleanup gdk-pixbuf`...
+Removing: /opt/homebrew/Cellar/gdk-pixbuf/2.42.12_1... (152 files, 4.0MB)
+==> Upgrading netpbm
+  11.02.17 -> 11.02.19 
+==> Pouring netpbm--11.02.19.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/netpbm/11.02.19: 825 files, 19.5MB
+==> Running `brew cleanup netpbm`...
+Removing: /opt/homebrew/Cellar/netpbm/11.02.17... (825 files, 19.5MB)
+==> Upgrading apktool
+  2.12.0 -> 2.12.1 
+==> Pouring apktool--2.12.1.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/apktool/2.12.1: 5 files, 24.8MB
+==> Running `brew cleanup apktool`...
+Removing: /opt/homebrew/Cellar/apktool/2.12.0... (5 files, 24.8MB)
+==> Upgrading supabase/tap/supabase
+  2.34.3 -> 2.47.2 
+🍺  /opt/homebrew/Cellar/supabase/2.47.2: 9 files, 40.5MB, built in 4 seconds
+==> Running `brew cleanup supabase`...
+Removing: /opt/homebrew/Cellar/supabase/2.34.3... (9 files, 39.6MB)
+==> Upgrading speedtest-cli
+  2.1.3_1 -> 2.1.3_2 
+==> Pouring speedtest-cli--2.1.3_2.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/speedtest-cli/2.1.3_2: 8 files, 97.6KB
+==> Running `brew cleanup speedtest-cli`...
+Removing: /opt/homebrew/Cellar/speedtest-cli/2.1.3_1... (7 files, 87.0KB)
+==> Upgrading librsvg
+  2.61.0 -> 2.61.1 
+==> Pouring librsvg--2.61.1.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/opt/gdk-pixbuf/bin/gdk-pixbuf-query-loaders --update-cache[0m
+🍺  /opt/homebrew/Cellar/librsvg/2.61.1: 21 files, 12.5MB
+==> Running `brew cleanup librsvg`...
+Removing: /opt/homebrew/Cellar/librsvg/2.61.0... (21 files, 12.2MB)
+==> Upgrading getsentry/tools/sentry-cli
+  2.52.0 -> 2.55.0 
+🍺  /opt/homebrew/Cellar/sentry-cli/2.55.0: 4 files, 24MB, built in 1 second
+==> Running `brew cleanup sentry-cli`...
+Removing: /opt/homebrew/Cellar/sentry-cli/2.52.0... (4 files, 23.9MB)
+==> Upgrading graphviz
+  13.1.2 -> 14.0.0 
+==> Pouring graphviz--14.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/graphviz/14.0.0: 283 files, 8.1MB
+==> Running `brew cleanup graphviz`...
+Removing: /opt/homebrew/Cellar/graphviz/13.1.2... (283 files, 8MB)
+==> Upgrading jadx
+  1.5.2 -> 1.5.3 
+==> Pouring jadx--1.5.3.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jadx/1.5.3: 12 files, 121.7MB
+==> Running `brew cleanup jadx`...
+Removing: /opt/homebrew/Cellar/jadx/1.5.2... (12 files, 122.7MB)
+==> Upgrading python@3.11
+  3.11.13 -> 3.11.13_1 
+==> Pouring python@3.11--3.11.13_1.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.13_1/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.13_1/bin/python3.11 -Im pip install -v[0m
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.13_1: 3,306 files, 62MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.13... (3,306 files, 62.1MB)
+==> Upgrading scrcpy
+  3.3.1 -> 3.3.3 
+==> Pouring scrcpy--3.3.3.arm64_sequoia.bottle.tar.gz
+Warning: The following dependents of upgraded formulae are outdated but will not
+be upgraded because they are not bottled:
+  sentry-wizard
+==> Caveats
+At runtime, adb must be accessible from your PATH.
+
+You can install adb from Homebrew Cask:
+  brew install --cask android-platform-tools
+==> Summary
+🍺  /opt/homebrew/Cellar/scrcpy/3.3.3: 11 files, 504KB
+==> Running `brew cleanup scrcpy`...
+Removing: /opt/homebrew/Cellar/scrcpy/3.3.1... (11 files, 502.2KB)
+==> No outdated dependents to upgrade!
+==> Upgrading 12 outdated packages:
+android-studio 2025.1.2.12 -> 2025.1.3.7
+anki 25.07.5 -> 25.09
+chatgpt 1.2025.218,1755045646 -> 1.2025.260,1758588131
+clickup 3.5.120,250609kokr2q9fk -> 3.5.139,250828m7ieelx7h
+figma 125.6.5 -> 125.8.8
+iterm2 3.5.14 -> 3.6.2
+maccy 2.4.1 -> 2.5.1
+masscode 3.12.1 -> 4.0.1
+miro 0.11.111 -> 0.11.114
+mitmproxy 12.1.1 -> 12.1.2
+notion 4.17.0 -> 4.20.0
+obsidian 1.9.10 -> 1.9.12
+==> Upgrading android-studio
+==> Downloading https://redirector.gvt1.com/edgedl/android/studio/install/2025.1.3.7/android-studio-2025.1.3.7-mac_arm.dmg
+==> Downloading from https://r3---sn-4g5e6nzs.gvt1.com/edgedl/android/studio/install/2025.1.3.7/android-studio-2025.1.3.7-mac_arm.dmg?met=1759148428,&mh=TG&pl=44&rms=onc,onc&shardbypass=sd&redirect_counter=1&cm2rm=sn-01oxu-u5nyes&rrc=80&req_id=caede52dcf11e592&cms_redirect=yes&mip=2a05:45c2:20d8:7900:cce6:d9ca:b191:e258&mm=42&mn=sn-4g5e6nzs&ms=onc&mt=1759148008&mv=m&mvi=3&rmhost=r4---sn-4g5e6nzs.gvt1.com&smhost=r4---sn-4g5lznes.gvt1.com
+==> Backing App 'Android Studio.app' up to '/opt/homebrew/Caskroom/android-studio/2025.1.2.12/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2025.1.2.12 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading anki
+==> Downloading https://github.com/ankitects/anki/releases/download/25.09/anki-launcher-25.09-mac.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/7270538/1556160b-6412-4a79-8863-50020eb8002d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-09-29T13%3A01%3A13Z&rscd=attachment%3B+filename%3Danki-launcher-25.09-mac.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-09-29T12%3A00%3A56Z&ske=2025-09-29T13%3A01%3A13Z&sks=b&skv=2018-11-09&sig=hnxoG9L68HqYUizcKiEiyhnWpyS%2FSRa0c6%2FjXTsSsrk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1OTE0ODk1MSwibmJmIjoxNzU5MTQ4NjUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.BN-cmvY7jIAEVlTemVmvyRqxlzXyEnYalhhQT8ixFEE&response-content-disposition=attachment%3B%20filename%3Danki-launcher-25.09-mac.dmg&response-content-type=application%2Foctet-stream
+==> Backing App 'Anki.app' up to '/opt/homebrew/Caskroom/anki/25.07.5/Anki.app'
+==> Removing App '/Applications/Anki.app'
+==> Moving App 'Anki.app' to '/Applications/Anki.app'
+==> Purging files for version 25.07.5 of Cask anki
+🍺  anki was successfully upgraded!
+==> Upgrading chatgpt
+==> Downloading https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2025.260_1758588131.dmg
+==> Backing App 'ChatGPT.app' up to '/opt/homebrew/Caskroom/chatgpt/1.2025.218,1755045646/ChatGPT.app'
+==> Removing App '/Applications/ChatGPT.app'
+==> Moving App 'ChatGPT.app' to '/Applications/ChatGPT.app'
+==> Purging files for version 1.2025.218,1755045646 of Cask chatgpt
+🍺  chatgpt was successfully upgraded!
+==> Upgrading clickup
+==> Downloading https://download.todesktop.com/221003ra4tebclw/ClickUp%203.5.139%20-%20Build%20250828m7ieelx7h-arm64.dmg
+==> Backing App 'ClickUp.app' up to '/opt/homebrew/Caskroom/clickup/3.5.120,250609kokr2q9fk/ClickUp.app'
+==> Removing App '/Applications/ClickUp.app'
+==> Moving App 'ClickUp.app' to '/Applications/ClickUp.app'
+==> Purging files for version 3.5.120,250609kokr2q9fk of Cask clickup
+🍺  clickup was successfully upgraded!
+==> Upgrading figma
+==> Downloading https://desktop.figma.com/mac-arm/Figma-125.8.8.zip
+==> Backing App 'Figma.app' up to '/opt/homebrew/Caskroom/figma/125.6.5/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+==> Purging files for version 125.6.5 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading iterm2
+==> Downloading https://iterm2.com/downloads/stable/iTerm2-3_6_2.zip
+==> Backing App 'iTerm.app' up to '/opt/homebrew/Caskroom/iterm2/3.5.14/iTerm.app'
+==> Removing App '/Applications/iTerm.app'
+==> Moving App 'iTerm.app' to '/Applications/iTerm.app'
+==> Purging files for version 3.5.14 of Cask iterm2
+🍺  iterm2 was successfully upgraded!
+==> Upgrading maccy
+==> Downloading https://github.com/p0deje/Maccy/releases/download/2.5.1/Maccy.app.zip
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/119637215/3bfad31d-8198-4bbc-abef-a039aac400f1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-09-29T13%3A03%3A08Z&rscd=attachment%3B+filename%3DMaccy.app.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-09-29T12%3A02%3A49Z&ske=2025-09-29T13%3A03%3A08Z&sks=b&skv=2018-11-09&sig=EvH%2FjP4cFeNdLmeB%2Bz%2FU5XmWijGH2WYkpY5pO1d0%2FQg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1OTE0OTA1MCwibmJmIjoxNzU5MTQ4NzUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.mIs23wO5tZhLHU1vuYUc_adJ4Cnv9LTB9-C71MhF0NM&response-content-disposition=attachment%3B%20filename%3DMaccy.app.zip&response-content-type=application%2Foctet-stream
+==> Backing App 'Maccy.app' up to '/opt/homebrew/Caskroom/maccy/2.4.1/Maccy.app'
+==> Removing App '/Applications/Maccy.app'
+==> Moving App 'Maccy.app' to '/Applications/Maccy.app'
+==> Purging files for version 2.4.1 of Cask maccy
+🍺  maccy was successfully upgraded!
+==> Upgrading masscode
+==> Downloading https://github.com/massCodeIO/massCode/releases/download/v4.0.1/massCode-4.0.1-arm64.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/475337801/3da62581-d833-4fb8-af81-1e10620baad5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-09-29T13%3A00%3A40Z&rscd=attachment%3B+filename%3DmassCode-4.0.1-arm64.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-09-29T12%3A00%3A20Z&ske=2025-09-29T13%3A00%3A40Z&sks=b&skv=2018-11-09&sig=edjIz1ncqZtKK8Fsa2XBvMd%2Bmkq9X5mKS%2BthRzzLIe0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1OTE0OTA1NSwibmJmIjoxNzU5MTQ4NzU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.qPljJdI7mYwVMCvrxQNuvXjlVqMofsPQ2gxtxI--0NA&response-content-disposition=attachment%3B%20filename%3DmassCode-4.0.1-arm64.dmg&response-content-type=application%2Foctet-stream
+==> Purging files for version 4.0.1 of Cask masscode
+==> Upgrading miro
+==> Downloading https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg
+==> Backing App 'Miro.app' up to '/opt/homebrew/Caskroom/miro/0.11.111/Miro.app'
+==> Removing App '/Applications/Miro.app'
+==> Moving App 'Miro.app' to '/Applications/Miro.app'
+==> Purging files for version 0.11.111 of Cask miro
+🍺  miro was successfully upgraded!
+==> Upgrading mitmproxy
+==> Downloading https://downloads.mitmproxy.org/12.1.2/mitmproxy-12.1.2-macos-arm64.tar.gz
+==> Unlinking Binary '/opt/homebrew/bin/mitmproxy'
+==> Unlinking Binary '/opt/homebrew/bin/mitmdump'
+==> Unlinking Binary '/opt/homebrew/bin/mitmweb'
+==> Linking Binary 'mitmproxy' to '/opt/homebrew/bin/mitmproxy'
+==> Linking Binary 'mitmdump' to '/opt/homebrew/bin/mitmdump'
+==> Linking Binary 'mitmweb' to '/opt/homebrew/bin/mitmweb'
+==> Purging files for version 12.1.1 of Cask mitmproxy
+🍺  mitmproxy was successfully upgraded!
+==> Upgrading notion
+==> Downloading https://desktop-release.notion-static.com/Notion-4.20.0-arm64.dmg
+==> Backing App 'Notion.app' up to '/opt/homebrew/Caskroom/notion/4.17.0/Notion.app'
+==> Removing App '/Applications/Notion.app'
+==> Moving App 'Notion.app' to '/Applications/Notion.app'
+==> Purging files for version 4.17.0 of Cask notion
+🍺  notion was successfully upgraded!
+==> Upgrading obsidian
+==> Downloading https://github.com/obsidianmd/obsidian-releases/releases/download/v1.9.12/Obsidian-1.9.12.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/262342594/f73ad82e-97be-45c6-870d-096c7a3c6c3c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-09-29T13%3A01%3A28Z&rscd=attachment%3B+filename%3DObsidian-1.9.12.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-09-29T12%3A00%3A50Z&ske=2025-09-29T13%3A01%3A28Z&sks=b&skv=2018-11-09&sig=S%2FpOC4LUzywxGWYslJEdA8mhSs7kz46oXzWk6XA%2Bxw4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1OTE0OTEyNSwibmJmIjoxNzU5MTQ4ODI1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ONINPlASBGS4fSun60rgn0zTg30EhQVMx6dF608GK1I&response-content-disposition=attachment%3B%20filename%3DObsidian-1.9.12.dmg&response-content-type=application%2Foctet-stream
+==> Backing App 'Obsidian.app' up to '/opt/homebrew/Caskroom/obsidian/1.9.10/Obsidian.app'
+==> Removing App '/Applications/Obsidian.app'
+==> Moving App 'Obsidian.app' to '/Applications/Obsidian.app'
+Error: masscode: It seems the App source '/Applications/massCode.app' is not there.
+==> Purging files for version 1.9.10 of Cask obsidian
+🍺  obsidian was successfully upgraded!
+==> Upgrading 1 outdated package:
+masscode 3.12.1 -> 4.0.1
+==> Upgrading masscode
+==> Downloading https://github.com/massCodeIO/massCode/releases/download/v4.0.1/massCode-4.0.1-arm64.dmg
+Already downloaded: /Users/khurshidddbek/Library/Caches/Homebrew/downloads/994c947d3a7b4fbfa182b5fd9a421905c3f6023e8c2d70412705c03f02bbd521--massCode-4.0.1-arm64.dmg
+Error: masscode: It seems the App source '/Applications/massCode.app' is not there.
+==> Purging files for version 4.0.1 of Cask masscode
+понедельник, 29 сентября 2025 г. 17:27:43 (+05): Очистка старых версий и кэша…
+Warning: The following openssl@1.1 configuration files have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/openssl@1.1
+  /opt/homebrew/etc/openssl@1.1/cert.pem
+  /opt/homebrew/etc/openssl@1.1/ct_log_list.cnf
+  /opt/homebrew/etc/openssl@1.1/ct_log_list.cnf.dist
+  /opt/homebrew/etc/openssl@1.1/misc
+  /opt/homebrew/etc/openssl@1.1/misc/CA.pl
+  /opt/homebrew/etc/openssl@1.1/misc/tsget
+  /opt/homebrew/etc/openssl@1.1/misc/tsget.default
+  /opt/homebrew/etc/openssl@1.1/misc/tsget.pl
+  /opt/homebrew/etc/openssl@1.1/misc/tsget.pl.default
+  /opt/homebrew/etc/openssl@1.1/openssl.cnf
+  /opt/homebrew/etc/openssl@1.1/openssl.cnf.dist
+==> Autoremoving 1 unneeded formula:
+openssl@1.1
+Uninstalling /opt/homebrew/Cellar/openssl@1.1/1.1.1w... (8,101 files, 18MB)
+
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/npm_cache... (479 files, 34.0MB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> This operation has freed approximately 34.0MB of disk space.
+понедельник, 29 сентября 2025 г. 17:27:52 (+05): Ежемесячное обновление Homebrew завершено.
+понедельник, 29 сентября 2025 г. 17:27:56 (+05): Brewfile обновлён.
+понедельник, 29 сентября 2025 г. 17:27:56 (+05): Запуск Telegram keep-alive…
+понедельник, 29 сентября 2025 г. 17:28:15 (+05): Telegram keep-alive: найдено 6 чатов, отправлено сообщений: 6
+понедельник, 29 сентября 2025 г. 17:28:15 (+05): Telegram keep-alive успешно завершён.
+понедельник, 29 сентября 2025 г. 17:28:15 (+05): Обнаружены изменения. Начинаем обработку...
