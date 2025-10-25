@@ -103,4 +103,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 12,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "security.promptForLocalFileProtocolHandling": false,
 }
