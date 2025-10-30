@@ -1242,3 +1242,192 @@ Pruned 0 symbolic links and 2 directories from /opt/homebrew
 суббота, 25 октября 2025 г. 18:32:50 (+05): Telegram keep-alive: найдено 8 чатов, отправлено сообщений: 8
 суббота, 25 октября 2025 г. 18:32:50 (+05): Telegram keep-alive успешно завершён.
 суббота, 25 октября 2025 г. 18:32:50 (+05): Обнаружены изменения. Начинаем обработку...
+суббота, 25 октября 2025 г. 18:32:53 (+05): Изменения и логи успешно отправлены.
+четверг, 30 октября 2025 г. 17:10:01 (+05): ===== Запуск run_monthly_tasks.sh =====
+четверг, 30 октября 2025 г. 17:10:01 (+05): ===== Начало ежемесячного обновления Homebrew =====
+четверг, 30 октября 2025 г. 17:10:01 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 2 taps (supabase/tap and dart-lang/dart).
+==> Outdated Formulae
+brotli
+deno
+gemini-cli
+ggshield
+git
+libnghttp2
+node
+openjdk
+openjph
+python@3.13
+python@3.14
+simdjson
+supabase
+==> Outdated Casks
+masscode
+
+You have 13 outdated formulae and 1 outdated cask installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+четверг, 30 октября 2025 г. 17:10:12 (+05): Обновление formulae и casks…
+==> Upgrading 13 outdated packages:
+ggshield 1.43.0 -> 1.44.1
+deno 2.5.4 -> 2.5.6
+simdjson 4.0.7 -> 4.1.0
+python@3.14 3.14.0 -> 3.14.0_1
+python@3.13 3.13.9 -> 3.13.9_1
+brotli 1.1.0 -> 1.2.0
+libnghttp2 1.67.1 -> 1.68.0
+supabase/tap/supabase 2.53.6 -> 2.54.11
+openjdk 25 -> 25.0.1
+gemini-cli 0.10.0 -> 0.11.0
+openjph 0.24.2 -> 0.24.4
+node 24.10.0 -> 24.10.0_1
+git 2.51.1 -> 2.51.2
+==> Fetching downloads for: openjdk, deno, simdjson, python@3.14, python@3.13, brotli, libnghttp2, supabase, node, gemini-cli, openjph, ggshield and git
+==> Fetching openjdk
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/blobs/sha256:8703b312ccf7a1d45d41e27754c91a189ebbff6f6f203f6dd1b78503b68d63a3
+==> Fetching deno
+==> Downloading https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:bf884efe04ab87e287967e39aa9c39be38ed69430ab8243ca248fa3e89093af8
+==> Fetching simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:9437eae75ec4a4c288876b96c55a2090493bf4d5f40e51ef148bf511ff0a8bd8
+==> Fetching python@3.14
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.14/blobs/sha256:f59474e8481341bf8308aaa1ca7cd553a8db19c7aab64f6402fba55fe2c6fc1a
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:1e69017b62b04ec5ed8369bd6ea90d0f483187b9e111afdf1c853f22feba0b65
+==> Fetching brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:b8e388c96be5a63a46e0335c390fecb20dda7adb1368a2ba0209b38cae17c708
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:65c944b77dd8e8583f9e1fd0820cd81fe2b12f5b7a1992350386dd2e1a117257
+==> Fetching supabase/tap/supabase
+==> Downloading https://github.com/supabase/cli/releases/download/v2.54.11/supabase_darwin_arm64.tar.gz
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/314160187/4367a1aa-9704-4ae3-99d6-d89ff41deb97?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-10-30T12%3A57%3A20Z&rscd=attachment%3B+filename%3Dsupabase_darwin_arm64.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-10-30T11%3A56%3A53Z&ske=2025-10-30T12%3A57%3A20Z&sks=b&skv=2018-11-09&sig=IYfMx015esxWKsKtDbikNSdPNJtHhcnMUqUlfmo%2FOM4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2MTgyODA4NywibmJmIjoxNzYxODI2Mjg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.n_DDPRd17F8vNIRouQV8UjVsnxrwtSCRgpeKwNmZPR0&response-content-disposition=attachment%3B%20filename%3Dsupabase_darwin_arm64.tar.gz&response-content-type=application%2Foctet-stream
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:b64df0dd3cc2ada5fd8130c7e612fc80eee4cfa1f21e11605ed7aa140f7c0b8f
+==> Fetching gemini-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/gemini-cli/blobs/sha256:bae3a8e80ebb4f00e475f5c2b99c64a65999dbe8655c2415214b8709b7b713f5
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:08608cb29c004c1fdb43739ce6118833fb632372bb68d52d4dd17570fde21ce0
+==> Fetching ggshield
+==> Downloading https://ghcr.io/v2/homebrew/core/ggshield/blobs/sha256:fc0159fdd75e98d1a7ca19232dce2891148c1e8262987fe0415cdda16bc3ee9e
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:4d6087dab2e5532a019e385391a11954c11f35712accd6a0715dc0ab806089b3
+==> Upgrading openjdk
+  25 -> 25.0.1 
+==> Pouring openjdk--25.0.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjdk/25.0.1: 557 files, 371.7MB
+==> Running `brew cleanup openjdk`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/openjdk/25... (557 files, 371.6MB)
+==> Upgrading deno
+  2.5.4 -> 2.5.6 
+==> Pouring deno--2.5.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.5.6: 11 files, 144.4MB
+==> Running `brew cleanup deno`...
+Removing: /opt/homebrew/Cellar/deno/2.5.4... (11 files, 143.8MB)
+==> Upgrading simdjson
+  4.0.7 -> 4.1.0 
+==> Pouring simdjson--4.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.1.0: 17 files, 6.2MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.0.7... (17 files, 5.9MB)
+==> Upgrading python@3.14
+  3.14.0 -> 3.14.0_1 
+==> Pouring python@3.14--3.14.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.0_1: 3,759 files, 69.6MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.0... (3,969 files, 74.8MB)
+==> Upgrading python@3.13
+  3.13.9 -> 3.13.9_1 
+==> Pouring python@3.13--3.13.9_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.9_1: 3,631 files, 66.7MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.9... (3,703 files, 68.7MB)
+==> Upgrading brotli
+  1.1.0 -> 1.2.0 
+==> Pouring brotli--1.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/brotli/1.2.0: 33 files, 1.8MB
+==> Running `brew cleanup brotli`...
+Removing: /opt/homebrew/Cellar/brotli/1.1.0... (24 files, 1012.6KB)
+==> Upgrading libnghttp2
+  1.67.1 -> 1.68.0 
+==> Pouring libnghttp2--1.68.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.68.0: 14 files, 770.3KB
+==> Running `brew cleanup libnghttp2`...
+Removing: /opt/homebrew/Cellar/libnghttp2/1.67.1... (14 files, 739.5KB)
+==> Upgrading supabase/tap/supabase
+  2.53.6 -> 2.54.11 
+🍺  /opt/homebrew/Cellar/supabase/2.54.11: 9 files, 40.6MB, built in 3 seconds
+==> Running `brew cleanup supabase`...
+Removing: /opt/homebrew/Cellar/supabase/2.53.6... (9 files, 40.6MB)
+==> Upgrading node
+  24.10.0 -> 24.10.0_1 
+==> Pouring node--24.10.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.10.0_1: 2,468 files, 75.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.10.0... (2,467 files, 75.7MB)
+==> Upgrading gemini-cli
+  0.10.0 -> 0.11.0 
+==> Pouring gemini-cli--0.11.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gemini-cli/0.11.0: 40,718 files, 283.9MB
+==> Running `brew cleanup gemini-cli`...
+Removing: /opt/homebrew/Cellar/gemini-cli/0.10.0... (40,352 files, 259.8MB)
+==> Upgrading openjph
+  0.24.2 -> 0.24.4 
+==> Pouring openjph--0.24.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.24.4: 25 files, 622.6KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.24.2... (25 files, 622.6KB)
+==> Upgrading ggshield
+  1.43.0 -> 1.44.1 
+==> Pouring ggshield--1.44.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ggshield/1.44.1: 1,499 files, 13MB
+==> Running `brew cleanup ggshield`...
+Removing: /opt/homebrew/Cellar/ggshield/1.43.0... (1,880 files, 16.8MB)
+==> Upgrading git
+  2.51.1 -> 2.51.2 
+==> Pouring git--2.51.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.51.2: 1,695 files, 55.9MB
+==> Running `brew cleanup git`...
+Removing: /opt/homebrew/Cellar/git/2.51.1... (1,694 files, 55.9MB)
+==> Upgrading 3 outdated packages:
+chatgpt 1.2025.280,1760143344 -> 1.2025.294,1761352070
+masscode 3.12.1 -> 4.2.2
+notion 4.22.0 -> 4.23.0
+==> Upgrading chatgpt
+==> Downloading https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2025.294_1761352070.dmg
+==> Backing App 'ChatGPT.app' up to '/opt/homebrew/Caskroom/chatgpt/1.2025.280,1760143344/ChatGPT.app'
+==> Removing App '/Applications/ChatGPT.app'
+==> Moving App 'ChatGPT.app' to '/Applications/ChatGPT.app'
+==> Purging files for version 1.2025.280,1760143344 of Cask chatgpt
+🍺  chatgpt was successfully upgraded!
+==> Upgrading masscode
+==> Downloading https://github.com/massCodeIO/massCode/releases/download/v4.2.2/massCode-4.2.2-arm64.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/475337801/32005f80-f183-4fab-a29c-0e8157601ab4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-10-30T12%3A55%3A54Z&rscd=attachment%3B+filename%3DmassCode-4.2.2-arm64.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-10-30T11%3A55%3A13Z&ske=2025-10-30T12%3A55%3A54Z&sks=b&skv=2018-11-09&sig=uQe6MwL20QoS%2Bu7aSt0%2FXbNWmjgbrlLrpvDaRTMQNMw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2MTgyOTk3NywibmJmIjoxNzYxODI2Mzc3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.pCKR8HuczoPtAGc2JmE9_Aw8JJHkl-BrbFv_PRLHltU&response-content-disposition=attachment%3B%20filename%3DmassCode-4.2.2-arm64.dmg&response-content-type=application%2Foctet-stream
+==> Purging files for version 4.2.2 of Cask masscode
+==> Upgrading notion
+==> Downloading https://desktop-release.notion-static.com/Notion-4.23.0-arm64.dmg
+==> Backing App 'Notion.app' up to '/opt/homebrew/Caskroom/notion/4.22.0/Notion.app'
+==> Removing App '/Applications/Notion.app'
+==> Moving App 'Notion.app' to '/Applications/Notion.app'
+Error: masscode: It seems the App source '/Applications/massCode.app' is not there.
+==> Purging files for version 4.22.0 of Cask notion
+🍺  notion was successfully upgraded!
+==> Upgrading 1 outdated package:
+masscode 3.12.1 -> 4.2.2
+==> Upgrading masscode
+==> Downloading https://github.com/massCodeIO/massCode/releases/download/v4.2.2/massCode-4.2.2-arm64.dmg
+Already downloaded: /Users/khurshidddbek/Library/Caches/Homebrew/downloads/411d0b4a8b49ad325f707e7d580f915a822d4e08a639de34dec31d1b017ea7c2--massCode-4.2.2-arm64.dmg
+Error: masscode: It seems the App source '/Applications/massCode.app' is not there.
+==> Purging files for version 4.2.2 of Cask masscode
+четверг, 30 октября 2025 г. 17:13:47 (+05): Очистка старых версий и кэша…
+четверг, 30 октября 2025 г. 17:13:55 (+05): Ежемесячное обновление Homebrew завершено.
+четверг, 30 октября 2025 г. 17:13:58 (+05): Brewfile обновлён.
+четверг, 30 октября 2025 г. 17:13:58 (+05): Запуск Telegram keep-alive…
+четверг, 30 октября 2025 г. 17:14:18 (+05): Telegram keep-alive: найдено 8 чатов, отправлено сообщений: 8
+четверг, 30 октября 2025 г. 17:14:18 (+05): Telegram keep-alive успешно завершён.
+четверг, 30 октября 2025 г. 17:14:18 (+05): Обнаружены изменения. Начинаем обработку...
