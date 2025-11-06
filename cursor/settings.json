@@ -105,4 +105,8 @@
   "workbench.tree.indent": 12,
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "security.promptForLocalFileProtocolHandling": false,
+  "explorer.fileNesting.patterns": {
+    "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+  },
+  "explorer.fileNesting.enabled": true,
 }

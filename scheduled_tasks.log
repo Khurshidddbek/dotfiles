@@ -1431,3 +1431,312 @@ Error: masscode: It seems the App source '/Applications/massCode.app' is not the
 четверг, 30 октября 2025 г. 17:14:18 (+05): Telegram keep-alive: найдено 8 чатов, отправлено сообщений: 8
 четверг, 30 октября 2025 г. 17:14:18 (+05): Telegram keep-alive успешно завершён.
 четверг, 30 октября 2025 г. 17:14:18 (+05): Обнаружены изменения. Начинаем обработку...
+четверг, 30 октября 2025 г. 17:14:21 (+05): Изменения и логи успешно отправлены.
+четверг,  6 ноября 2025 г. 17:11:40 (+05): ===== Запуск run_monthly_tasks.sh =====
+четверг,  6 ноября 2025 г. 17:11:40 (+05): ===== Начало ежемесячного обновления Homebrew =====
+четверг,  6 ноября 2025 г. 17:11:40 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 7 taps (getsentry/tools, supabase/tap, cqlabs/dcm, dart-lang/dart, leoafarias/fvm, homebrew/core and homebrew/cask).
+==> New Formulae
+asm-lsp: Language server for NASM/GAS/GO Assembly
+claude-code-router: Tool to route Claude Code requests to different models and customize any request
+claude-code-templates: CLI tool for configuring and monitoring Claude Code
+container: Create and run Linux containers using lightweight virtual machines
+container-canary: Test and validate container requirements against versioned manifests
+corepack: Package acting as bridge between Node projects and their package managers
+cqlabs/dcm/dcm@1.32.2
+docmd: Minimal Markdown documentation generator
+doh: Stand-alone DNS-over-HTTPS resolver using libcurl
+eigen@3: C++ template library for linear algebra
+fake-gcs-server: Emulator for Google Cloud Storage API
+filebrowser: Web File Browser
+framework-tool-tui: TUI for controlling and monitoring Framework Computers hardware
+gcl: GNU Common Lisp
+getparty: Multi-part HTTP download manager
+gitlab-ci-linter: Command-line tool to lint GitLab CI YAML files
+gocheat: TUI Cheatsheet for keybindings, hotkeys and more
+goclone: Website Cloner
+hack-browser-data: Command-line tool for decrypting and exporting browser data
+haraka: Fast, highly extensible, and event driven SMTP server
+leoafarias/fvm/fvm@4.0.0
+leoafarias/fvm/fvm@4.0.1
+mark: Sync your markdown files with Confluence pages
+mysql-to-sqlite3: Transfer data from MySQL to SQLite
+openlist: New AList fork addressing anti-trust issues
+permify: Open-source authorization service & policy engine based on Google Zanzibar
+quint: Core tool for the Quint specification language
+rails-mcp-server: MCP server for Rails applications
+sqlite3-to-mysql: Transfer data from SQLite to MySQL
+taskline: Tasks, boards & notes for the command-line habitat
+teamtype: Peer-to-peer, editor-agnostic collaborative editing of local text files
+==> New Casks
+archi: Open-source ArchiMate modelling toolkit
+astro-editor: Markdown editor for Astro content collections
+chitubox: 3D printing slicer software
+digicheck-ng: Audio analysis software
+exelearning: Authoring tool to create educational resources
+freepdf: Reader that supports translating PDF documents
+freetex: Free intelligent formula recognition software
+laserpecker-design-space: Laser engraving and cutting software
+mcloud: China Mobile Cloud Drive
+openlist-app: Desktop application for OpenList
+qidistudio: Slicer software for QIDI 3D printers
+simplysign: Emulates a physical crypto card/reader for proCertum SmartSign
+==> Outdated Formulae
+ca-certificates
+dav1d
+ffmpeg
+fvm
+gemini-cli
+gettext
+gh
+harfbuzz
+libbluray
+libdeflate
+librsvg
+netpbm
+node
+openexr
+openjph
+sentry-cli
+simdjson
+sqlite
+yt-dlp
+==> Outdated Casks
+masscode
+
+You have 19 outdated formulae and 1 outdated cask installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+четверг,  6 ноября 2025 г. 17:11:52 (+05): Обновление formulae и casks…
+==> Upgrading 19 outdated packages:
+ffmpeg 8.0_1 -> 8.0_2
+simdjson 4.1.0 -> 4.2.1
+gh 2.82.1 -> 2.83.0
+yt-dlp 2025.10.22 -> 2025.10.22_1
+harfbuzz 12.1.0 -> 12.2.0
+libbluray 1.4.0 -> 1.4.0_1
+netpbm 11.02.19 -> 11.02.19_1
+sqlite 3.50.4 -> 3.51.0
+openexr 3.4.2 -> 3.4.3
+libdeflate 1.24 -> 1.25
+gemini-cli 0.11.0 -> 0.12.0
+ca-certificates 2025-09-09 -> 2025-11-04
+gettext 0.26 -> 0.26_1
+librsvg 2.61.2 -> 2.61.3_1
+getsentry/tools/sentry-cli 2.57.0 -> 2.58.0
+dav1d 1.5.1 -> 1.5.2
+openjph 0.24.4 -> 0.25.0
+node 24.10.0_1 -> 25.1.0_1
+leoafarias/fvm/fvm 3.2.1 -> 4.0.1
+==> Fetching downloads for: sqlite, simdjson, gh, ca-certificates, yt-dlp, gettext, harfbuzz, libbluray, netpbm, libdeflate, openjph, openexr, node, gemini-cli, librsvg, sentry-cli, dav1d, ffmpeg and fvm
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:8a986b66c97e295a5a9908b531528535dd30f23c42bde5cfcbdd258f097d868a
+==> Fetching simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:156102c5972d1d22e3bc19b0b4c595eee8d1963d1f70194e2ac41f74a9c05417
+==> Fetching gh
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/blobs/sha256:b90051fe887c8f7aa12f065feacda0c33e23d30483cfcfec1852eae2c38b221d
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:c414336ff5220d77124debb496c8d86ffa1bbc5946309ee2d9d26645db300b96
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blobs/sha256:2426b6768c7a7a0a5e21bab19b40207fb24f6fc46366269f24f343c19c9e605d
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:f1aa739f3f4b720b7abf4512af6d1c470feafe57b15ebca25c45f8b22afe7ab5
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:eda041888a074d2d00393d59078df013c287c88d6e11f75758201dfeab125943
+==> Fetching libbluray
+==> Downloading https://ghcr.io/v2/homebrew/core/libbluray/blobs/sha256:b14c0952114a372fe73e50c6110b8970e01e6e0d5227c5357bc0080a0a0033c6
+==> Fetching netpbm
+==> Downloading https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:0a63f84f2c4a9852fd19abc7710eafc3d311a41f7e9ac41f76f38ae757689dd3
+==> Fetching libdeflate
+==> Downloading https://ghcr.io/v2/homebrew/core/libdeflate/blobs/sha256:81bb3537257061a0a60cf1b6842b7c13d9090ddce9bd8ec84fa7381e08c45b47
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:6e31572a70adef98dcb35756af04e63b9427c7327e030b95ed25d74f72523d46
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:3a11bd94ee231d80ad15b599fc21c39b62c2c196dae1508ef49f711bb0be1f4b
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:1340fe4760ee3a744ff90f13f0f22ae6ddb5e3c90070c894198ac95719af6e10
+==> Fetching gemini-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/gemini-cli/blobs/sha256:46a015abdcdac4de0315def2655ece567cc9c2fffb71e07c06afaf60f34faeb9
+==> Fetching librsvg
+==> Downloading https://ghcr.io/v2/homebrew/core/librsvg/blobs/sha256:eb5c09756434b0eb037349ac33e32b48b6b056eca9d412880ad247fc9d4ee1d8
+==> Fetching getsentry/tools/sentry-cli
+==> Downloading https://downloads.sentry-cdn.com/sentry-cli/2.58.0/sentry-cli-Darwin-universal
+==> Fetching dav1d
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/blobs/sha256:606c3c39ebbc55f12524f3688148441fc1c699f2e0f15afad248eed30b95c73b
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:3f7d86973c2944aa1d303c055157c85f6c10f5b805b095f4f6783bf8c13cfef5
+==> Fetching leoafarias/fvm/fvm
+==> Downloading https://storage.googleapis.com/dart-archive/channels/stable/release/3.6.0/sdk/dartsdk-macos-arm64-release.zip
+==> Downloading https://github.com/leoafarias/fvm/archive/4.0.1.tar.gz
+==> Downloading from https://codeload.github.com/leoafarias/fvm/tar.gz/refs/tags/4.0.1
+==> Upgrading sqlite
+  3.50.4 -> 3.51.0 
+==> Pouring sqlite--3.51.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.51.0: 13 files, 5.0MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.50.4... (13 files, 4.9MB)
+==> Upgrading simdjson
+  4.1.0 -> 4.2.1 
+==> Pouring simdjson--4.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.2.1: 17 files, 6.3MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.1.0... (17 files, 6.2MB)
+==> Upgrading gh
+  2.82.1 -> 2.83.0 
+==> Pouring gh--2.83.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.83.0: 221 files, 51.1MB
+==> Running `brew cleanup gh`...
+Removing: /opt/homebrew/Cellar/gh/2.82.1... (220 files, 51.1MB)
+==> Upgrading ca-certificates
+  2025-09-09 -> 2025-11-04 
+==> Pouring ca-certificates--2025-11-04.all.bottle.1.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-11-04: 4 files, 235.9KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-09-09... (4 files, 232.9KB)
+==> Upgrading yt-dlp
+  2025.10.22 -> 2025.10.22_1 
+==> Pouring yt-dlp--2025.10.22_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2025.10.22_1: 1,727 files, 19.6MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.10.22... (1,727 files, 19.6MB)
+==> Upgrading gettext
+  0.26 -> 0.26_1 
+==> Pouring gettext--0.26_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.26_1: 2,428 files, 28.2MB
+==> Running `brew cleanup gettext`...
+Removing: /opt/homebrew/Cellar/gettext/0.26... (2,428 files, 28.2MB)
+==> Upgrading harfbuzz
+  12.1.0 -> 12.2.0 
+==> Pouring harfbuzz--12.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.2.0: 77 files, 12.0MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/12.1.0... (77 files, 12.0MB)
+==> Upgrading libbluray
+  1.4.0 -> 1.4.0_1 
+==> Pouring libbluray--1.4.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libbluray/1.4.0_1: 22 files, 1.2MB
+==> Running `brew cleanup libbluray`...
+Removing: /opt/homebrew/Cellar/libbluray/1.4.0... (22 files, 1.2MB)
+==> Upgrading netpbm
+  11.02.19 -> 11.02.19_1 
+==> Pouring netpbm--11.02.19_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/netpbm/11.02.19_1: 825 files, 19.5MB
+==> Running `brew cleanup netpbm`...
+Removing: /opt/homebrew/Cellar/netpbm/11.02.19... (825 files, 19.5MB)
+==> Upgrading libdeflate
+  1.24 -> 1.25 
+==> Pouring libdeflate--1.25.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libdeflate/1.25: 17 files, 328.5KB
+==> Running `brew cleanup libdeflate`...
+Removing: /opt/homebrew/Cellar/libdeflate/1.24... (17 files, 328.4KB)
+==> Upgrading openjph
+  0.24.4 -> 0.25.0 
+==> Pouring openjph--0.25.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.25.0: 25 files, 622.5KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.24.4... (25 files, 622.6KB)
+==> Upgrading openexr
+  3.4.2 -> 3.4.3 
+==> Pouring openexr--3.4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.3: 212 files, 4.9MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.4.2... (212 files, 4.9MB)
+==> Upgrading node
+  24.10.0_1 -> 25.1.0_1 
+==> Pouring node--25.1.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.1.0_1: 2,269 files, 78.0MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.10.0_1... (2,468 files, 75.7MB)
+==> Upgrading gemini-cli
+  0.11.0 -> 0.12.0 
+==> Pouring gemini-cli--0.12.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gemini-cli/0.12.0: 40,283 files, 284.5MB
+==> Running `brew cleanup gemini-cli`...
+Removing: /opt/homebrew/Cellar/gemini-cli/0.11.0... (40,718 files, 283.9MB)
+==> Upgrading librsvg
+  2.61.2 -> 2.61.3_1 
+==> Pouring librsvg--2.61.3_1.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/opt/gdk-pixbuf/bin/gdk-pixbuf-query-loaders --update-cache[0m
+🍺  /opt/homebrew/Cellar/librsvg/2.61.3_1: 21 files, 12.5MB
+==> Running `brew cleanup librsvg`...
+Removing: /opt/homebrew/Cellar/librsvg/2.61.2... (21 files, 12.5MB)
+==> Upgrading getsentry/tools/sentry-cli
+  2.57.0 -> 2.58.0 
+🍺  /opt/homebrew/Cellar/sentry-cli/2.58.0: 4 files, 34.3MB, built in 3 seconds
+==> Running `brew cleanup sentry-cli`...
+Removing: /opt/homebrew/Cellar/sentry-cli/2.57.0... (4 files, 34.3MB)
+==> Upgrading dav1d
+  1.5.1 -> 1.5.2 
+==> Pouring dav1d--1.5.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.2: 16 files, 922.2KB
+==> Running `brew cleanup dav1d`...
+Removing: /opt/homebrew/Cellar/dav1d/1.5.1... (16 files, 921.6KB)
+==> Upgrading ffmpeg
+  8.0_1 -> 8.0_2 
+==> Pouring ffmpeg--8.0_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0_2: 285 files, 52.9MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0_1... (285 files, 52.9MB)
+==> Upgrading leoafarias/fvm/fvm
+  3.2.1 -> 4.0.1 
+[34m==>[0m [1m/opt/homebrew/Cellar/fvm/4.0.1/libexec/bin/dart pub get[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/fvm/4.0.1/libexec/bin/dart compile exe -Dversion=4.0.1 [0m
+🍺  /opt/homebrew/Cellar/fvm/4.0.1: 1,036 files, 589.9MB, built in 20 seconds
+==> Running `brew cleanup fvm`...
+Removing: /opt/homebrew/Cellar/fvm/3.2.1... (1,023 files, 578.7MB)
+==> Upgrading 4 outdated packages:
+android-studio 2025.1.4.8 -> 2025.2.1.7
+chatgpt 1.2025.294,1761352070 -> 1.2025.301,1761940772
+github 3.5.3-849ad017 -> 3.5.4-9dfb8d8d
+masscode 3.12.1 -> 4.2.2
+==> Upgrading android-studio
+==> Downloading https://redirector.gvt1.com/edgedl/android/studio/install/2025.2.1.7/android-studio-2025.2.1.7-mac_arm.dmg
+==> Downloading from https://r1---sn-01oxu-u5nd.gvt1.com/edgedl/android/studio/install/2025.2.1.7/android-studio-2025.2.1.7-mac_arm.dmg?cms_redirect=yes&met=1762431318,&mh=yz&mip=2a05:45c2:60:a100:5084:7c4b:2bf:eebe&mm=28&mn=sn-01oxu-u5nd&ms=nvh&mt=1762430124&mv=u&mvi=1&pcm2cms=yes&pl=45&rmhost=r3---sn-01oxu-u5nd.gvt1.com&rms=nvh,nvh&shardbypass=sd&smhost=r14---sn-01oxu-u5nee.gvt1.com
+==> Backing App 'Android Studio.app' up to '/opt/homebrew/Caskroom/android-studio/2025.1.4.8/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2025.1.4.8 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading chatgpt
+==> Downloading https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_1.2025.301_1761940772.dmg
+==> Backing App 'ChatGPT.app' up to '/opt/homebrew/Caskroom/chatgpt/1.2025.294,1761352070/ChatGPT.app'
+==> Removing App '/Applications/ChatGPT.app'
+==> Moving App 'ChatGPT.app' to '/Applications/ChatGPT.app'
+==> Purging files for version 1.2025.294,1761352070 of Cask chatgpt
+🍺  chatgpt was successfully upgraded!
+==> Upgrading github
+==> Downloading https://desktop.githubusercontent.com/releases/3.5.4-9dfb8d8d/GitHubDesktop-arm64.zip
+==> Backing App 'GitHub Desktop.app' up to '/opt/homebrew/Caskroom/github/3.5.3-849ad017/GitHub Desktop.app'
+==> Removing App '/Applications/GitHub Desktop.app'
+==> Unlinking Binary '/opt/homebrew/bin/github'
+==> Moving App 'GitHub Desktop.app' to '/Applications/GitHub Desktop.app'
+==> Linking Binary 'github.sh' to '/opt/homebrew/bin/github'
+==> Purging files for version 3.5.3-849ad017 of Cask github
+🍺  github was successfully upgraded!
+==> Upgrading masscode
+==> Downloading https://github.com/massCodeIO/massCode/releases/download/v4.2.2/massCode-4.2.2-arm64.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/475337801/32005f80-f183-4fab-a29c-0e8157601ab4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-11-06T13%3A15%3A38Z&rscd=attachment%3B+filename%3DmassCode-4.2.2-arm64.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-11-06T12%3A15%3A33Z&ske=2025-11-06T13%3A15%3A38Z&sks=b&skv=2018-11-09&sig=n0abqqzKqVW6U8NcwOidIabYBIu419BylzG64h0n8aA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2MjQzNTYwOCwibmJmIjoxNzYyNDMyMDA4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.vh4ia5n9v88EVfoXFzfHphjSRQ-5fJcuyRjBw0GJYEY&response-content-disposition=attachment%3B%20filename%3DmassCode-4.2.2-arm64.dmg&response-content-type=application%2Foctet-stream
+Error: masscode: It seems the App source '/Applications/massCode.app' is not there.
+==> Purging files for version 4.2.2 of Cask masscode
+==> Upgrading 1 outdated package:
+masscode 3.12.1 -> 4.2.2
+==> Upgrading masscode
+==> Downloading https://github.com/massCodeIO/massCode/releases/download/v4.2.2/massCode-4.2.2-arm64.dmg
+Already downloaded: /Users/khurshidddbek/Library/Caches/Homebrew/downloads/411d0b4a8b49ad325f707e7d580f915a822d4e08a639de34dec31d1b017ea7c2--massCode-4.2.2-arm64.dmg
+Error: masscode: It seems the App source '/Applications/massCode.app' is not there.
+==> Purging files for version 4.2.2 of Cask masscode
+четверг,  6 ноября 2025 г. 17:27:15 (+05): Очистка старых версий и кэша…
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/bootsnap/9a18177e19f3a66379884186e4d111fa0236bf8b873de2e480bdb13d2d10bdec... (635 files, 5.2MB)
+==> This operation has freed approximately 5.2MB of disk space.
+четверг,  6 ноября 2025 г. 17:27:24 (+05): Ежемесячное обновление Homebrew завершено.
+четверг,  6 ноября 2025 г. 17:27:27 (+05): Brewfile обновлён.
+четверг,  6 ноября 2025 г. 17:27:27 (+05): Запуск Telegram keep-alive…
+четверг,  6 ноября 2025 г. 17:27:46 (+05): Telegram keep-alive: найдено 8 чатов, отправлено сообщений: 8
+четверг,  6 ноября 2025 г. 17:27:46 (+05): Telegram keep-alive успешно завершён.
+четверг,  6 ноября 2025 г. 17:27:46 (+05): Обнаружены изменения. Начинаем обработку...
