@@ -1740,3 +1740,455 @@ Removing: /Users/khurshidddbek/Library/Caches/Homebrew/bootsnap/9a18177e19f3a663
 четверг,  6 ноября 2025 г. 17:27:46 (+05): Telegram keep-alive: найдено 8 чатов, отправлено сообщений: 8
 четверг,  6 ноября 2025 г. 17:27:46 (+05): Telegram keep-alive успешно завершён.
 четверг,  6 ноября 2025 г. 17:27:46 (+05): Обнаружены изменения. Начинаем обработку...
+четверг,  6 ноября 2025 г. 17:27:49 (+05): Изменения и логи успешно отправлены.
+вторник, 25 ноября 2025 г. 23:36:36 (+05): ===== Запуск run_monthly_tasks.sh =====
+вторник, 25 ноября 2025 г. 23:36:36 (+05): ===== Начало ежемесячного обновления Homebrew =====
+вторник, 25 ноября 2025 г. 23:36:36 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 7 taps (tuist/tuist, getsentry/tools, supabase/tap, cqlabs/dcm, dart-lang/dart, homebrew/core and homebrew/cask).
+==> New Formulae
+ansible@12: Automate deployment, configuration, and upgrading
+aws-spiffe-workload-helper: Helper for providing AWS credentials to workloads using their SPIFFE identity
+cqlabs/dcm/dcm@1.32.3
+cqlabs/dcm/dcm@1.33.0
+cqlabs/dcm/dcm@1.33.1
+dart-lang/dart/dart@3.10.1
+devcockpit: TUI system monitor for Apple Silicon
+e1s: TUI for managing AWS ECS, inspired by k9s
+fastrace: Dependency-free traceroute implementation in pure C
+fnox: Fort Knox for your secrets - flexible secret management tool
+gitnr: Create `.gitignore` using templates from TopTal, GitHub or your own collection
+gruyere: TUI program for viewing and killing processes listening on ports
+kanata-tray: System tray for kanata keyboard remapper
+mail-deduplicate: CLI to deduplicate mails from mail boxes
+mbedtls@3: Cryptographic & SSL/TLS library
+mitama-cpp-result: Provides `result<T, E>` and `maybe<T>` and monadic functions for them
+parqeye: Peek inside Parquet files right from your terminal
+php@8.4: General-purpose scripting language
+redis@8.2: Persistent key-value database, with built-in net interface
+spiffe-helper: Tool that can be used to retrieve and manage SVIDs on behalf of a workload
+strands-agents-sops: Standard Operating Procedures for AI agents using natural language
+tuist/tuist/tuist@4.104.7
+tuist/tuist/tuist@4.105.0
+tuist/tuist/tuist@4.105.1
+tuist/tuist/tuist@4.106.0
+tuist/tuist/tuist@4.106.1
+tuist/tuist/tuist@4.106.2
+tuist/tuist/tuist@4.106.3
+tuist/tuist/tuist@4.107.0
+tuist/tuist/tuist@4.107.1
+tuist/tuist/tuist@4.107.2
+vibecheck: AI-powered git commit assistant written in Go
+xcp: Fast & lightweight command-line tool for managing Xcode projects, built in Swift
+xleak: Terminal Excel viewer with an interactive TUI
+==> New Casks
+antigravity: AI Coding Agent IDE
+appbox: iOS app distribution tool
+athas: Lightweight code editor
+cadreader: CAD drawing viewer
+chatglm: Desktop client for the ChatGLM AI chatbot
+daruma: Track your goals using the Daruma Method
+filo: AI-powered email client designed for Gmail
+font-amarna
+font-geom
+font-gveret-levin
+font-line-seed-jp
+font-sekuya
+fontra-pak: Browser-based font editor
+locu: Daily planner and focus timer
+meituxiuxiu: Photo editing and beautification software
+mountmate: Menubar app to easily manage external drives
+mozregression-gui: Interactive regression range finder for Firefox and other Mozilla products
+notepadexe: Lightweight code editor
+qianwen: AI assistant and chatbot powered by Alibaba's Qwen model
+qqnews: Tencent News client
+sodamusic: Music app
+taobao: Online Shopping Client
+tuist@0.23.0
+white-rabbit: SVG utility and optimiser
+wiso-steuer-2026: Tax declaration for the fiscal year 2025
+zo: Friendly personal server
+==> Outdated Formulae
+certifi
+ffmpeg
+gemini-cli
+ggshield
+git
+glib
+gnutls
+graphviz
+harfbuzz
+icu4c@77
+libarchive
+libnghttp3
+libngtcp2
+libpng
+librist
+mbedtls
+node
+openexr
+openjph
+sentry-cli
+sentry-wizard
+simdjson
+supabase
+tcl-tk
+tesseract
+yt-dlp
+==> Outdated Casks
+masscode
+mitmproxy
+
+You have 26 outdated formulae and 2 outdated casks installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+вторник, 25 ноября 2025 г. 23:37:01 (+05): Обновление formulae и casks…
+==> Upgrading 26 outdated packages:
+ggshield 1.44.1 -> 1.45.0
+ffmpeg 8.0_2 -> 8.0.1
+simdjson 4.2.1 -> 4.2.2
+libpng 1.6.50 -> 1.6.51
+yt-dlp 2025.10.22_1 -> 2025.11.12
+getsentry/tools/sentry-wizard 6.6.0 -> 6.7.0
+harfbuzz 12.2.0 -> 12.2.0_1
+glib 2.86.1 -> 2.86.2
+mbedtls 3.6.4 -> 4.0.0
+libnghttp3 1.12.0 -> 1.13.1
+libarchive 3.8.2 -> 3.8.3
+tesseract 5.5.1 -> 5.5.1_1
+openexr 3.4.3 -> 3.4.4
+supabase/tap/supabase 2.54.11 -> 2.62.5
+certifi 2025.10.5_1 -> 2025.11.12
+librist 0.2.11 -> 0.2.11_1
+gemini-cli 0.12.0 -> 0.17.1
+getsentry/tools/sentry-cli 2.58.0 -> 2.58.2
+tcl-tk 9.0.2 -> 9.0.3
+graphviz 14.0.2 -> 14.0.4
+openjph 0.25.0 -> 0.25.3
+node 25.1.0_1 -> 25.2.1
+libngtcp2 1.17.0 -> 1.18.0
+git 2.51.2 -> 2.52.0
+gnutls 3.8.10 -> 3.8.11
+icu4c@77 77.1 -> 77.1_1
+==> Fetching downloads for: libarchive, icu4c@77, simdjson, libpng, certifi, yt-dlp, libnghttp3, libngtcp2, node, sentry-wizard, glib, harfbuzz, mbedtls, tesseract, openjph, openexr, ggshield, gnutls, librist, gemini-cli, sentry-cli, tcl-tk, graphviz, git, supabase and ffmpeg
+✔︎ Bottle libarchive (3.8.3)
+✔︎ Bottle simdjson (4.2.2)
+✔︎ Bottle libpng (1.6.51)
+✔︎ Bottle certifi (2025.11.12)
+✔︎ Bottle yt-dlp (2025.11.12)
+✔︎ Bottle libnghttp3 (1.13.1)
+✔︎ Bottle libngtcp2 (1.18.0)
+✔︎ Bottle Manifest icu4c@78 (78.1)
+✔︎ Formula sentry-wizard (6.7.0)
+✔︎ Bottle openjph (0.25.3)
+✔︎ Bottle Manifest mbedtls@3 (3.6.5)
+✔︎ Bottle mbedtls@3 (3.6.5)
+✔︎ Bottle librist (0.2.11_1)
+✔︎ Bottle ggshield (1.45.0)
+✔︎ Bottle gnutls (3.8.11)
+✔︎ Bottle graphviz (14.0.4)
+✔︎ Bottle harfbuzz (12.2.0_1)
+✔︎ Bottle mbedtls (4.0.0)
+✔︎ Bottle openexr (3.4.4)
+✔︎ Bottle ffmpeg (8.0.1)
+✔︎ Bottle glib (2.86.2)
+✔︎ Bottle git (2.52.0)
+✔︎ Bottle tesseract (5.5.1_1)
+✔︎ Bottle tcl-tk (9.0.3)
+✔︎ Formula supabase (2.62.5)
+✔︎ Bottle node (25.2.1)
+✔︎ Formula sentry-cli (2.58.2)
+✔︎ Bottle icu4c@77 (77.1_1)
+✔︎ Bottle icu4c@78 (78.1)
+✔︎ Bottle gemini-cli (0.17.1)
+==> Upgrading libarchive
+  3.8.2 -> 3.8.3 
+==> Pouring libarchive--3.8.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.3: 65 files, 4MB
+==> Running `brew cleanup libarchive`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libarchive/3.8.2... (65 files, 4MB)
+==> Upgrading icu4c@77
+  77.1 -> 77.1_1 
+==> Pouring icu4c@77--77.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@77/77.1_1: 277 files, 85.1MB
+==> Running `brew cleanup icu4c@77`...
+Removing: /opt/homebrew/Cellar/icu4c@77/77.1... (277 files, 85.2MB)
+==> Upgrading simdjson
+  4.2.1 -> 4.2.2 
+==> Pouring simdjson--4.2.2.arm64_sequoia.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.2.2: 19 files, 6.6MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.2.1... (17 files, 6.6MB)
+==> Upgrading libpng
+  1.6.50 -> 1.6.51 
+==> Pouring libpng--1.6.51.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.51: 28 files, 1.4MB
+==> Running `brew cleanup libpng`...
+Removing: /opt/homebrew/Cellar/libpng/1.6.50... (28 files, 1.4MB)
+==> Upgrading certifi
+  2025.10.5_1 -> 2025.11.12 
+==> Pouring certifi--2025.11.12.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2025.11.12: 38 files, 20.5KB
+==> Running `brew cleanup certifi`...
+Removing: /opt/homebrew/Cellar/certifi/2025.10.5_1... (38 files, 20.5KB)
+==> Upgrading yt-dlp
+  2025.10.22_1 -> 2025.11.12 
+==> Pouring yt-dlp--2025.11.12.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2025.11.12: 1,755 files, 20.8MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.10.22_1... (1,727 files, 20.5MB)
+==> Upgrading libnghttp3
+  1.12.0 -> 1.13.1 
+==> Pouring libnghttp3--1.13.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.13.1: 20 files, 593.6KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.12.0... (20 files, 603.4KB)
+==> Upgrading libngtcp2
+  1.17.0 -> 1.18.0 
+==> Pouring libngtcp2--1.18.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.18.0: 21 files, 1.4MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.17.0... (21 files, 1.3MB)
+==> Upgrading node
+  25.1.0_1 -> 25.2.1 
+==> Installing node dependency: icu4c@78
+==> Pouring icu4c@78--78.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@78/78.1: 279 files, 87.9MB
+==> Pouring node--25.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.2.1: 2,269 files, 81.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.1.0_1... (2,269 files, 81.8MB)
+==> Upgrading getsentry/tools/sentry-wizard
+  6.6.0 -> 6.7.0 
+[34m==>[0m [1mnpm install --loglevel=silly --global --build-from-source --cache=/Users/khu[0m
+🍺  /opt/homebrew/Cellar/sentry-wizard/6.7.0: 8,839 files, 35.9MB, built in 17 seconds
+==> Running `brew cleanup sentry-wizard`...
+Removing: /opt/homebrew/Cellar/sentry-wizard/6.6.0... (8,779 files, 35.3MB)
+==> Upgrading glib
+  2.86.1 -> 2.86.2 
+==> Pouring glib--2.86.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.86.2: 504 files, 39.6MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.86.1... (504 files, 39.6MB)
+==> Upgrading harfbuzz
+  12.2.0 -> 12.2.0_1 
+==> Pouring harfbuzz--12.2.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.2.0_1: 77 files, 12.5MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/12.2.0... (77 files, 12.5MB)
+==> Upgrading mbedtls
+  3.6.4 -> 4.0.0 
+==> Pouring mbedtls--4.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mbedtls/4.0.0: 172 files, 9.6MB
+==> Running `brew cleanup mbedtls`...
+Removing: /opt/homebrew/Cellar/mbedtls/3.6.4... (198 files, 14.0MB)
+==> Upgrading tesseract
+  5.5.1 -> 5.5.1_1 
+==> Pouring tesseract--5.5.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tesseract/5.5.1_1: 75 files, 34.9MB
+==> Running `brew cleanup tesseract`...
+Removing: /opt/homebrew/Cellar/tesseract/5.5.1... (75 files, 34.9MB)
+==> Upgrading openjph
+  0.25.0 -> 0.25.3 
+==> Pouring openjph--0.25.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.25.3: 25 files, 637.3KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.25.0... (25 files, 637.4KB)
+==> Upgrading openexr
+  3.4.3 -> 3.4.4 
+==> Pouring openexr--3.4.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.4: 212 files, 4.6MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.4.3... (212 files, 5.1MB)
+==> Upgrading ggshield
+  1.44.1 -> 1.45.0 
+==> Pouring ggshield--1.45.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ggshield/1.45.0: 1,499 files, 13.6MB
+==> Running `brew cleanup ggshield`...
+Removing: /opt/homebrew/Cellar/ggshield/1.44.1... (1,499 files, 13.6MB)
+==> Upgrading gnutls
+  3.8.10 -> 3.8.11 
+==> Pouring gnutls--3.8.11.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gnutls/3.8.11: 1,303 files, 12.1MB
+==> Running `brew cleanup gnutls`...
+Removing: /opt/homebrew/Cellar/gnutls/3.8.10... (1,296 files, 12MB)
+==> Upgrading librist
+  0.2.11 -> 0.2.11_1 
+==> Installing librist dependency: mbedtls@3
+==> Pouring mbedtls@3--3.6.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mbedtls@3/3.6.5: 198 files, 14.0MB
+==> Pouring librist--0.2.11_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/librist/0.2.11_1: 29 files, 840.7KB
+==> Running `brew cleanup librist`...
+Removing: /opt/homebrew/Cellar/librist/0.2.11... (29 files, 835.9KB)
+==> Upgrading gemini-cli
+  0.12.0 -> 0.17.1 
+==> Pouring gemini-cli--0.17.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gemini-cli/0.17.1: 42,940 files, 309.7MB
+==> Running `brew cleanup gemini-cli`...
+Removing: /opt/homebrew/Cellar/gemini-cli/0.12.0... (40,283 files, 298.3MB)
+==> Upgrading getsentry/tools/sentry-cli
+  2.58.0 -> 2.58.2 
+🍺  /opt/homebrew/Cellar/sentry-cli/2.58.2: 4 files, 35.9MB, built in 0 seconds
+==> Running `brew cleanup sentry-cli`...
+Removing: /opt/homebrew/Cellar/sentry-cli/2.58.0... (4 files, 35.9MB)
+==> Upgrading tcl-tk
+  9.0.2 -> 9.0.3 
+==> Pouring tcl-tk--9.0.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tcl-tk/9.0.3: 3,158 files, 40.1MB
+==> Running `brew cleanup tcl-tk`...
+Removing: /opt/homebrew/Cellar/tcl-tk/9.0.2... (3,157 files, 40.0MB)
+==> Upgrading graphviz
+  14.0.2 -> 14.0.4 
+==> Pouring graphviz--14.0.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/graphviz/14.0.4: 283 files, 8.5MB
+==> Running `brew cleanup graphviz`...
+Removing: /opt/homebrew/Cellar/graphviz/14.0.2... (283 files, 8.5MB)
+==> Upgrading git
+  2.51.2 -> 2.52.0 
+==> Pouring git--2.52.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.52.0: 1,718 files, 59.8MB
+==> Running `brew cleanup git`...
+Removing: /opt/homebrew/Cellar/git/2.51.2... (1,695 files, 58.6MB)
+==> Upgrading supabase/tap/supabase
+  2.54.11 -> 2.62.5 
+🍺  /opt/homebrew/Cellar/supabase/2.62.5: 9 files, 89.4MB, built in 2 seconds
+==> Running `brew cleanup supabase`...
+Removing: /opt/homebrew/Cellar/supabase/2.54.11... (9 files, 42.5MB)
+==> Upgrading ffmpeg
+  8.0_2 -> 8.0.1 
+==> Pouring ffmpeg--8.0.1.arm64_sequoia.bottle.tar.gz
+Warning: The following dependents of upgraded formulae are outdated but will not
+be upgraded because they are not bottled:
+  sentry-wizard
+Warning: masscode has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0.1: 285 files, 55.4MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0_2... (285 files, 55.4MB)
+==> Fetching downloads for: android-studio, chatgpt, clickup, figma, iterm2, maccy, masscode, miro, mitmproxy, notion and obsidian
+✔︎ Cask mitmproxy (12.2.1)
+✔︎ Cask figma (125.10.7)
+✔︎ Cask chatgpt (1.2025.315,1763170693)
+✔︎ Cask iterm2 (3.6.6)
+✔︎ Cask maccy (2.6.0)
+✔︎ Cask notion (4.24.0)
+✔︎ Cask clickup (3.5.154,251111ehyopedtu)
+✔︎ Cask miro (0.11.124)
+✔︎ Cask android-studio (2025.2.1.8)
+✔︎ Cask obsidian (1.10.6)
+✔︎ Cask masscode (4.2.2)
+==> Upgrading 11 outdated packages:
+android-studio 2025.2.1.7 -> 2025.2.1.8
+chatgpt 1.2025.301,1761940772 -> 1.2025.315,1763170693
+clickup 3.5.150,251013m2bgbbgpp -> 3.5.154,251111ehyopedtu
+figma 125.9.10 -> 125.10.7
+iterm2 3.6.5 -> 3.6.6
+maccy 2.5.1 -> 2.6.0
+masscode 3.12.1 -> 4.2.2
+miro 0.11.116 -> 0.11.124
+mitmproxy 12.2.0 -> 12.2.1
+notion 4.23.0 -> 4.24.0
+obsidian 1.9.14 -> 1.10.6
+==> Upgrading android-studio
+==> Backing App 'Android Studio.app' up to '/opt/homebrew/Caskroom/android-studio/2025.2.1.7/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2025.2.1.7 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading chatgpt
+==> Backing App 'ChatGPT.app' up to '/opt/homebrew/Caskroom/chatgpt/1.2025.301,1761940772/ChatGPT.app'
+==> Removing App '/Applications/ChatGPT.app'
+==> Moving App 'ChatGPT.app' to '/Applications/ChatGPT.app'
+==> Purging files for version 1.2025.301,1761940772 of Cask chatgpt
+🍺  chatgpt was successfully upgraded!
+==> Upgrading clickup
+==> Backing App 'ClickUp.app' up to '/opt/homebrew/Caskroom/clickup/3.5.150,251013m2bgbbgpp/ClickUp.app'
+==> Removing App '/Applications/ClickUp.app'
+==> Moving App 'ClickUp.app' to '/Applications/ClickUp.app'
+==> Purging files for version 3.5.150,251013m2bgbbgpp of Cask clickup
+🍺  clickup was successfully upgraded!
+==> Upgrading figma
+==> Backing App 'Figma.app' up to '/opt/homebrew/Caskroom/figma/125.9.10/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+==> Purging files for version 125.9.10 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading iterm2
+==> Backing App 'iTerm.app' up to '/opt/homebrew/Caskroom/iterm2/3.6.5/iTerm.app'
+==> Removing App '/Applications/iTerm.app'
+==> Moving App 'iTerm.app' to '/Applications/iTerm.app'
+==> Purging files for version 3.6.5 of Cask iterm2
+🍺  iterm2 was successfully upgraded!
+==> Upgrading maccy
+==> Backing App 'Maccy.app' up to '/opt/homebrew/Caskroom/maccy/2.5.1/Maccy.app'
+==> Removing App '/Applications/Maccy.app'
+==> Moving App 'Maccy.app' to '/Applications/Maccy.app'
+==> Purging files for version 2.5.1 of Cask maccy
+🍺  maccy was successfully upgraded!
+==> Upgrading masscode
+==> Purging files for version 4.2.2 of Cask masscode
+==> Upgrading miro
+==> Purging files for version 0.11.124 of Cask miro
+==> Upgrading mitmproxy
+==> Unlinking Binary '/opt/homebrew/bin/mitmproxy'
+==> Unlinking Binary '/opt/homebrew/bin/mitmdump'
+==> Unlinking Binary '/opt/homebrew/bin/mitmweb'
+==> Linking Binary 'mitmproxy' to '/opt/homebrew/bin/mitmproxy'
+==> Linking Binary 'mitmdump' to '/opt/homebrew/bin/mitmdump'
+==> Linking Binary 'mitmweb' to '/opt/homebrew/bin/mitmweb'
+==> Purging files for version 12.2.0 of Cask mitmproxy
+🍺  mitmproxy was successfully upgraded!
+==> Upgrading notion
+==> Backing App 'Notion.app' up to '/opt/homebrew/Caskroom/notion/4.23.0/Notion.app'
+==> Removing App '/Applications/Notion.app'
+==> Moving App 'Notion.app' to '/Applications/Notion.app'
+==> Purging files for version 4.23.0 of Cask notion
+🍺  notion was successfully upgraded!
+==> Upgrading obsidian
+==> Backing App 'Obsidian.app' up to '/opt/homebrew/Caskroom/obsidian/1.9.14/Obsidian.app'
+==> Removing App '/Applications/Obsidian.app'
+==> Moving App 'Obsidian.app' to '/Applications/Obsidian.app'
+Error: Problems with multiple casks:
+masscode: It seems the App source '/Applications/massCode.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 1.9.14 of Cask obsidian
+🍺  obsidian was successfully upgraded!
+✔︎ JSON API cask.jws.json
+✔︎ JSON API formula.jws.json
+Warning: masscode has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+==> Fetching downloads for: masscode and miro
+✔︎ Cask miro (0.11.124)
+✔︎ Cask masscode (4.2.2)
+==> Upgrading 2 outdated packages:
+masscode 3.12.1 -> 4.2.2
+miro 0.11.116 -> 0.11.124
+==> Upgrading masscode
+==> Purging files for version 4.2.2 of Cask masscode
+==> Upgrading miro
+Error: Problems with multiple casks:
+masscode: It seems the App source '/Applications/massCode.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.124 of Cask miro
+вторник, 25 ноября 2025 г. 23:44:45 (+05): Очистка старых версий и кэша…
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/npm_cache... (479 files, 36.4MB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/bootsnap/118b6dfb18563197d4ab01806eddb3405e8181f8c2dd7860c090a25be75be0f3... (660 files, 5.6MB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/bootsnap/13e6bb57852f8ac8a403d12c1c0a4cb6c88ce6354b8b9b9de78434dca9b00d24... (651 files, 5.6MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/mbedtls@3... (197 files, 14.0MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/icu4c@78... (278 files, 87.9MB)
+Pruned 2 symbolic links and 2 directories from /opt/homebrew
+Removing: /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5... (1,579 files, 35.4MB)
+==> This operation has freed approximately 185.0MB of disk space.
+вторник, 25 ноября 2025 г. 23:44:55 (+05): Ежемесячное обновление Homebrew завершено.
+вторник, 25 ноября 2025 г. 23:44:58 (+05): Brewfile обновлён.
+вторник, 25 ноября 2025 г. 23:44:58 (+05): Запуск Telegram keep-alive…
+вторник, 25 ноября 2025 г. 23:45:20 (+05): Telegram keep-alive: найдено 8 чатов, отправлено сообщений: 8
+вторник, 25 ноября 2025 г. 23:45:20 (+05): Telegram keep-alive успешно завершён.
+вторник, 25 ноября 2025 г. 23:45:20 (+05): Обнаружены изменения. Начинаем обработку...
