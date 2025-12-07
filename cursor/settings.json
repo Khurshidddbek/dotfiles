@@ -109,4 +109,6 @@
     "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
   },
   "explorer.fileNesting.enabled": true,
+  "window.newWindowProfile": "Default",
+  "gitlens.blame.ignoreWhitespace": true,
 }

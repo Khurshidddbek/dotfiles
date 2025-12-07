@@ -2192,3 +2192,196 @@ Removing: /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5... (1,579 fi
 вторник, 25 ноября 2025 г. 23:45:20 (+05): Telegram keep-alive: найдено 8 чатов, отправлено сообщений: 8
 вторник, 25 ноября 2025 г. 23:45:20 (+05): Telegram keep-alive успешно завершён.
 вторник, 25 ноября 2025 г. 23:45:20 (+05): Обнаружены изменения. Начинаем обработку...
+вторник, 25 ноября 2025 г. 23:45:23 (+05): Изменения и логи успешно отправлены.
+воскресенье,  7 декабря 2025 г. 05:25:51 (+05): ===== Запуск run_monthly_tasks.sh =====
+воскресенье,  7 декабря 2025 г. 05:25:51 (+05): ===== Начало ежемесячного обновления Homebrew =====
+воскресенье,  7 декабря 2025 г. 05:25:51 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Already up-to-date.
+воскресенье,  7 декабря 2025 г. 05:26:10 (+05): Обновление formulae и casks…
+==> Upgrading 12 outdated packages:
+frei0r 2.5.0 -> 2.5.1
+yt-dlp 2025.11.12 -> 2025.11.12_1
+python@3.14 3.14.0_1 -> 3.14.1
+getsentry/tools/sentry-wizard 6.7.0 -> 6.9.0
+python@3.13 3.13.9_1 -> 3.13.11
+libarchive 3.8.3 -> 3.8.4
+sqlite 3.51.0 -> 3.51.1
+supabase/tap/supabase 2.62.5 -> 2.65.5
+gemini-cli 0.17.1 -> 0.19.4
+ca-certificates 2025-11-04 -> 2025-12-02
+graphviz 14.0.4 -> 14.0.5
+unbound 1.24.1 -> 1.24.2
+==> Fetching downloads for: sqlite, libarchive, ca-certificates, python@3.14, sentry-wizard, python@3.13, supabase, gemini-cli, graphviz, frei0r, unbound and yt-dlp
+✔︎ Bottle sqlite (3.51.1)
+✔︎ Bottle libarchive (3.8.4)
+✔︎ Bottle ca-certificates (2025-12-02)
+✔︎ Formula sentry-wizard (6.9.0)
+✔︎ Bottle frei0r (2.5.1)
+✔︎ Bottle unbound (1.24.2)
+✔︎ Bottle graphviz (14.0.5)
+✔︎ Bottle yt-dlp (2025.11.12_1)
+✔︎ Bottle python@3.14 (3.14.1)
+✔︎ Formula supabase (2.65.5)
+✔︎ Bottle python@3.13 (3.13.11)
+✔︎ Bottle gemini-cli (0.19.4)
+==> Upgrading sqlite
+  3.51.0 -> 3.51.1 
+==> Pouring sqlite--3.51.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.51.1: 13 files, 5.3MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.51.0... (13 files, 5.2MB)
+==> Upgrading libarchive
+  3.8.3 -> 3.8.4 
+==> Pouring libarchive--3.8.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.4: 65 files, 4MB
+==> Running `brew cleanup libarchive`...
+Removing: /opt/homebrew/Cellar/libarchive/3.8.3... (65 files, 4MB)
+==> Upgrading ca-certificates
+  2025-11-04 -> 2025-12-02 
+==> Pouring ca-certificates--2025-12-02.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-12-02: 4 files, 236.4KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-11-04... (4 files, 241.5KB)
+==> Upgrading python@3.14
+  3.14.0_1 -> 3.14.1 
+==> Pouring python@3.14--3.14.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.1: 3,770 files, 73.2MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.0_1... (3,874 files, 75.9MB)
+==> Upgrading getsentry/tools/sentry-wizard
+  6.7.0 -> 6.9.0 
+[34m==>[0m [1mnpm install --loglevel=silly --global --build-from-source --cache=/Users/khu[0m
+🍺  /opt/homebrew/Cellar/sentry-wizard/6.9.0: 8,888 files, 36.6MB, built in 19 seconds
+==> Running `brew cleanup sentry-wizard`...
+Removing: /opt/homebrew/Cellar/sentry-wizard/6.7.0... (8,839 files, 35.9MB)
+==> Upgrading python@3.13
+  3.13.9_1 -> 3.13.11 
+==> Pouring python@3.13--3.13.11.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.11: 3,631 files, 70MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.9_1... (3,719 files, 72.1MB)
+==> Upgrading supabase/tap/supabase
+  2.62.5 -> 2.65.5 
+🍺  /opt/homebrew/Cellar/supabase/2.65.5: 9 files, 89.8MB, built in 2 seconds
+==> Running `brew cleanup supabase`...
+Removing: /opt/homebrew/Cellar/supabase/2.62.5... (9 files, 89.4MB)
+==> Upgrading gemini-cli
+  0.17.1 -> 0.19.4 
+==> Pouring gemini-cli--0.19.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gemini-cli/0.19.4: 44,113 files, 319.9MB
+==> Running `brew cleanup gemini-cli`...
+Removing: /opt/homebrew/Cellar/gemini-cli/0.17.1... (42,940 files, 309.7MB)
+==> Upgrading graphviz
+  14.0.4 -> 14.0.5 
+==> Pouring graphviz--14.0.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/graphviz/14.0.5: 283 files, 8.5MB
+==> Running `brew cleanup graphviz`...
+Removing: /opt/homebrew/Cellar/graphviz/14.0.4... (283 files, 8.5MB)
+==> Upgrading frei0r
+  2.5.0 -> 2.5.1 
+==> Pouring frei0r--2.5.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/frei0r/2.5.1: 165 files, 6.0MB
+==> Running `brew cleanup frei0r`...
+Removing: /opt/homebrew/Cellar/frei0r/2.5.0... (164 files, 6.0MB)
+==> Upgrading unbound
+  1.24.1 -> 1.24.2 
+==> Pouring unbound--1.24.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unbound/1.24.2: 59 files, 6.6MB
+==> Running `brew cleanup unbound`...
+Removing: /opt/homebrew/Cellar/unbound/1.24.1... (59 files, 6.6MB)
+==> Upgrading yt-dlp
+  2025.11.12 -> 2025.11.12_1 
+Warning: The following dependents of upgraded formulae are outdated but will not
+be upgraded because they are not bottled:
+  sentry-wizard
+Warning: masscode has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+==> Pouring yt-dlp--2025.11.12_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2025.11.12_1: 1,755 files, 20.8MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.11.12... (1,755 files, 20.8MB)
+==> Fetching downloads for: android-studio, chatgpt, figma, maccy, masscode, miro and notion
+✔︎ Cask chatgpt (1.2025.329,1764618153)
+✔︎ Cask maccy (2.6.1)
+✔︎ Cask notion (6.0.0)
+✔︎ Cask figma (125.10.8)
+✔︎ Cask masscode (4.3.0)
+✔︎ Cask miro (0.11.124)
+✔︎ Cask android-studio (2025.2.2.7)
+==> Upgrading 7 outdated packages:
+android-studio 2025.2.1.8 -> 2025.2.2.7
+chatgpt 1.2025.315,1763170693 -> 1.2025.329,1764618153
+figma 125.10.7 -> 125.10.8
+maccy 2.6.0 -> 2.6.1
+masscode 3.12.1 -> 4.3.0
+miro 0.11.116 -> 0.11.124
+notion 4.24.0 -> 6.0.0
+==> Upgrading android-studio
+==> Backing App 'Android Studio.app' up to '/opt/homebrew/Caskroom/android-studio/2025.2.1.8/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2025.2.1.8 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading chatgpt
+==> Purging files for version 1.2025.329,1764618153 of Cask chatgpt
+==> Upgrading figma
+==> Backing App 'Figma.app' up to '/opt/homebrew/Caskroom/figma/125.10.7/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+==> Purging files for version 125.10.7 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading maccy
+==> Backing App 'Maccy.app' up to '/opt/homebrew/Caskroom/maccy/2.6.0/Maccy.app'
+==> Removing App '/Applications/Maccy.app'
+==> Moving App 'Maccy.app' to '/Applications/Maccy.app'
+==> Purging files for version 2.6.0 of Cask maccy
+🍺  maccy was successfully upgraded!
+==> Upgrading masscode
+==> Purging files for version 4.3.0 of Cask masscode
+==> Upgrading miro
+==> Purging files for version 0.11.124 of Cask miro
+==> Upgrading notion
+==> Backing App 'Notion.app' up to '/opt/homebrew/Caskroom/notion/4.24.0/Notion.app'
+==> Removing App '/Applications/Notion.app'
+==> Moving App 'Notion.app' to '/Applications/Notion.app'
+Error: Problems with multiple casks:
+chatgpt: It seems the App source '/Applications/ChatGPT.app' is not there.
+masscode: It seems the App source '/Applications/massCode.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 4.24.0 of Cask notion
+🍺  notion was successfully upgraded!
+✔︎ JSON API cask.jws.json
+✔︎ JSON API formula.jws.json
+Warning: masscode has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+==> Fetching downloads for: chatgpt, masscode and miro
+✔︎ Cask chatgpt (1.2025.329,1764618153)
+✔︎ Cask masscode (4.3.0)
+✔︎ Cask miro (0.11.124)
+==> Upgrading 3 outdated packages:
+chatgpt 1.2025.315,1763170693 -> 1.2025.329,1764618153
+masscode 3.12.1 -> 4.3.0
+miro 0.11.116 -> 0.11.124
+==> Upgrading chatgpt
+==> Purging files for version 1.2025.329,1764618153 of Cask chatgpt
+==> Upgrading masscode
+==> Purging files for version 4.3.0 of Cask masscode
+==> Upgrading miro
+Error: Problems with multiple casks:
+chatgpt: It seems the App source '/Applications/ChatGPT.app' is not there.
+masscode: It seems the App source '/Applications/massCode.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.124 of Cask miro
+воскресенье,  7 декабря 2025 г. 05:44:19 (+05): Очистка старых версий и кэша…
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/npm_cache... (487 files, 36.8MB)
+==> This operation has freed approximately 36.8MB of disk space.
+воскресенье,  7 декабря 2025 г. 05:44:27 (+05): Ежемесячное обновление Homebrew завершено.
+воскресенье,  7 декабря 2025 г. 05:44:30 (+05): Brewfile обновлён.
+воскресенье,  7 декабря 2025 г. 05:44:30 (+05): Запуск Telegram keep-alive…
+воскресенье,  7 декабря 2025 г. 05:44:51 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
+воскресенье,  7 декабря 2025 г. 05:44:51 (+05): Telegram keep-alive успешно завершён.
+воскресенье,  7 декабря 2025 г. 05:44:51 (+05): Обнаружены изменения. Начинаем обработку...
