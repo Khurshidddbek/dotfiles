@@ -2721,3 +2721,718 @@ Pruned 0 symbolic links and 2 directories from /opt/homebrew
 среда, 31 декабря 2025 г. 03:11:17 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
 среда, 31 декабря 2025 г. 03:11:17 (+05): Telegram keep-alive успешно завершён.
 среда, 31 декабря 2025 г. 03:11:17 (+05): Обнаружены изменения. Начинаем обработку...
+среда, 31 декабря 2025 г. 03:11:20 (+05): Изменения и логи успешно отправлены.
+пятница, 13 февраля 2026 г. 14:32:41 (+05): ===== Запуск run_monthly_tasks.sh =====
+пятница, 13 февраля 2026 г. 14:32:41 (+05): ===== Начало ежемесячного обновления Homebrew =====
+пятница, 13 февраля 2026 г. 14:32:41 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 4 taps (tuist/tuist, dart-lang/dart, homebrew/core and homebrew/cask).
+==> New Formulae
+bazel@8: Google's own build tool
+go@1.25: Open source programming language to build simple/reliable/efficient software
+happy-coder: CLI for operating AI coding agents from mobile devices
+libnpupnp: C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
+libupnpp: C++ wrapper for libnpupnp
+livereload: Local web server in Python
+mipsel-linux-gnu-binutils: GNU Binutils for mipsel-linux-gnu cross development
+pcapmirror: Tool for capturing network traffic on remote host using TZSP or ERSPAN
+picoruby: Smallest Ruby implementation for microcontrollers
+run-kit: Universal multi-language runner and smart REPL
+tuckr: Super powered replacement for GNU Stow
+tuist/tuist/tuist@4.141.1
+tuist/tuist/tuist@4.142.0
+tuist/tuist/tuist@4.142.1
+tuist/tuist/tuist@4.143.0
+tuist/tuist/tuist@4.144.0
+tuist/tuist/tuist@4.144.1
+tuist/tuist/tuist@4.144.2
+tuist/tuist/tuist@4.144.3
+tuist/tuist/tuist@4.144.4
+tuist/tuist/tuist@4.145.0
+==> New Casks
+desktop-composer: Appearance manager for the system and individual applications
+macpulse: System monitoring dashboard with historical analytics
+netviews: Network and Wi-Fi diagnostic tool
+supacode: Native terminal coding agents command center
+thaw@beta: Menu bar manager
+thecommander: Dual-panel file manager inspired by Total Commander
+threema-work@beta: End-to-end encrypted instant messaging application
+updatest: Utility that shows the latest app updates
+==> Outdated Formulae
+certifi
+cryptography
+dav1d
+deno
+fastlane
+ffmpeg
+freetype
+gettext
+ggshield
+gh
+git
+gnutls
+harfbuzz
+icu4c@78
+jpeg-xl
+libarchive
+libnghttp3
+libngtcp2
+libpng
+libsodium
+libssh
+libtasn1
+libtiff
+libuv
+libx11
+libxext
+little-cms2
+node
+openexr
+openjdk
+openssl@3
+opus
+p11-kit
+pango
+pcre2
+pycparser
+python@3.11
+python@3.13
+python@3.14
+ruby
+sentry-cli
+sentry-wizard
+sqlite
+svt-av1
+xcbeautify
+xcode-build-server
+yazi
+yt-dlp
+zoxide
+zstd
+==> Outdated Casks
+android-platform-tools
+figma
+
+You have 50 outdated formulae and 2 outdated casks installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+пятница, 13 февраля 2026 г. 14:32:51 (+05): Обновление formulae и casks…
+==> Upgrading 50 outdated packages:
+ggshield 1.46.0 -> 1.47.0
+libtiff 4.7.1 -> 4.7.1_1
+deno 2.6.3 -> 2.6.9
+ffmpeg 8.0.1 -> 8.0.1_3
+little-cms2 2.17 -> 2.18
+gh 2.83.2 -> 2.86.0
+libpng 1.6.53 -> 1.6.55
+pycparser 2.23_1 -> 3.0
+opus 1.6 -> 1.6.1
+libuv 1.51.0 -> 1.52.0
+freetype 2.14.1_1 -> 2.14.1_2
+yt-dlp 2025.12.8 -> 2026.2.4
+python@3.14 3.14.2 -> 3.14.3_1
+cryptography 46.0.3 -> 46.0.5
+getsentry/tools/sentry-wizard 6.10.0 -> 6.11.0
+python@3.13 3.13.11 -> 3.13.12_1
+pango 1.57.0_1 -> 1.57.0_2
+zoxide 0.9.8 -> 0.9.9
+harfbuzz 12.3.0 -> 12.3.2
+libnghttp3 1.14.0 -> 1.15.0
+libarchive 3.8.4 -> 3.8.5_1
+sqlite 3.51.1 -> 3.51.2_1
+svt-av1 3.1.2 -> 4.0.1
+openexr 3.4.4_1 -> 3.4.4_2
+openjdk 25.0.1 -> 25.0.2
+certifi 2025.11.12 -> 2026.1.4
+yazi 25.12.29 -> 26.1.22
+openssl@3 3.6.0 -> 3.6.1
+gettext 0.26_1 -> 1.0
+xcbeautify 3.1.2 -> 3.1.4
+zstd 1.5.7 -> 1.5.7_1
+getsentry/tools/sentry-cli 3.0.1 -> 3.2.0
+libsodium 1.0.20 -> 1.0.21
+dav1d 1.5.2 -> 1.5.3
+fastlane 2.230.0_1 -> 2.232.1
+xcode-build-server 1.2.0 -> 1.3.0
+libxext 1.3.6 -> 1.3.7
+libtasn1 4.20.0 -> 4.21.0
+libssh 0.11.3 -> 0.12.0
+pcre2 10.47 -> 10.47_1
+jpeg-xl 0.11.1_3 -> 0.11.2
+node 25.2.1 -> 25.6.1
+python@3.11 3.11.14_1 -> 3.11.14_3
+libngtcp2 1.19.0 -> 1.20.0
+icu4c@78 78.1 -> 78.2
+p11-kit 0.25.10 -> 0.26.2
+libx11 1.8.12 -> 1.8.13
+ruby 4.0.0 -> 4.0.1
+git 2.52.0_1 -> 2.53.0
+gnutls 3.8.11 -> 3.8.12
+==> Fetching downloads for: sqlite, libpng, freetype, gettext, pcre2, libx11, libxext, icu4c@78, harfbuzz, zstd, libtiff, little-cms2, openjdk, openssl@3, ruby, libarchive, gh, pycparser, opus, libuv, certifi, deno, python@3.14, yt-dlp, cryptography, libnghttp3, libngtcp2, node, sentry-wizard, python@3.13, pango, zoxide, svt-av1, openexr, yazi, xcbeautify, sentry-cli, libsodium, dav1d, fastlane, xcode-build-server, libtasn1, libssh, jpeg-xl, python@3.11, p11-kit, git, ggshield, gnutls and ffmpeg
+✔︎ Bottle libpng (1.6.55)
+✔︎ Bottle freetype (2.14.1_2)
+✔︎ Bottle libxext (1.3.7)
+✔︎ Bottle little-cms2 (2.18)
+✔︎ Bottle pycparser (3.0)
+✔︎ Bottle zstd (1.5.7_1)
+✔︎ Bottle zstd (1.5.7_1)
+✔︎ Bottle libx11 (1.8.13)
+✔︎ Bottle opus (1.6.1)
+✔︎ Bottle pcre2 (10.47_1)
+✔︎ Bottle libuv (1.52.0)
+✔︎ Bottle libtiff (4.7.1_1)
+✔︎ Bottle harfbuzz (12.3.2)
+✔︎ Bottle certifi (2026.1.4)
+✔︎ Bottle libnghttp3 (1.15.0)
+✔︎ Bottle Manifest fmt (12.1.0)
+✔︎ Bottle libngtcp2 (1.20.0)
+✔︎ Bottle Manifest ada-url (3.4.2)
+✔︎ Bottle libarchive (3.8.5_1)
+✔︎ Bottle fmt (12.1.0)
+✔︎ Bottle Manifest hdrhistogram_c (0.11.9)
+✔︎ Bottle Manifest llhttp (9.3.0)
+✔︎ Bottle hdrhistogram_c (0.11.9)
+✔︎ Bottle ada-url (3.4.2)
+✔︎ Bottle llhttp (9.3.0)
+✔︎ Bottle gh (2.86.0)
+✔︎ Formula sentry-wizard (6.11.0)
+✔︎ Bottle Manifest libdatrie (0.2.14)
+✔︎ Bottle yt-dlp (2026.2.4)
+✔︎ Bottle cryptography (46.0.5)
+✔︎ Bottle Manifest libthai (0.1.30)
+✔︎ Bottle libdatrie (0.2.14)
+✔︎ Bottle libthai (0.1.30)
+✔︎ Bottle zoxide (0.9.9)
+✔︎ Bottle yazi (26.1.22)
+✔︎ Bottle xcbeautify (3.1.4)
+✔︎ Bottle libsodium (1.0.21)
+✔︎ Bottle dav1d (1.5.3)
+✔︎ Formula sentry-cli (3.2.0)
+✔︎ Bottle xcode-build-server (1.3.0)
+✔︎ Bottle pango (1.57.0_2)
+✔︎ Bottle sqlite (3.51.2_1)
+✔︎ Bottle svt-av1 (4.0.1)
+✔︎ Bottle libtasn1 (4.21.0)
+✔︎ Bottle openexr (3.4.4_2)
+✔︎ Bottle p11-kit (0.26.2)
+✔︎ Bottle libssh (0.12.0)
+✔︎ Bottle jpeg-xl (0.11.2)
+✔︎ Bottle ggshield (1.47.0)
+✔︎ Bottle gnutls (3.8.12)
+✔︎ Bottle fastlane (2.232.1)
+✔︎ Bottle python@3.13 (3.13.12_1)
+✔︎ Bottle python@3.11 (3.11.14_3)
+✔︎ Bottle openssl@3 (3.6.1)
+✔︎ Bottle gettext (1.0)
+✔︎ Bottle python@3.14 (3.14.3_1)
+✔︎ Bottle git (2.53.0)
+✔︎ Bottle ruby (4.0.1)
+✔︎ Bottle ffmpeg (8.0.1_3)
+✔︎ Bottle deno (2.6.9)
+✔︎ Bottle openjdk (25.0.2)
+✔︎ Bottle icu4c@78 (78.2)
+✔︎ Bottle node (25.6.1)
+==> Upgrading sqlite
+  3.51.1 -> 3.51.2_1 
+==> Pouring sqlite--3.51.2_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.51.2_1: 13 files, 5.3MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.51.1... (13 files, 5.3MB)
+==> Upgrading libpng
+  1.6.53 -> 1.6.55 
+==> Pouring libpng--1.6.55.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.55: 28 files, 1.4MB
+==> Running `brew cleanup libpng`...
+Removing: /opt/homebrew/Cellar/libpng/1.6.53... (28 files, 1.4MB)
+==> Upgrading freetype
+  2.14.1_1 -> 2.14.1_2 
+==> Pouring freetype--2.14.1_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetype/2.14.1_2: 68 files, 2.7MB
+==> Running `brew cleanup freetype`...
+Removing: /opt/homebrew/Cellar/freetype/2.14.1_1... (68 files, 2.7MB)
+==> Upgrading gettext
+  0.26_1 -> 1.0 
+==> Pouring gettext--1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/1.0: 2,499 files, 35.4MB
+==> Running `brew cleanup gettext`...
+Removing: /opt/homebrew/Cellar/gettext/0.26_1... (2,428 files, 29.6MB)
+==> Upgrading pcre2
+  10.47 -> 10.47_1 
+==> Pouring pcre2--10.47_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.47_1: 244 files, 7.3MB
+==> Running `brew cleanup pcre2`...
+Removing: /opt/homebrew/Cellar/pcre2/10.47... (244 files, 7.3MB)
+==> Upgrading libx11
+  1.8.12 -> 1.8.13 
+==> Pouring libx11--1.8.13.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libx11/1.8.13: 1,043 files, 7.4MB
+==> Running `brew cleanup libx11`...
+Removing: /opt/homebrew/Cellar/libx11/1.8.12... (1,043 files, 7.4MB)
+==> Upgrading libxext
+  1.3.6 -> 1.3.7 
+==> Pouring libxext--1.3.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxext/1.3.7: 88 files, 473.2KB
+==> Running `brew cleanup libxext`...
+Removing: /opt/homebrew/Cellar/libxext/1.3.6... (87 files, 461.7KB)
+==> Upgrading icu4c@78
+  78.1 -> 78.2 
+==> Pouring icu4c@78--78.2.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@78/78.2: 279 files, 87.9MB
+==> Running `brew cleanup icu4c@78`...
+Removing: /opt/homebrew/Cellar/icu4c@78/78.1... (279 files, 87.9MB)
+==> Upgrading harfbuzz
+  12.3.0 -> 12.3.2 
+==> Pouring harfbuzz--12.3.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.3.2: 77 files, 11.6MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/12.3.0... (77 files, 12.4MB)
+==> Upgrading zstd
+  1.5.7 -> 1.5.7_1 
+==> Pouring zstd--1.5.7_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zstd/1.5.7_1: 32 files, 2.3MB
+==> Running `brew cleanup zstd`...
+Removing: /opt/homebrew/Cellar/zstd/1.5.7... (32 files, 2.3MB)
+==> Upgrading libtiff
+  4.7.1 -> 4.7.1_1 
+==> Pouring libtiff--4.7.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtiff/4.7.1_1: 488 files, 9.0MB
+==> Running `brew cleanup libtiff`...
+Removing: /opt/homebrew/Cellar/libtiff/4.7.1... (488 files, 9.0MB)
+==> Upgrading little-cms2
+  2.17 -> 2.18 
+==> Pouring little-cms2--2.18.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/little-cms2/2.18: 23 files, 1.5MB
+==> Running `brew cleanup little-cms2`...
+Removing: /opt/homebrew/Cellar/little-cms2/2.17... (23 files, 1.5MB)
+==> Upgrading openjdk
+  25.0.1 -> 25.0.2 
+==> Pouring openjdk--25.0.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjdk/25.0.2: 557 files, 389.8MB
+==> Running `brew cleanup openjdk`...
+Removing: /opt/homebrew/Cellar/openjdk/25.0.1... (557 files, 389.7MB)
+==> Upgrading openssl@3
+  3.6.0 -> 3.6.1 
+==> Pouring openssl@3--3.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.1: 7,624 files, 37.6MB
+==> Running `brew cleanup openssl@3`...
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.0... (7,609 files, 37.7MB)
+==> Upgrading ruby
+  4.0.0 -> 4.0.1 
+==> Pouring ruby--4.0.1.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/ruby/4.0.1: 19,293 files, 61.1MB
+==> Running `brew cleanup ruby`...
+Removing: /opt/homebrew/Cellar/ruby/4.0.0... (19,141 files, 61.7MB)
+==> Upgrading libarchive
+  3.8.4 -> 3.8.5_1 
+==> Pouring libarchive--3.8.5_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.5_1: 65 files, 4MB
+==> Running `brew cleanup libarchive`...
+Removing: /opt/homebrew/Cellar/libarchive/3.8.4... (65 files, 4MB)
+==> Upgrading gh
+  2.83.2 -> 2.86.0 
+==> Pouring gh--2.86.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.86.0: 222 files, 36.3MB
+==> Running `brew cleanup gh`...
+Removing: /opt/homebrew/Cellar/gh/2.83.2... (221 files, 53.6MB)
+==> Upgrading pycparser
+  2.23_1 -> 3.0 
+==> Pouring pycparser--3.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pycparser/3.0: 53 files, 466.2KB
+==> Running `brew cleanup pycparser`...
+Removing: /opt/homebrew/Cellar/pycparser/2.23_1... (98 files, 1.9MB)
+==> Upgrading opus
+  1.6 -> 1.6.1 
+==> Pouring opus--1.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/opus/1.6.1: 16 files, 1.1MB
+==> Running `brew cleanup opus`...
+Removing: /opt/homebrew/Cellar/opus/1.6... (16 files, 1.1MB)
+==> Upgrading libuv
+  1.51.0 -> 1.52.0 
+==> Pouring libuv--1.52.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.52.0: 35 files, 1.3MB
+==> Running `brew cleanup libuv`...
+Removing: /opt/homebrew/Cellar/libuv/1.51.0... (20 files, 1.2MB)
+==> Upgrading certifi
+  2025.11.12 -> 2026.1.4 
+==> Pouring certifi--2026.1.4.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2026.1.4: 38 files, 20.5KB
+==> Running `brew cleanup certifi`...
+Removing: /opt/homebrew/Cellar/certifi/2025.11.12... (38 files, 20.5KB)
+==> Upgrading deno
+  2.6.3 -> 2.6.9 
+==> Pouring deno--2.6.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.6.9: 12 files, 155MB
+==> Running `brew cleanup deno`...
+Removing: /opt/homebrew/Cellar/deno/2.6.3... (11 files, 151.7MB)
+==> Upgrading python@3.14
+  3.14.2 -> 3.14.3_1 
+==> Pouring python@3.14--3.14.3_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.3_1: 3,764 files, 75.3MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.2... (3,811 files, 74.3MB)
+==> Upgrading yt-dlp
+  2025.12.8 -> 2026.2.4 
+==> Pouring yt-dlp--2026.2.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2026.2.4: 1,765 files, 20.9MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.12.8... (1,762 files, 20.9MB)
+==> Upgrading cryptography
+  46.0.3 -> 46.0.5 
+==> Pouring cryptography--46.0.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cryptography/46.0.5: 224 files, 10.0MB
+==> Running `brew cleanup cryptography`...
+Removing: /opt/homebrew/Cellar/cryptography/46.0.3... (332 files, 15.2MB)
+==> Upgrading libnghttp3
+  1.14.0 -> 1.15.0 
+==> Pouring libnghttp3--1.15.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.15.0: 20 files, 604.6KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.14.0... (20 files, 617.8KB)
+==> Upgrading libngtcp2
+  1.19.0 -> 1.20.0 
+==> Pouring libngtcp2--1.20.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.20.0: 21 files, 1.3MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.19.0... (21 files, 1.3MB)
+==> Upgrading node
+  25.2.1 -> 25.6.1 
+==> Installing dependencies for node: fmt, ada-url, hdrhistogram_c and llhttp
+==> Installing node dependency: fmt
+==> Pouring fmt--12.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fmt/12.1.0: 29 files, 1MB
+==> Installing node dependency: ada-url
+==> Pouring ada-url--3.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ada-url/3.4.2: 55 files, 1.3MB
+==> Installing node dependency: hdrhistogram_c
+==> Pouring hdrhistogram_c--0.11.9.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/hdrhistogram_c/0.11.9: 22 files, 173KB
+==> Installing node dependency: llhttp
+==> Pouring llhttp--9.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llhttp/9.3.0: 13 files, 160.4KB
+==> Installing node
+==> Pouring node--25.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.6.1: 1,931 files, 77.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.2.1... (2,269 files, 81.7MB)
+==> Upgrading getsentry/tools/sentry-wizard
+  6.10.0 -> 6.11.0 
+[34m==>[0m [1mnpm install --loglevel=silly --global --build-from-source --cache=/Users/khu[0m
+🍺  /opt/homebrew/Cellar/sentry-wizard/6.11.0: 13,299 files, 65.4MB, built in 19 seconds
+==> Running `brew cleanup sentry-wizard`...
+Removing: /opt/homebrew/Cellar/sentry-wizard/6.10.0... (12,642 files, 63.2MB)
+==> Upgrading python@3.13
+  3.13.11 -> 3.13.12_1 
+==> Pouring python@3.13--3.13.12_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.12_1: 3,625 files, 72.1MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.11... (3,722 files, 72.4MB)
+==> Upgrading pango
+  1.57.0_1 -> 1.57.0_2 
+==> Installing dependencies for pango: libdatrie and libthai
+==> Installing pango dependency: libdatrie
+==> Pouring libdatrie--0.2.14.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libdatrie/0.2.14: 20 files, 313.5KB
+==> Installing pango dependency: libthai
+==> Pouring libthai--0.1.30.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libthai/0.1.30: 30 files, 975.3KB
+==> Installing pango
+==> Pouring pango--1.57.0_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.57.0_2: 69 files, 3.8MB
+==> Running `brew cleanup pango`...
+Removing: /opt/homebrew/Cellar/pango/1.57.0_1... (69 files, 3.7MB)
+==> Upgrading zoxide
+  0.9.8 -> 0.9.9 
+==> Pouring zoxide--0.9.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zoxide/0.9.9: 18 files, 1MB
+==> Running `brew cleanup zoxide`...
+Removing: /opt/homebrew/Cellar/zoxide/0.9.8... (18 files, 1MB)
+==> Upgrading svt-av1
+  3.1.2 -> 4.0.1 
+==> Pouring svt-av1--4.0.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/4.0.1: 23 files, 3.1MB
+==> Running `brew cleanup svt-av1`...
+Removing: /opt/homebrew/Cellar/svt-av1/3.1.2... (19 files, 3.5MB)
+==> Upgrading openexr
+  3.4.4_1 -> 3.4.4_2 
+==> Pouring openexr--3.4.4_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.4_2: 212 files, 4.6MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.4.4_1... (212 files, 4.6MB)
+==> Upgrading yazi
+  25.12.29 -> 26.1.22 
+==> Pouring yazi--26.1.22.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yazi/26.1.22: 17 files, 18.7MB
+==> Running `brew cleanup yazi`...
+Removing: /opt/homebrew/Cellar/yazi/25.12.29... (17 files, 18MB)
+==> Upgrading xcbeautify
+  3.1.2 -> 3.1.4 
+==> Pouring xcbeautify--3.1.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xcbeautify/3.1.4: 9 files, 3.3MB
+==> Running `brew cleanup xcbeautify`...
+Removing: /opt/homebrew/Cellar/xcbeautify/3.1.2... (9 files, 3.3MB)
+==> Upgrading getsentry/tools/sentry-cli
+  3.0.1 -> 3.2.0 
+🍺  /opt/homebrew/Cellar/sentry-cli/3.2.0: 4 files, 22MB, built in 0 seconds
+==> Running `brew cleanup sentry-cli`...
+Removing: /opt/homebrew/Cellar/sentry-cli/3.0.1... (4 files, 32.9MB)
+==> Upgrading libsodium
+  1.0.20 -> 1.0.21 
+==> Pouring libsodium--1.0.21.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libsodium/1.0.21: 84 files, 1MB
+==> Running `brew cleanup libsodium`...
+Removing: /opt/homebrew/Cellar/libsodium/1.0.20... (78 files, 910.1KB)
+==> Upgrading dav1d
+  1.5.2 -> 1.5.3 
+==> Pouring dav1d--1.5.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.3: 16 files, 945.0KB
+==> Running `brew cleanup dav1d`...
+Removing: /opt/homebrew/Cellar/dav1d/1.5.2... (16 files, 944.3KB)
+==> Upgrading fastlane
+  2.230.0_1 -> 2.232.1 
+==> Pouring fastlane--2.232.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> Summary
+🍺  /opt/homebrew/Cellar/fastlane/2.232.1: 4,504 files, 53.6MB
+==> Running `brew cleanup fastlane`...
+Removing: /opt/homebrew/Cellar/fastlane/2.230.0_1... (4,851 files, 55.2MB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/fastlane_bottle_manifest--2.230.0_1... (29KB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/fastlane--2.230.0_1... (16.0MB)
+==> Upgrading xcode-build-server
+  1.2.0 -> 1.3.0 
+==> Pouring xcode-build-server--1.3.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xcode-build-server/1.3.0: 18 files, 83.3KB
+==> Running `brew cleanup xcode-build-server`...
+Removing: /opt/homebrew/Cellar/xcode-build-server/1.2.0... (27 files, 159.7KB)
+==> Upgrading libtasn1
+  4.20.0 -> 4.21.0 
+==> Pouring libtasn1--4.21.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtasn1/4.21.0: 64 files, 726KB
+==> Running `brew cleanup libtasn1`...
+Removing: /opt/homebrew/Cellar/libtasn1/4.20.0... (63 files, 706.3KB)
+==> Upgrading libssh
+  0.11.3 -> 0.12.0 
+==> Pouring libssh--0.12.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh/0.12.0: 25 files, 1.7MB
+==> Running `brew cleanup libssh`...
+Removing: /opt/homebrew/Cellar/libssh/0.11.3... (25 files, 1.5MB)
+==> Upgrading jpeg-xl
+  0.11.1_3 -> 0.11.2 
+==> Pouring jpeg-xl--0.11.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.11.2: 64 files, 36.0MB
+==> Running `brew cleanup jpeg-xl`...
+Removing: /opt/homebrew/Cellar/jpeg-xl/0.11.1_3... (64 files, 36.1MB)
+==> Upgrading python@3.11
+  3.11.14_1 -> 3.11.14_3 
+==> Pouring python@3.11--3.11.14_3.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_3/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_3/bin/python3.11 -Im pip install -v[0m
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.14_3: 3,306 files, 65.0MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.14_1... (3,306 files, 65.1MB)
+==> Upgrading p11-kit
+  0.25.10 -> 0.26.2 
+==> Pouring p11-kit--0.26.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/p11-kit/0.26.2: 33 files, 4.9MB
+==> Running `brew cleanup p11-kit`...
+Removing: /opt/homebrew/Cellar/p11-kit/0.25.10... (33 files, 4.5MB)
+==> Upgrading git
+  2.52.0_1 -> 2.53.0 
+==> Pouring git--2.53.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.53.0: 1,741 files, 62.1MB
+==> Running `brew cleanup git`...
+Removing: /opt/homebrew/Cellar/git/2.52.0_1... (1,733 files, 59.8MB)
+==> Upgrading ggshield
+  1.46.0 -> 1.47.0 
+==> Pouring ggshield--1.47.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ggshield/1.47.0: 1,450 files, 13.2MB
+==> Running `brew cleanup ggshield`...
+Removing: /opt/homebrew/Cellar/ggshield/1.46.0... (1,499 files, 13.6MB)
+==> Upgrading gnutls
+  3.8.11 -> 3.8.12 
+==> Pouring gnutls--3.8.12.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gnutls/3.8.12: 1,303 files, 12.1MB
+==> Running `brew cleanup gnutls`...
+Removing: /opt/homebrew/Cellar/gnutls/3.8.11... (1,303 files, 12.1MB)
+==> Upgrading ffmpeg
+  8.0.1 -> 8.0.1_3 
+==> Pouring ffmpeg--8.0.1_3.arm64_sequoia.bottle.tar.gz
+Warning: The following dependents of upgraded formulae are outdated but will not
+be upgraded because they are not bottled:
+  sentry-wizard
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0.1_3: 284 files, 53.4MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0.1... (285 files, 55.4MB)
+==> Fetching downloads for: android-platform-tools, android-studio, clickup, figma and miro
+✔︎ Cask android-platform-tools (36.0.2)
+✔︎ Cask miro (0.11.128)
+✔︎ Cask clickup (3.5.176,260210al7vspjfr)
+✔︎ Cask figma (126.0.4)
+✔︎ Cask android-studio (2025.2.3.9)
+==> Upgrading 5 outdated packages:
+android-platform-tools 36.0.0 -> 36.0.2
+android-studio 2025.2.2.8 -> 2025.2.3.9
+clickup 3.5.159,2512151jth5etli -> 3.5.176,260210al7vspjfr
+figma 125.11.6 -> 126.0.4
+miro 0.11.116 -> 0.11.128
+==> Upgrading android-platform-tools
+==> Unlinking Binary '/opt/homebrew/bin/adb'
+==> Unlinking Binary '/opt/homebrew/bin/etc1tool'
+==> Unlinking Binary '/opt/homebrew/bin/fastboot'
+==> Unlinking Binary '/opt/homebrew/bin/hprof-conv'
+==> Unlinking Binary '/opt/homebrew/bin/make_f2fs'
+==> Unlinking Binary '/opt/homebrew/bin/make_f2fs_casefold'
+==> Unlinking Binary '/opt/homebrew/bin/mke2fs'
+==> Linking Binary 'adb' to '/opt/homebrew/bin/adb'
+==> Linking Binary 'etc1tool' to '/opt/homebrew/bin/etc1tool'
+==> Linking Binary 'fastboot' to '/opt/homebrew/bin/fastboot'
+==> Linking Binary 'hprof-conv' to '/opt/homebrew/bin/hprof-conv'
+==> Linking Binary 'make_f2fs' to '/opt/homebrew/bin/make_f2fs'
+==> Linking Binary 'make_f2fs_casefold' to '/opt/homebrew/bin/make_f2fs_casefold'
+==> Linking Binary 'mke2fs' to '/opt/homebrew/bin/mke2fs'
+==> Purging files for version 36.0.0 of Cask android-platform-tools
+🍺  android-platform-tools was successfully upgraded!
+==> Upgrading android-studio
+==> Backing App 'Android Studio.app' up to '/opt/homebrew/Caskroom/android-studio/2025.2.2.8/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2025.2.2.8 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading clickup
+==> Backing App 'ClickUp.app' up to '/opt/homebrew/Caskroom/clickup/3.5.159,2512151jth5etli/ClickUp.app'
+==> Removing App '/Applications/ClickUp.app'
+==> Moving App 'ClickUp.app' to '/Applications/ClickUp.app'
+==> Purging files for version 3.5.159,2512151jth5etli of Cask clickup
+🍺  clickup was successfully upgraded!
+==> Upgrading figma
+==> Backing App 'Figma.app' up to '/opt/homebrew/Caskroom/figma/125.11.6/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+==> Purging files for version 125.11.6 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading miro
+Error: miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.128 of Cask miro
+✔︎ JSON API formula.jws.json
+✔︎ JSON API cask.jws.json
+==> Fetching downloads for: miro
+✔︎ Cask miro (0.11.128)
+==> Upgrading 1 outdated package:
+miro 0.11.116 -> 0.11.128
+==> Upgrading miro
+Error: miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.128 of Cask miro
+пятница, 13 февраля 2026 г. 14:44:16 (+05): Очистка старых версий и кэша…
+==> Autoremoving 42 unneeded formulae:
+aom
+aribb24
+cjson
+flac
+frei0r
+gmp
+gnutls
+highway
+imath
+jpeg-xl
+libbluray
+libdeflate
+libmicrohttpd
+libogg
+librist
+libsamplerate
+libsndfile
+libsodium
+libsoxr
+libssh
+libtasn1
+libudfread
+libvidstab
+libvmaf
+libvorbis
+mbedtls@3
+mpg123
+nettle
+opencore-amr
+openexr
+openjph
+p11-kit
+rav1e
+rubberband
+snappy
+speex
+srt
+theora
+unbound
+xvid
+zeromq
+zimg
+Uninstalling /opt/homebrew/Cellar/rubberband/4.0.0... (15 files, 2MB)
+Uninstalling /opt/homebrew/Cellar/aribb24/1.0.4... (14 files, 208.6KB)
+Uninstalling /opt/homebrew/Cellar/xvid/1.3.7... (10 files, 1.3MB)
+Uninstalling /opt/homebrew/Cellar/frei0r/2.5.1... (165 files, 6.0MB)
+Uninstalling /opt/homebrew/Cellar/zimg/3.0.6... (28 files, 1.2MB)
+Uninstalling /opt/homebrew/Cellar/speex/1.2.1... (25 files, 876.1KB)
+Uninstalling /opt/homebrew/Cellar/zeromq/4.3.5_2... (85 files, 6.7MB)
+Uninstalling /opt/homebrew/Cellar/libbluray/1.4.0_1... (22 files, 1.2MB)
+Uninstalling /opt/homebrew/Cellar/aom/3.13.1... (28 files, 10.7MB)
+Uninstalling /opt/homebrew/Cellar/srt/1.5.4... (21 files, 4.9MB)
+Uninstalling /opt/homebrew/Cellar/librist/0.2.11_1... (29 files, 840.7KB)
+Uninstalling /opt/homebrew/Cellar/snappy/1.2.2... (19 files, 178.3KB)
+Uninstalling /opt/homebrew/Cellar/opencore-amr/0.1.6... (17 files, 671.0KB)
+Uninstalling /opt/homebrew/Cellar/rav1e/0.8.1... (15 files, 51MB)
+Uninstalling /opt/homebrew/Cellar/libssh/0.12.0... (25 files, 1.7MB)
+Uninstalling /opt/homebrew/Cellar/libvidstab/1.1.1... (25 files, 192.4KB)
+Uninstalling /opt/homebrew/Cellar/libsoxr/0.1.3... (29 files, 331KB)
+Uninstalling /opt/homebrew/Cellar/theora/1.2.0... (126 files, 2.6MB)
+Uninstalling /opt/homebrew/Cellar/cjson/1.7.19... (24 files, 264.3KB)
+Uninstalling /opt/homebrew/Cellar/libsamplerate/0.2.2... (32 files, 3.2MB)
+Uninstalling /opt/homebrew/Cellar/mbedtls@3/3.6.5... (198 files, 14.0MB)
+Uninstalling /opt/homebrew/Cellar/libvmaf/3.0.0... (234 files, 7.5MB)
+Uninstalling /opt/homebrew/Cellar/libmicrohttpd/1.0.2... (26 files, 1.6MB)
+Uninstalling /opt/homebrew/Cellar/libsodium/1.0.21... (84 files, 1MB)
+Uninstalling /opt/homebrew/Cellar/jpeg-xl/0.11.2... (64 files, 36.0MB)
+Uninstalling /opt/homebrew/Cellar/libsndfile/1.2.2_1... (55 files, 1.8MB)
+Uninstalling /opt/homebrew/Cellar/libudfread/1.2.0... (13 files, 157.1KB)
+Uninstalling /opt/homebrew/Cellar/libvorbis/1.3.7... (157 files, 2.5MB)
+Uninstalling /opt/homebrew/Cellar/mpg123/1.33.4... (34 files, 2MB)
+Uninstalling /opt/homebrew/Cellar/highway/1.3.0... (81 files, 5.6MB)
+Uninstalling /opt/homebrew/Cellar/openexr/3.4.4_2... (212 files, 4.6MB)
+Uninstalling /opt/homebrew/Cellar/flac/1.5.0... (40 files, 2.0MB)
+Uninstalling /opt/homebrew/Cellar/gnutls/3.8.12... (1,303 files, 12.1MB)
+Warning: The following gnutls configuration files have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/gnutls
+  /opt/homebrew/etc/gnutls/cert.pem
+Warning: The following unbound configuration files have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/unbound
+  /opt/homebrew/etc/unbound/unbound.conf
+  /opt/homebrew/etc/unbound/unbound.conf.default
+
+Uninstalling /opt/homebrew/Cellar/nettle/3.10.2... (96 files, 2.9MB)
+Uninstalling /opt/homebrew/Cellar/imath/3.2.2... (50 files, 990KB)
+Uninstalling /opt/homebrew/Cellar/libogg/1.3.6... (103 files, 551.1KB)
+Uninstalling /opt/homebrew/Cellar/libdeflate/1.25... (17 files, 336.4KB)
+Uninstalling /opt/homebrew/Cellar/openjph/0.26.0... (25 files, 637.3KB)
+Uninstalling /opt/homebrew/Cellar/unbound/1.24.2... (59 files, 6.6MB)
+
+Uninstalling /opt/homebrew/Cellar/p11-kit/0.26.2... (33 files, 4.9MB)
+Uninstalling /opt/homebrew/Cellar/gmp/6.3.0... (21 files, 3.4MB)
+Uninstalling /opt/homebrew/Cellar/libtasn1/4.21.0... (64 files, 726KB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/npm_cache... (711 files, 76MB)
+==> This operation has freed approximately 76MB of disk space.
+пятница, 13 февраля 2026 г. 14:44:26 (+05): Ежемесячное обновление Homebrew завершено.
+пятница, 13 февраля 2026 г. 14:44:28 (+05): Brewfile обновлён.
+пятница, 13 февраля 2026 г. 14:44:28 (+05): Запуск Telegram keep-alive…
+пятница, 13 февраля 2026 г. 14:44:50 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
+пятница, 13 февраля 2026 г. 14:44:50 (+05): Telegram keep-alive успешно завершён.
+пятница, 13 февраля 2026 г. 14:44:50 (+05): Обнаружены изменения. Начинаем обработку...
