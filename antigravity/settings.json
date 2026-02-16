@@ -1,30 +1,31 @@
 {
-    // Общие настройки редактора и интерфейса
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit",
-        "source.fixAll": "explicit"
-    },
-    "editor.accessibilitySupport": "off",
-    "editor.guides.indentation": false,
-    "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.wordWrap": "on",
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.inlineSuggest.enabled": true,
-    "window.zoomLevel": 1,
-    "workbench.startupEditor": "none",
+    // --- UI / Minimalism ---
     "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "editor",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
     "workbench.editor.tabSizing": "shrink",
     "window.density.editorTabHeight": "compact",
-    "explorer.compactFolders": false,
-    // Настройки терминала
+    "explorer.openEditors.visible": 0,
+    // --- Editor Behavior ---
+    "editor.formatOnSave": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, monospace",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    // --- Terminal ---
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 14,
-    // Настройки для конкретных языков
+    "workbench.list.smoothScrolling": true,
+    // --- Dart/Flutter (Original settings preserved) ---
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -40,35 +41,26 @@
     "dart.flutterSdkPaths": [
         ".fvm/flutter_sdk"
     ],
-    "dart.previewFlutterUiGuides": true,
-    "dart.enableCompletionCommitCharacters": true,
-    "dart.debugExternalPackageLibraries": false,
-    "dart.debugSdkLibraries": false,
-    "dartimportsorter.sortOnSave": true,
-    "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "ms-python.autopep8"
+    "explorer.fileNesting.patterns": {
+        "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
     },
-    "[xml]": {
-        "editor.defaultFormatter": "DotJoshJohnson.xml"
-    },
-    "javascript.suggest.completeFunctionCalls": true,
-    // Настройки Git и GitLens
+    "explorer.fileNesting.enabled": true,
+    // --- Icons ---
+    "workbench.iconTheme": "material-icon-theme",
+    // --- Other ---
+    "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "git.openRepositoryInParentFolders": "always",
     "gitlens.ai.experimental.provider": "openai",
     "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo",
-    // Исключения для поиска и наблюдателя файлов
     "search.exclude": {
         "**/.fvm": true
     },
     "files.watcherExclude": {
         "**/.fvm": true
     },
-    // Настройки оптимизации изображений
     "optimizeImages.app": "ImageOptim.app",
     "optimizeImages.searchStartingPath": "assets",
-    // TODO Highlight
     "todohighlight.exclude": [
         "**/node_modules/**"
     ],
@@ -81,9 +73,6 @@
             "color": "yellow"
         }
     ],
-    // Прочие настройки
-    "files.autoSave": "afterDelay",
-    "security.workspace.trust.untrustedFiles": "open",
     "python.formatting.provider": "none",
     "redhat.telemetry.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
@@ -93,22 +82,15 @@
         "markdown": false,
         "scminput": false
     },
-    "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
     "editor.rulers": [],
     "update.showReleaseNotes": false,
     "workbench.remoteIndicator.showExtensionRecommendations": false,
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "xmlTools.splitAttributesOnFormat": true,
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.renderIndentGuides": "none",
     "workbench.tree.indent": 12,
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
     "security.promptForLocalFileProtocolHandling": false,
-    "explorer.fileNesting.patterns": {
-        "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
-    },
-    "explorer.fileNesting.enabled": true,
     "window.newWindowProfile": "Default",
-    "gitlens.blame.ignoreWhitespace": true,
+    "gitlens.blame.ignoreWhitespace": true
 }
