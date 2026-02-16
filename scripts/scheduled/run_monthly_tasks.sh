@@ -27,6 +27,18 @@ brew bundle dump --file="$REPO_DIR/homebrew/Brewfile" --force
 echo "$(date): Brewfile обновлён." >> "$LOG_FILE"
 
 # ---------------------------------------------------------------------------
+# 1a. Обновляем список расширений Antigravity
+# ---------------------------------------------------------------------------
+
+if [ -x "$HOME/.antigravity/antigravity/bin/antigravity" ]; then
+  "$HOME/.antigravity/antigravity/bin/antigravity" --list-extensions > "$REPO_DIR/antigravity/extensions.txt"
+  echo "$(date): Antigravity extensions list updated." >> "$LOG_FILE"
+else
+  echo "$(date): Antigravity binary not found." >> "$LOG_FILE"
+fi
+
+
+# ---------------------------------------------------------------------------
 # 1b. Отправляем keep-alive в Telegram каналы/группы
 # ---------------------------------------------------------------------------
 if [[ -f "$REPO_DIR/scripts/telegram/telegram.env" ]]; then
@@ -116,6 +128,10 @@ while read -r file; do
     cursor/*)
       git add cursor/
       COMMIT_PARTS+=("cursor")
+      ;;
+    antigravity/*)
+      git add antigravity/
+      COMMIT_PARTS+=("antigravity")
       ;;
     flutter/*)
       git add flutter/

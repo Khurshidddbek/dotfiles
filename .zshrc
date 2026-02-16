@@ -145,3 +145,6 @@ export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
