@@ -3437,3 +3437,343 @@ Removing: /Users/khurshidddbek/Library/Caches/Homebrew/npm_cache... (711 files, 
 пятница, 13 февраля 2026 г. 14:44:50 (+05): Telegram keep-alive успешно завершён.
 пятница, 13 февраля 2026 г. 14:44:50 (+05): Обнаружены изменения. Начинаем обработку...
 пятница, 13 февраля 2026 г. 14:44:54 (+05): Изменения и логи успешно отправлены.
+понедельник,  2 марта 2026 г. 14:11:13 (+05): ===== Запуск run_monthly_tasks.sh =====
+понедельник,  2 марта 2026 г. 14:11:13 (+05): ===== Начало ежемесячного обновления Homebrew =====
+понедельник,  2 марта 2026 г. 14:11:13 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 5 taps (tuist/tuist, getsentry/tools, dart-lang/dart, homebrew/core and homebrew/cask).
+==> New Formulae
+aoe: Terminal session manager for AI coding agents
+apache-serf: High-performance asynchronous HTTP client library
+asc: Fast, lightweight CLI for App Store Connect
+async-profiler: Sampling CPU & HEAP profiler for Java using AsyncGetCallTrace + perf_events
+betterleaks: Secrets scanner built for configurability and speed
+bitwuzla: SMT solver for bit-vectors, floating-points, arrays and uninterpreted functions
+claude-agent-acp: Use Claude Code from any ACP client such as Zed!
+clock-rs: Modern, digital clock that effortlessly runs in your terminal
+cni-plugins: Container Network Interface plugins
+containerd: Open and reliable container runtime
+cwalk: Cross-platform path library for C/C++
+dart-lang/dart/dart@3.11.1
+datadog-static-analyzer: Static analysis tool for code quality and security
+fracturedjson: JSON formatter that produces highly readable but fairly compact output
+getsentry/tools/sentry
+git-flow-next: Modern implementation of the Git-flow branching model
+grafanactl: CLI to interact with Grafana
+ironclaw: Security-first personal AI assistant with WASM sandbox channels
+kaf: Modern CLI for Apache Kafka
+landrun: Lightweight, secure sandbox for running Linux processes using Landlock LSM
+letta-code: Memory-first coding agent
+linux-headers@6.8: Header files of the Linux kernel
+lld@21: LLVM Project Linker
+llmfit: Find what models run on your hardware
+llvm@21: Next-gen compiler infrastructure
+micasa: TUI for tracking home projects, maintenance schedules, appliances and quotes
+mp4ff: Tools for parsing and manipulating MP4/ISOBMFF files
+nomad-pack: Templating and packaging tool used with HashiCorp Nomad
+nullclaw: Tiny autonomous AI assistant infrastructure written in Zig
+nuls: NuShell-inspired ls with colorful table output
+pi-coding-agent: AI agent toolkit
+picoclaw: Ultra-efficient personal AI assistant in Go
+protobuf@33: Protocol buffers (Google's data interchange format)
+pyperformance: Python benchmark suite
+rootlesskit: Linux-native "fake root" for implementing rootless containers
+rtk: CLI proxy to minimize LLM token consumption
+runc: CLI tool for spawning and running containers according to the OCI specification
+shadcn: CLI for adding components to your project
+skills: Open agent skills ecosystem
+structurizr: Software architecture models as code
+termframe: Terminal output SVG screenshot tool
+termusic: Music Player TUI written in Rust
+tree-sitter-go: Go grammar for tree-sitter
+tree-sitter-python: Python grammar for tree-sitter
+tree-sitter-ruby: Ruby grammar for tree-sitter
+tuist/tuist/tuist@4.147.0
+tuist/tuist/tuist@4.148.1
+tuist/tuist/tuist@4.148.2
+tuist/tuist/tuist@4.148.3
+tuist/tuist/tuist@4.148.4
+tuist/tuist/tuist@4.149.0
+tuist/tuist/tuist@4.149.1
+tuist/tuist/tuist@4.150.0
+tuist/tuist/tuist@4.150.1
+tuist/tuist/tuist@4.151.0
+tuist/tuist/tuist@4.151.1
+tuist/tuist/tuist@4.152.0
+zeptoclaw: Lightweight personal AI gateway with layered safety controls
+zeroclaw: Rust-first autonomous agent runtime
+==> New Casks
+bettercapture: Screen recorder
+brewy: Simple Homebrew GUI
+calendr: Menu bar calendar
+claude-devtools: Visualise and analyse Claude Code session executions
+claude-island: Dynamic Island-style notifications for Claude Code CLI sessions
+cmux: Ghostty-based terminal with vertical tabs and notifications for AI coding agents
+connectiq-sdk-manager: Manage SDKs and download device definitions for Garmin Connect IQ development
+donut: Anti-detect web browser
+donut@nightly: Anti-detect web browser
+dot: Menu bar calendar with meeting reminders
+extradock: Add fully customizable extra docks
+fabric-app: Personal knowledge management and note-taking app
+ferdium@nightly: Multi-platform multi-messaging app
+font-datatype
+font-gmarket-sans
+font-iosevka-charon
+font-iosevka-charon-mono
+iloader: iOS Sideloading Companion
+itsytv: Menu bar app for controlling your Apple TV
+kotlin-lsp: Official Kotlin Language Server
+macusb: Tool to create bootable USB installers
+nostalgiapp: Launcher for eXoDOS and retro game collections
+pangolin: Identity-aware VPN and proxy for remote access
+pika@beta: Colour picker for colours onscreen
+psiphon-conduit: Psiphon network proxy tool
+tuist@0.24.2
+tuist@0.24.3
+tuist@0.25.0
+tuist@0.25.1
+==> Outdated Formulae
+ada-url
+certifi
+deno
+fastlane
+ffmpeg
+freetype
+ggshield
+gh
+glib
+libgpg-error
+libngtcp2
+libunistring
+libvpx
+llhttp
+node
+sentry-cli
+simdjson
+yt-dlp
+==> Outdated Casks
+figma
+
+You have 18 outdated formulae and 1 outdated cask installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+понедельник,  2 марта 2026 г. 14:11:31 (+05): Обновление formulae и casks…
+==> Upgrading 18 outdated packages:
+ggshield 1.47.0 -> 1.48.0
+llhttp 9.3.0 -> 9.3.1
+deno 2.6.9 -> 2.7.1
+ffmpeg 8.0.1_3 -> 8.0.1_4
+simdjson 4.2.4 -> 4.3.0
+gh 2.86.0 -> 2.87.3
+freetype 2.14.1_2 -> 2.14.2
+yt-dlp 2026.2.4 -> 2026.2.21
+libunistring 1.4.1 -> 1.4.2
+glib 2.86.3 -> 2.86.4
+libgpg-error 1.58 -> 1.59
+certifi 2026.1.4 -> 2026.2.25
+libvpx 1.15.2 -> 1.16.0
+getsentry/tools/sentry-cli 3.2.0 -> 3.2.2
+fastlane 2.232.1 -> 2.232.2
+ada-url 3.4.2 -> 3.4.3
+node 25.6.1 -> 25.7.0
+libngtcp2 1.20.0 -> 1.21.0
+==> Fetching downloads for: libngtcp2, llhttp, deno, libvpx, ffmpeg, simdjson, gh, freetype, certifi, yt-dlp, libunistring, glib, libgpg-error, sentry-cli, fastlane, ada-url, node and ggshield
+✔︎ Bottle libngtcp2 (1.21.0)
+✔︎ Bottle llhttp (9.3.1)
+✔︎ Bottle libvpx (1.16.0)
+✔︎ Bottle certifi (2026.2.25)
+✔︎ Bottle libunistring (1.4.2)
+✔︎ Bottle libgpg-error (1.59)
+✔︎ Bottle simdjson (4.3.0)
+✔︎ Bottle freetype (2.14.2)
+✔︎ Bottle ada-url (3.4.3)
+✔︎ Bottle ggshield (1.48.0)
+✔︎ Bottle node (25.7.0)
+✔︎ Bottle glib (2.86.4)
+✔︎ Bottle fastlane (2.232.2)
+✔︎ Bottle yt-dlp (2026.2.21)
+✔︎ Bottle gh (2.87.3)
+✔︎ Bottle ffmpeg (8.0.1_4)
+✔︎ Formula sentry-cli (3.2.2)
+✔︎ Bottle deno (2.7.1)
+==> Upgrading libngtcp2
+  1.20.0 -> 1.21.0 
+==> Pouring libngtcp2--1.21.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.21.0: 21 files, 1.3MB
+==> Running `brew cleanup libngtcp2`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libngtcp2/1.20.0... (21 files, 1.3MB)
+==> Upgrading llhttp
+  9.3.0 -> 9.3.1 
+==> Pouring llhttp--9.3.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llhttp/9.3.1: 13 files, 160.6KB
+==> Running `brew cleanup llhttp`...
+Removing: /opt/homebrew/Cellar/llhttp/9.3.0... (13 files, 160.4KB)
+==> Upgrading deno
+  2.6.9 -> 2.7.1 
+==> Pouring deno--2.7.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.7.1: 12 files, 162.7MB
+==> Running `brew cleanup deno`...
+Removing: /opt/homebrew/Cellar/deno/2.6.9... (12 files, 155MB)
+==> Upgrading libvpx
+  1.15.2 -> 1.16.0 
+==> Pouring libvpx--1.16.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvpx/1.16.0: 22 files, 4.4MB
+==> Running `brew cleanup libvpx`...
+Removing: /opt/homebrew/Cellar/libvpx/1.15.2... (22 files, 4.4MB)
+==> Upgrading ffmpeg
+  8.0.1_3 -> 8.0.1_4 
+==> Pouring ffmpeg--8.0.1_4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0.1_4: 284 files, 53.4MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0.1_3... (284 files, 53.4MB)
+==> Upgrading simdjson
+  4.2.4 -> 4.3.0 
+==> Pouring simdjson--4.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.3.0: 19 files, 7.8MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.2.4... (19 files, 6.6MB)
+==> Upgrading gh
+  2.86.0 -> 2.87.3 
+==> Pouring gh--2.87.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.87.3: 223 files, 36.6MB
+==> Running `brew cleanup gh`...
+Removing: /opt/homebrew/Cellar/gh/2.86.0... (222 files, 36.3MB)
+==> Upgrading freetype
+  2.14.1_2 -> 2.14.2 
+==> Pouring freetype--2.14.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetype/2.14.2: 68 files, 2.7MB
+==> Running `brew cleanup freetype`...
+Removing: /opt/homebrew/Cellar/freetype/2.14.1_2... (68 files, 2.7MB)
+==> Upgrading certifi
+  2026.1.4 -> 2026.2.25 
+==> Pouring certifi--2026.2.25.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2026.2.25: 38 files, 20.5KB
+==> Running `brew cleanup certifi`...
+Removing: /opt/homebrew/Cellar/certifi/2026.1.4... (38 files, 20.5KB)
+==> Upgrading yt-dlp
+  2026.2.4 -> 2026.2.21 
+==> Pouring yt-dlp--2026.2.21.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2026.2.21: 1,769 files, 21.0MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2026.2.4... (1,765 files, 20.9MB)
+==> Upgrading libunistring
+  1.4.1 -> 1.4.2 
+==> Pouring libunistring--1.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.4.2: 59 files, 5.8MB
+==> Running `brew cleanup libunistring`...
+Removing: /opt/homebrew/Cellar/libunistring/1.4.1... (59 files, 5.8MB)
+==> Upgrading glib
+  2.86.3 -> 2.86.4 
+==> Pouring glib--2.86.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.86.4: 504 files, 39.8MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.86.3... (504 files, 39.6MB)
+==> Upgrading libgpg-error
+  1.58 -> 1.59 
+==> Pouring libgpg-error--1.59.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgpg-error/1.59: 50 files, 1.9MB
+==> Running `brew cleanup libgpg-error`...
+Removing: /opt/homebrew/Cellar/libgpg-error/1.58... (50 files, 1.9MB)
+==> Upgrading getsentry/tools/sentry-cli
+  3.2.0 -> 3.2.2 
+🍺  /opt/homebrew/Cellar/sentry-cli/3.2.2: 4 files, 22MB, built in 1 second
+==> Running `brew cleanup sentry-cli`...
+Removing: /opt/homebrew/Cellar/sentry-cli/3.2.0... (4 files, 22MB)
+==> Upgrading fastlane
+  2.232.1 -> 2.232.2 
+==> Pouring fastlane--2.232.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> Summary
+🍺  /opt/homebrew/Cellar/fastlane/2.232.2: 4,509 files, 53.7MB
+==> Running `brew cleanup fastlane`...
+Removing: /opt/homebrew/Cellar/fastlane/2.232.1... (4,504 files, 53.6MB)
+==> Upgrading ada-url
+  3.4.2 -> 3.4.3 
+==> Pouring ada-url--3.4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ada-url/3.4.3: 55 files, 1.3MB
+==> Running `brew cleanup ada-url`...
+Removing: /opt/homebrew/Cellar/ada-url/3.4.2... (55 files, 1.3MB)
+==> Upgrading node
+  25.6.1 -> 25.7.0 
+==> Pouring node--25.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.7.0: 1,919 files, 78.3MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.6.1... (1,931 files, 77.7MB)
+==> Upgrading ggshield
+  1.47.0 -> 1.48.0 
+==> Pouring ggshield--1.48.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ggshield/1.48.0: 1,447 files, 13.1MB
+==> Running `brew cleanup ggshield`...
+Removing: /opt/homebrew/Cellar/ggshield/1.47.0... (1,450 files, 13.2MB)
+==> Fetching downloads for: android-studio, antigravity, figma, iterm2 and miro
+✔︎ API Source antigravity.rb
+✔︎ Cask figma (126.1.2)
+✔︎ Cask iterm2 (3.6.8)
+✔︎ Cask miro (0.11.134)
+✔︎ Cask antigravity (1.19.6,6514342219874304)
+✔︎ Cask android-studio (2025.3.1.8,panda1-patch1)
+==> Upgrading 5 outdated packages:
+android-studio 2025.2.3.9 -> 2025.3.1.8,panda1-patch1
+antigravity 1.16.5,6703236727046144 -> 1.19.6,6514342219874304
+figma 126.0.4 -> 126.1.2
+iterm2 3.6.6 -> 3.6.8
+miro 0.11.116 -> 0.11.134
+==> Upgrading android-studio
+==> Backing App 'Android Studio.app' up to '/opt/homebrew/Caskroom/android-studio/2025.2.3.9/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2025.2.3.9 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading antigravity
+==> Backing App 'Antigravity.app' up to '/opt/homebrew/Caskroom/antigravity/1.16.5,6703236727046144/Antigravity.app'
+==> Removing App '/Applications/Antigravity.app'
+==> Unlinking Binary '/opt/homebrew/bin/agy'
+==> Moving App 'Antigravity.app' to '/Applications/Antigravity.app'
+==> Linking Binary 'agy.wrapper.sh' to '/opt/homebrew/bin/agy'
+==> Purging files for version 1.16.5,6703236727046144 of Cask antigravity
+🍺  antigravity was successfully upgraded!
+==> Upgrading figma
+==> Backing App 'Figma.app' up to '/opt/homebrew/Caskroom/figma/126.0.4/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+==> Purging files for version 126.0.4 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading iterm2
+==> Backing App 'iTerm.app' up to '/opt/homebrew/Caskroom/iterm2/3.6.6/iTerm.app'
+==> Removing App '/Applications/iTerm.app'
+==> Moving App 'iTerm.app' to '/Applications/iTerm.app'
+==> Purging files for version 3.6.6 of Cask iterm2
+🍺  iterm2 was successfully upgraded!
+==> Upgrading miro
+Error: miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.134 of Cask miro
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> fastlane
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> Fetching downloads for: miro
+✔︎ Cask miro (0.11.134)
+==> Upgrading 1 outdated package:
+miro 0.11.116 -> 0.11.134
+==> Upgrading miro
+Error: miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.134 of Cask miro
+понедельник,  2 марта 2026 г. 14:18:55 (+05): Очистка старых версий и кэша…
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/bootsnap/b72e5134e0c29352f27278b0d0b535599d84c5338f6a429e709b448cf7d3721c... (655 files, 5.8MB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> This operation has freed approximately 5.8MB of disk space.
+понедельник,  2 марта 2026 г. 14:19:02 (+05): Ежемесячное обновление Homebrew завершено.
+понедельник,  2 марта 2026 г. 14:19:06 (+05): Brewfile обновлён.
+понедельник,  2 марта 2026 г. 14:19:08 (+05): Antigravity extensions list updated.
+понедельник,  2 марта 2026 г. 14:19:08 (+05): Запуск Telegram keep-alive…
+понедельник,  2 марта 2026 г. 14:19:30 (+05): Telegram keep-alive: найдено 15 чатов, отправлено сообщений: 15
+понедельник,  2 марта 2026 г. 14:19:30 (+05): Telegram keep-alive успешно завершён.
+понедельник,  2 марта 2026 г. 14:19:30 (+05): Обнаружены изменения. Начинаем обработку...

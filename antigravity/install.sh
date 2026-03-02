@@ -25,6 +25,12 @@ fi
 echo "Creating symlinks..."
 ln -sf "$DOTFILES_ANTIGRAVITY_DIR/settings.json" "$ANTIGRAVITY_CONFIG_DIR/settings.json"
 ln -sf "$DOTFILES_ANTIGRAVITY_DIR/keybindings.json" "$ANTIGRAVITY_CONFIG_DIR/keybindings.json"
+ln -sf "$DOTFILES_ANTIGRAVITY_DIR/tasks.json" "$ANTIGRAVITY_CONFIG_DIR/tasks.json"
+
+# Snippets directory
+mkdir -p "$ANTIGRAVITY_CONFIG_DIR/snippets"
+ln -sf "$DOTFILES_ANTIGRAVITY_DIR/snippets/dart.json" "$ANTIGRAVITY_CONFIG_DIR/snippets/dart.json"
+
 
 # Install extensions
 echo "Installing extensions..."

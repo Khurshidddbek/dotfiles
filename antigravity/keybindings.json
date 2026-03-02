@@ -1,5 +1,19 @@
 // Настраиваемые сочетания клавиш. Эти настройки переопределяют сочетания по умолчанию.
 [
+    // --- Advanced Keybindings ---
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
     {
         // Создать новый файл в файловом проводнике
         "key": "a",

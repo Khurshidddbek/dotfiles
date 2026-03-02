@@ -137,14 +137,10 @@ export JAVA_HOME="/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
 alias analyze="dart analyze"
 alias analyze-full="dart run dart_code_metrics:metrics analyze lib"
 
-# Added by Antigravity
-export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
 
-# Added by Antigravity
-export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
+# Antigravity Alias
+alias ag="antigravity"
 
-# Added by Antigravity
-export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"

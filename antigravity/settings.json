@@ -11,8 +11,27 @@
     "workbench.editor.tabSizing": "shrink",
     "window.density.editorTabHeight": "compact",
     "explorer.openEditors.visible": 0,
+    // --- Native Minimalism (Safe Fallback) ---
+    "window.titleBarStyle": "custom",
+    "workbench.colorCustomizations": {
+        // Blend title bar into the editor background
+        "titleBar.activeBackground": "#0d1117", // Matches GitHub Dark Default
+        "titleBar.inactiveBackground": "#0d1117",
+        "titleBar.border": "#0d1117",
+        // remove other borders
+        "sideBar.border": "#0d1117",
+        "activityBar.border": "#0d1117",
+        "tab.border": "#0d1117",
+        "editorGroupHeader.tabsBorder": "#0d1117",
+        "splitPane.border": "#0d1117"
+    },
     // --- Editor Behavior ---
+    "window.zoomLevel": 1,
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.smoothScrolling": true,
@@ -92,5 +111,15 @@
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
     "security.promptForLocalFileProtocolHandling": false,
     "window.newWindowProfile": "Default",
-    "gitlens.blame.ignoreWhitespace": true
+    "gitlens.blame.ignoreWhitespace": true,
+    // --- Extension Tuning (ErrorLens & GitLens) ---
+    "errorLens.messageBackgroundMode": "none",
+    "errorLens.backgroundColor": "transparent",
+    "errorLens.messageTemplate": " // $message",
+    "errorLens.scrollbarHackEnabled": true,
+    "errorLens.fontStyleItalic": true,
+    "errorLens.gutterIconsEnabled": true,
+    "gitlens.showWelcomeOnInstall": false,
+    "gitlens.codeLens.enabled": false,
+    "editor.accessibilitySupport": "off"
 }
