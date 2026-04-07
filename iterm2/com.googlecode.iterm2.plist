@@ -19,7 +19,7 @@
 	<key>AiMaxTokens</key>
 	<integer>400000</integer>
 	<key>AiModel</key>
-	<string>gpt-5.1</string>
+	<string>gpt-5.2</string>
 	<key>AiResponseMaxTokens</key>
 	<integer>128000</integer>
 	<key>AitermURL</key>
@@ -371,6 +371,8 @@
 	<key>Default Bookmark Guid</key>
 	<string>870DC03A-A397-4345-804F-0216FCCEFBBB</string>
 	<key>DisablePotentiallyInsecureEscapeSequences</key>
+	<false/>
+	<key>DisableWindowSizeSnap</key>
 	<false/>
 	<key>EnableAPIServer</key>
 	<true/>
@@ -806,6 +808,8 @@
 			<string>No</string>
 			<key>Description</key>
 			<string>Default</string>
+			<key>Disable Printing</key>
+			<false/>
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Draw Powerline Glyphs</key>
@@ -1875,6 +1879,8 @@
 	<false/>
 	<key>StatusBarPosition</key>
 	<integer>1</integer>
+	<key>SuppressRestartAnnouncement</key>
+	<true/>
 	<key>TimeBetweenTips</key>
 	<real>86400</real>
 	<key>UseBorder</key>

@@ -1,6 +1,5 @@
 dart-code.dart-code
 dart-code.flutter
 eamodio.gitlens
-github.vscode-github-actions
 pkief.material-icon-theme
 usernamehw.errorlens
