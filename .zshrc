@@ -124,5 +124,20 @@ if command -v mise >/dev/null 2>&1; then
   eval "$(mise activate zsh)"
 fi
 
+# Claude Code provider overrides (local secrets live outside dotfiles).
+# Enable manually with: export CLAUDE_USE_AGENTROUTER=1
+if [[ "${CLAUDE_USE_AGENTROUTER:-}" == "1" && -f "$HOME/.config/claude-code/agentrouter.env" ]]; then
+  source "$HOME/.config/claude-code/agentrouter.env"
+fi
+
 # Antigravity Alias
 alias ag="antigravity"
+
+# Added by Antigravity
+export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
