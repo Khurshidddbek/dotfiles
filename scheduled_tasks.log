@@ -5491,3 +5491,993 @@ Removing: /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.4... (1,707 fi
 пятница, 22 мая 2026 г. 10:01:52 (+05): Telegram keep-alive: найдено 15 чатов, отправлено сообщений: 15
 пятница, 22 мая 2026 г. 10:01:52 (+05): Telegram keep-alive успешно завершён.
 пятница, 22 мая 2026 г. 10:01:52 (+05): Обнаружены изменения. Начинаем обработку...
+пятница, 22 мая 2026 г. 10:01:55 (+05): Изменения и логи успешно отправлены.
+понедельник, 29 июня 2026 г. 03:31:05 (+05): ===== Запуск run_monthly_tasks.sh =====
+понедельник, 29 июня 2026 г. 03:31:05 (+05): ===== Начало ежемесячного обновления Homebrew =====
+понедельник, 29 июня 2026 г. 03:31:05 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 4 taps (getsentry/tools, supabase/tap, homebrew/core and homebrew/cask).
+==> New Formulae
+auth0: Build, manage and test your Auth0 integrations from the command-line
+slint-cpp: C++ library and headers for the Slint UI toolkit
+tpack: Drop-in replacement for tmux-plugin-manager (tpm) with a TUI
+==> New Casks
+atoll: Dynamic Island for the MacBook notch
+dockspace: Widgets for your dock
+font-geomini
+font-hibur-mono
+geolibre: GIS platform
+openhuman: Personal AI assistant with local memory and integrations
+snippety: Snippet manager & text expander
+==> Outdated Formulae
+aom
+beads
+certifi
+composer
+cryptography
+curl
+deno
+dolt
+fastlane
+ffmpeg
+fmt
+fontconfig
+gemini-cli
+ggshield
+gh
+glib
+graphite2
+harfbuzz
+jq
+libarchive
+libass
+libavif
+libgit2
+libnghttp3
+libngtcp2
+libvmaf
+llhttp
+mise
+node
+pango
+php
+php@8.4
+pipx
+python@3.11
+python@3.13
+python@3.14
+sdl2-compat
+sqlite
+usage
+yt-dlp
+==> Outdated Casks
+anki
+burp-suite
+claude-code@latest
+clickup
+figma
+
+You have 40 outdated formulae and 5 outdated casks installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+Warning: Skipping domt4/autoupdate because it is not trusted. Run `brew trust domt4/autoupdate` to trust it.
+Warning: Skipping domt4/autoupdate because it is not trusted. Run `brew trust domt4/autoupdate` to trust it.
+понедельник, 29 июня 2026 г. 03:31:18 (+05): Обновление formulae и casks…
+Warning: The following taps are not trusted:
+  cqlabs/dcm
+  dart-lang/dart
+  domt4/autoupdate
+  getsentry/tools
+  leoafarias/fvm
+  peripheryapp/periphery
+  supabase/tap
+  tuist/tuist
+
+Homebrew is currently ignoring formulae, casks and commands from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula getsentry/tools/sentry-cli getsentry/tools/sentry-wizard
+  brew trust --formula leoafarias/fvm/fvm
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust cqlabs/dcm dart-lang/dart domt4/autoupdate getsentry/tools leoafarias/fvm peripheryapp/periphery supabase/tap tuist/tuist
+Untap them with:
+  brew untap cqlabs/dcm dart-lang/dart domt4/autoupdate getsentry/tools leoafarias/fvm peripheryapp/periphery supabase/tap tuist/tuist
+To disable trust checks:
+  export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
+This is not recommended and will be removed in a later release.
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Downloading bottle manifests
+✔︎ Bottle Manifest libarchive (3.8.8)
+✔︎ Bottle Manifest libnghttp3 (1.17.0)
+✔︎ Bottle Manifest libvmaf (3.2.0)
+✔︎ Bottle Manifest aom (3.14.1)
+✔︎ Bottle Manifest libavif (1.4.2)
+✔︎ Bottle Manifest fontconfig (2.18.1)
+✔︎ Bottle Manifest sqlite (3.53.3)
+✔︎ Bottle Manifest usage (3.5.3)
+✔︎ Bottle Manifest mise (2026.6.14)
+✔︎ Bottle Manifest gh (2.95.0)
+✔︎ Bottle Manifest certifi (2026.6.17)
+✔︎ Bottle Manifest curl (8.21.0)
+✔︎ Bottle Manifest libngtcp2 (1.24.0)
+✔︎ Bottle Manifest php@8.4 (8.4.22)
+✔︎ Bottle Manifest deno (2.9.0)
+✔︎ Bottle Manifest python@3.14 (3.14.6)
+✔︎ Bottle Manifest pipx (1.15.0)
+✔︎ Bottle Manifest cryptography (49.0.0)
+✔︎ Bottle Manifest fmt (12.2.0)
+✔︎ Bottle Manifest graphite2 (1.3.15)
+✔︎ Bottle Manifest yt-dlp (2026.6.9)
+✔︎ Bottle Manifest llhttp (9.4.2)
+✔︎ Bottle Manifest python@3.13 (3.13.14)
+✔︎ Bottle Manifest harfbuzz (14.2.1)
+✔︎ Bottle Manifest pango (1.58.0)
+✔︎ Bottle Manifest dolt (2.1.10)
+✔︎ Bottle Manifest beads (1.0.5)
+✔︎ Bottle Manifest php (8.5.7)
+✔︎ Bottle Manifest composer (2.10.1)
+✔︎ Bottle Manifest node (26.4.0)
+✔︎ Bottle Manifest glib (2.88.2)
+✔︎ Bottle Manifest gemini-cli (0.46.0)
+✔︎ Bottle Manifest jq (1.8.2)
+✔︎ Bottle Manifest fastlane (2.236.1)
+✔︎ Bottle Manifest libgit2 (1.9.4)
+✔︎ Bottle Manifest sdl2-compat (2.32.70)
+✔︎ Bottle Manifest python@3.11 (3.11.15_3)
+✔︎ Bottle Manifest libass (0.17.5)
+✔︎ Bottle Manifest ggshield (1.52.2_1)
+✔︎ Bottle Manifest ffmpeg (8.1.2)
+Warning: gemini-cli has been deprecated because it is not supported upstream! It will be disabled on 2026-12-18.
+Replacement:
+  brew install --cask antigravity-cli
+==> Would install 1 dependency for curl:
+libpsl 0.22.0
+==> Would install 1 dependency for php@8.4:
+libpsl 0.22.0
+==> Would install 1 dependency for php:
+libpsl 0.22.0
+==> Would install 1 dependency for composer:
+libpsl 0.22.0
+==> Would install 1 dependency for node:
+libffi 3.6.0
+==> Would install 1 dependency for gemini-cli:
+libffi 3.6.0
+==> Would install 1 dependency for sdl2-compat:
+sdl3 3.4.10
+==> Would install 1 dependency for ffmpeg:
+sdl3 3.4.10
+==> Would upgrade 49 outdated packages
+libarchive          3.8.7                    -> 3.8.8 (1.6MB)
+libnghttp3          1.15.0                   -> 1.17.0 (191.4KB)
+libngtcp2           1.22.1                   -> 1.24.0 (425.2KB)
+curl                8.20.0                   -> 8.21.0 (1.6MB)
+fontconfig          2.17.1                   -> 2.18.1 (418.7KB)
+libvmaf             3.1.0                    -> 3.2.0 (1.2MB)
+aom                 3.14.0                   -> 3.14.1 (4.3MB)
+libavif             1.4.1                    -> 1.4.2 (351.4KB)
+sqlite              3.53.1                   -> 3.53.3 (2.5MB)
+php@8.4             8.4.21                   -> 8.4.22 (25.5MB)
+usage               3.3.0                    -> 3.5.3 (2.9MB)
+mise                2026.5.13                -> 2026.6.14 (35.4MB)
+gh                  2.92.0                   -> 2.95.0 (13.4MB)
+certifi             2026.4.22                -> 2026.6.17 (5.7KB)
+deno                2.7.14                   -> 2.9.0 (48.7MB)
+python@3.14         3.14.5                   -> 3.14.6 (19.2MB)
+yt-dlp              2026.3.17_2              -> 2026.6.9 (5.3MB)
+pipx                1.12.0                   -> 1.15.0 (337.9KB)
+cryptography        48.0.0                   -> 49.0.0 (3.9MB)
+python@3.13         3.13.13_1                -> 3.13.14 (18.5MB)
+fmt                 12.1.0                   -> 12.2.0 (288.3KB)
+glib                2.88.1                   -> 2.88.2 (9.3MB)
+graphite2           1.3.14                   -> 1.3.15 (92.9KB)
+harfbuzz            14.2.0                   -> 14.2.1 (3.5MB)
+pango               1.57.1                   -> 1.58.0 (903.0KB)
+php                 8.5.6                    -> 8.5.7 (29.3MB)
+composer            2.9.8                    -> 2.10.1 (820.8KB)
+llhttp              9.4.1                    -> 9.4.2 (38.6KB)
+node                26.0.0                   -> 26.4.0 (22.7MB)
+gemini-cli          0.42.0                   -> 0.46.0 (22MB)
+dolt                2.0.5                    -> 2.1.10 (40.3MB)
+beads               1.0.4                    -> 1.0.5 (45.2MB)
+fastlane            2.234.0                  -> 2.236.1 (15.4MB)
+libgit2             1.9.3                    -> 1.9.4 (1.9MB)
+jq                  1.8.1                    -> 1.8.2 (443.0KB)
+sdl2                2.32.70 (638.4KB)
+python@3.11         3.11.15_1                -> 3.11.15_3 (15.6MB)
+libass              0.17.4_1                 -> 0.17.5 (235KB)
+ggshield            1.50.4_1                 -> 1.52.2_1 (5.5MB)
+ffmpeg              8.1.1                    -> 8.1.2 (21.5MB)
+android-studio      2025.3.4.7,panda4-patch1 -> 2026.1.1.10,quail1-patch2
+anki                25.09                    -> 26.05
+antigravity         2.0.1,6566078776737792   -> 2.2.1,5287492581195776
+burp-suite          2026.1.5                 -> 2026.4.3
+claude-code@latest  2.1.193                  -> 2.1.195
+clickup             3.5.208,260505zrf6t7imk  -> 3.5.230,260616wecrh5vza
+figma               126.3.12                 -> 126.6.11
+iterm2              3.6.10                   -> 3.6.11
+miro                0.11.116                 -> 0.11.144
+==> 1 Deprecated or disabled package
+gemini-cli (deprecated)
+==> Upgrading 53 outdated packages:
+libarchive          3.8.7                    -> 3.8.8 (1.6MB)
+libnghttp3          1.15.0                   -> 1.17.0 (191.4KB)
+libngtcp2           1.22.1                   -> 1.24.0 (425.2KB)
+curl                8.20.0                   -> 8.21.0 (1.6MB)
+fontconfig          2.17.1                   -> 2.18.1 (418.7KB)
+libvmaf             3.1.0                    -> 3.2.0 (1.2MB)
+aom                 3.14.0                   -> 3.14.1 (4.3MB)
+libavif             1.4.1                    -> 1.4.2 (351.4KB)
+sqlite              3.53.1                   -> 3.53.3 (2.5MB)
+php@8.4             8.4.21                   -> 8.4.22 (25.5MB)
+usage               3.3.0                    -> 3.5.3 (2.9MB)
+mise                2026.5.13                -> 2026.6.14 (35.4MB)
+gh                  2.92.0                   -> 2.95.0 (13.4MB)
+certifi             2026.4.22                -> 2026.6.17 (5.7KB)
+deno                2.7.14                   -> 2.9.0 (48.7MB)
+python@3.14         3.14.5                   -> 3.14.6 (19.2MB)
+yt-dlp              2026.3.17_2              -> 2026.6.9 (5.3MB)
+pipx                1.12.0                   -> 1.15.0 (337.9KB)
+cryptography        48.0.0                   -> 49.0.0 (3.9MB)
+python@3.13         3.13.13_1                -> 3.13.14 (18.5MB)
+fmt                 12.1.0                   -> 12.2.0 (288.3KB)
+glib                2.88.1                   -> 2.88.2 (9.3MB)
+graphite2           1.3.14                   -> 1.3.15 (92.9KB)
+harfbuzz            14.2.0                   -> 14.2.1 (3.5MB)
+pango               1.57.1                   -> 1.58.0 (903.0KB)
+php                 8.5.6                    -> 8.5.7 (29.3MB)
+composer            2.9.8                    -> 2.10.1 (820.8KB)
+llhttp              9.4.1                    -> 9.4.2 (38.6KB)
+node                26.0.0                   -> 26.4.0 (22.7MB)
+gemini-cli          0.42.0                   -> 0.46.0 (22MB)
+dolt                2.0.5                    -> 2.1.10 (40.3MB)
+beads               1.0.4                    -> 1.0.5 (45.2MB)
+fastlane            2.234.0                  -> 2.236.1 (15.4MB)
+libgit2             1.9.3                    -> 1.9.4 (1.9MB)
+jq                  1.8.1                    -> 1.8.2 (443.0KB)
+sdl2                2.32.70 (638.4KB)
+python@3.11         3.11.15_1                -> 3.11.15_3 (15.6MB)
+libass              0.17.4_1                 -> 0.17.5 (235KB)
+ggshield            1.50.4_1                 -> 1.52.2_1 (5.5MB)
+ffmpeg              8.1.1                    -> 8.1.2 (21.5MB)
+php@8.4             8.4.21                   -> 8.4.22 (25.5MB)
+python@3.11         3.11.15_1                -> 3.11.15_3 (15.6MB)
+python@3.13         3.13.13_1                -> 3.13.14 (18.5MB)
+python@3.14         3.14.5                   -> 3.14.6 (19.2MB)
+android-studio      2025.3.4.7,panda4-patch1 -> 2026.1.1.10,quail1-patch2
+anki                25.09                    -> 26.05
+antigravity         2.0.1,6566078776737792   -> 2.2.1,5287492581195776
+burp-suite          2026.1.5                 -> 2026.4.3
+claude-code@latest  2.1.193                  -> 2.1.195
+clickup             3.5.208,260505zrf6t7imk  -> 3.5.230,260616wecrh5vza
+figma               126.3.12                 -> 126.6.11
+iterm2              3.6.10                   -> 3.6.11
+miro                0.11.116                 -> 0.11.144
+✔︎ Bottle libarchive (3.8.8)
+✔︎ Bottle libnghttp3 (1.17.0)
+✔︎ Bottle libngtcp2 (1.24.0)
+✔︎ Bottle Manifest libpsl (0.22.0)
+✔︎ Bottle libpsl (0.22.0)
+✔︎ Bottle curl (8.21.0)
+✔︎ Bottle fontconfig (2.18.1)
+✔︎ Bottle libvmaf (3.2.0)
+✔︎ Bottle libavif (1.4.2)
+✔︎ Bottle sqlite (3.53.3)
+✔︎ Bottle certifi (2026.6.17)
+✔︎ Bottle yt-dlp (2026.6.9)
+✔︎ Bottle pipx (1.15.0)
+✔︎ Bottle fmt (12.2.0)
+✔︎ Bottle graphite2 (1.3.15)
+✔︎ Bottle pango (1.58.0)
+✔︎ Bottle composer (2.10.1)
+✔︎ Bottle llhttp (9.4.2)
+✔︎ Bottle Manifest libffi (3.6.0)
+✔︎ Bottle libffi (3.6.0)
+==> Fetching downloads for: libarchive, libnghttp3, libngtcp2, curl, fontconfig, libvmaf, aom, libavif, sqlite, php@8.4, usage, mise, gh, certifi, deno, python@3.14, yt-dlp, pipx, cryptography, python@3.13, fmt, glib, graphite2, harfbuzz, pango, php, composer, llhttp, node, gemini-cli, dolt, beads, fastlane, libgit2, jq, sdl2-compat, python@3.11, libass, ggshield, ffmpeg, android-studio, anki, antigravity, burp-suite, claude-code@latest, clickup, figma, iterm2 and miro
+✔︎ Bottle cryptography (49.0.0)
+✔︎ Bottle usage (3.5.3)
+✔︎ Bottle aom (3.14.1)
+✔︎ Bottle libgit2 (1.9.4)
+✔︎ Bottle jq (1.8.2)
+✔︎ Bottle Manifest sdl3 (3.4.10)
+✔︎ Bottle glib (2.88.2)
+✔︎ Bottle sdl3 (3.4.10)
+✔︎ Bottle harfbuzz (14.2.1)
+✔︎ Bottle libass (0.17.5)
+✔︎ Bottle sdl2-compat (2.32.70)
+✔︎ Bottle ggshield (1.52.2_1)
+✔︎ Bottle node (26.4.0)
+✔︎ Bottle python@3.11 (3.11.15_3)
+✔︎ Bottle php (8.5.7)
+✔︎ Cask burp-suite (2026.4.3)
+✔︎ Bottle gh (2.95.0)
+✔︎ Cask clickup (3.5.230,260616wecrh5vza)
+✔︎ Cask iterm2 (3.6.11)
+✔︎ Cask figma (126.6.11)
+✔︎ Cask miro (0.11.144)
+✔︎ Bottle fastlane (2.236.1)
+✔︎ Bottle python@3.14 (3.14.6)
+✔︎ Bottle python@3.13 (3.13.14)
+✔︎ Cask claude-code@latest (2.1.195)
+✔︎ Bottle gemini-cli (0.46.0)
+✔︎ Bottle php@8.4 (8.4.22)
+✔︎ Bottle dolt (2.1.10)
+✔︎ Bottle ffmpeg (8.1.2)
+✔︎ Cask android-studio (2026.1.1.10,quail1-patch2)
+✔︎ Bottle mise (2026.6.14)
+✔︎ Bottle beads (1.0.5)
+✔︎ Bottle deno (2.9.0)
+✔︎ Cask antigravity (2.2.1,5287492581195776)
+✔︎ Cask anki (26.05)
+==> Upgrading libarchive
+  3.8.7 -> 3.8.8 
+==> Pouring libarchive--3.8.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.8: 65 files, 4.1MB
+==> Running `brew cleanup libarchive`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libarchive/3.8.7... (65 files, 4MB)
+==> Upgrading libnghttp3
+  1.15.0 -> 1.17.0 
+==> Pouring libnghttp3--1.17.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.17.0: 20 files, 617.3KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.15.0... (20 files, 604.6KB)
+==> Upgrading libngtcp2
+  1.22.1 -> 1.24.0 
+==> Pouring libngtcp2--1.24.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.24.0: 21 files, 1.4MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.22.1... (21 files, 1.3MB)
+==> Upgrading curl
+  8.20.0 -> 8.21.0 
+==> Installing curl dependency: libpsl
+==> Pouring libpsl--0.22.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libpsl/0.22.0: 16 files, 312.8KB
+==> Pouring curl--8.21.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/curl/8.21.0: 554 files, 4.9MB
+==> Running `brew cleanup curl`...
+Removing: /opt/homebrew/Cellar/curl/8.20.0... (554 files, 4.8MB)
+==> Upgrading fontconfig
+  2.17.1 -> 2.18.1 
+==> Pouring fontconfig--2.18.1.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1mRegenerating font cache, this may take a while[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/fontconfig/2.18.1/bin/fc-cache --force --really-force -[0m
+🍺  /opt/homebrew/Cellar/fontconfig/2.18.1: 102 files, 1.8MB
+==> Running `brew cleanup fontconfig`...
+Removing: /opt/homebrew/Cellar/fontconfig/2.17.1... (98 files, 1.6MB)
+==> Upgrading libvmaf
+  3.1.0 -> 3.2.0 
+==> Pouring libvmaf--3.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/3.2.0: 243 files, 8.2MB
+==> Running `brew cleanup libvmaf`...
+Removing: /opt/homebrew/Cellar/libvmaf/3.1.0... (235 files, 7.5MB)
+==> Upgrading aom
+  3.14.0 -> 3.14.1 
+==> Pouring aom--3.14.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.14.1: 30 files, 10.8MB
+==> Running `brew cleanup aom`...
+Removing: /opt/homebrew/Cellar/aom/3.14.0... (30 files, 10.9MB)
+==> Upgrading libavif
+  1.4.1 -> 1.4.2 
+==> Pouring libavif--1.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libavif/1.4.2: 22 files, 1.1MB
+==> Running `brew cleanup libavif`...
+Removing: /opt/homebrew/Cellar/libavif/1.4.1... (22 files, 1.1MB)
+==> Upgrading sqlite
+  3.53.1 -> 3.53.3 
+==> Pouring sqlite--3.53.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.53.3: 13 files, 5.4MB
+==> Running `brew cleanup sqlite`...
+Removing: /opt/homebrew/Cellar/sqlite/3.53.1... (13 files, 5.4MB)
+==> Upgrading php@8.4
+  8.4.21 -> 8.4.22 
+==> Pouring php@8.4--8.4.22.arm64_sequoia.bottle.tar.gz
+Warning: php@8.4 was installed but not linked because php is already linked.
+To link this version, run:
+  brew link php@8.4
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set php_ini /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set php_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set doc_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set ext_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set bin_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set data_dir /opt/homebr[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set cfg_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set www_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set man_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set test_dir /opt/homebr[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear config-set php_bin /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.22/bin/pear update-channels[0m
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php@8.4/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+php@8.4 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have php@8.4 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/sbin:$PATH"' >> ~/.zshrc
+
+For compilers to find php@8.4 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/php@8.4/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/php@8.4/include"
+
+The following php@8.4 executables are shadowed by other linked Homebrew commands:
+  pear (shadowed by /opt/homebrew/bin/pear from php)
+  peardev (shadowed by /opt/homebrew/bin/peardev from php)
+  pecl (shadowed by /opt/homebrew/bin/pecl from php)
+  phar (shadowed by /opt/homebrew/bin/phar from php)
+  phar.phar (shadowed by /opt/homebrew/bin/phar.phar from php)
+  php (shadowed by /opt/homebrew/bin/php from php)
+  php-cgi (shadowed by /opt/homebrew/bin/php-cgi from php)
+  php-config (shadowed by /opt/homebrew/bin/php-config from php)
+  php-fpm (shadowed by /opt/homebrew/sbin/php-fpm from php)
+  phpdbg (shadowed by /opt/homebrew/bin/phpdbg from php)
+  phpize (shadowed by /opt/homebrew/bin/phpize from php)
+Running these by name will not invoke the version provided by this formula.
+Run `brew link php@8.4` to switch the active version to this keg.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+
+To start php@8.4 now and restart at login:
+  brew services start php@8.4
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php@8.4/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php@8.4/8.4.22: 529 files, 107.7MB
+==> Running `brew cleanup php@8.4`...
+Removing: /opt/homebrew/Cellar/php@8.4/8.4.21... (529 files, 107.8MB)
+==> Upgrading usage
+  3.3.0 -> 3.5.3 
+==> Pouring usage--3.5.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/usage/3.5.3: 13 files, 8.7MB
+==> Running `brew cleanup usage`...
+Removing: /opt/homebrew/Cellar/usage/3.3.0... (13 files, 8.5MB)
+==> Upgrading mise
+  2026.5.13 -> 2026.6.14 
+==> Pouring mise--2026.6.14.arm64_sequoia.bottle.tar.gz
+==> Caveats
+If you are using fish shell, mise will be activated for you automatically.
+==> Summary
+🍺  /opt/homebrew/Cellar/mise/2026.6.14: 15 files, 102.3MB
+==> Running `brew cleanup mise`...
+Removing: /opt/homebrew/Cellar/mise/2026.5.13... (15 files, 95.1MB)
+==> Upgrading gh
+  2.92.0 -> 2.95.0 
+==> Pouring gh--2.95.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.95.0: 238 files, 38.7MB
+==> Running `brew cleanup gh`...
+Removing: /opt/homebrew/Cellar/gh/2.92.0... (229 files, 37.8MB)
+==> Upgrading certifi
+  2026.4.22 -> 2026.6.17 
+==> Pouring certifi--2026.6.17.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2026.6.17: 38 files, 18.2KB
+==> Running `brew cleanup certifi`...
+Removing: /opt/homebrew/Cellar/certifi/2026.4.22... (40 files, 23.7KB)
+==> Upgrading deno
+  2.7.14 -> 2.9.0 
+==> Pouring deno--2.9.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.9.0: 12 files, 142.2MB
+==> Running `brew cleanup deno`...
+Removing: /opt/homebrew/Cellar/deno/2.7.14... (12 files, 165.5MB)
+==> Upgrading python@3.14
+  3.14.5 -> 3.14.6 
+==> Pouring python@3.14--3.14.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.6: 3,748 files, 75.7MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.5... (4,071 files, 82.0MB)
+==> Upgrading yt-dlp
+  2026.3.17_2 -> 2026.6.9 
+==> Pouring yt-dlp--2026.6.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2026.6.9: 1,695 files, 20.6MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2026.3.17_2... (2,018 files, 26.5MB)
+==> Upgrading pipx
+  1.12.0 -> 1.15.0 
+==> Pouring pipx--1.15.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pipx/1.15.0: 168 files, 1.4MB
+==> Running `brew cleanup pipx`...
+Removing: /opt/homebrew/Cellar/pipx/1.12.0... (167 files, 1.4MB)
+==> Upgrading cryptography
+  48.0.0 -> 49.0.0 
+==> Pouring cryptography--49.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cryptography/49.0.0: 242 files, 12.4MB
+==> Running `brew cleanup cryptography`...
+Removing: /opt/homebrew/Cellar/cryptography/48.0.0... (242 files, 12.5MB)
+==> Upgrading python@3.13
+  3.13.13_1 -> 3.13.14 
+==> Pouring python@3.13--3.13.14.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.14: 3,622 files, 72.6MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.13_1... (3,620 files, 72.4MB)
+==> Upgrading fmt
+  12.1.0 -> 12.2.0 
+==> Pouring fmt--12.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fmt/12.2.0: 31 files, 1.1MB
+==> Running `brew cleanup fmt`...
+Removing: /opt/homebrew/Cellar/fmt/12.1.0... (29 files, 1MB)
+==> Upgrading glib
+  2.88.1 -> 2.88.2 
+==> Pouring glib--2.88.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.88.2: 506 files, 40MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.88.1... (506 files, 40MB)
+==> Upgrading graphite2
+  1.3.14 -> 1.3.15 
+==> Pouring graphite2--1.3.15.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/graphite2/1.3.15: 19 files, 275KB
+==> Running `brew cleanup graphite2`...
+Removing: /opt/homebrew/Cellar/graphite2/1.3.14... (18 files, 287.3KB)
+==> Upgrading harfbuzz
+  14.2.0 -> 14.2.1 
+==> Pouring harfbuzz--14.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/14.2.1: 94 files, 13.2MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/14.2.0... (94 files, 13.6MB)
+==> Upgrading pango
+  1.57.1 -> 1.58.0 
+==> Pouring pango--1.58.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.58.0: 69 files, 3.8MB
+==> Running `brew cleanup pango`...
+Removing: /opt/homebrew/Cellar/pango/1.57.1... (69 files, 3.8MB)
+==> Upgrading php
+  8.5.6 -> 8.5.7 
+==> Pouring php--8.5.7.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set php_ini /opt/homebrew/etc[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set php_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set doc_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set ext_dir /opt/homebrew/lib[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set bin_dir /opt/homebrew/opt[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set data_dir /opt/homebrew/sh[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set cfg_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set www_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set man_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set test_dir /opt/homebrew/sh[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear config-set php_bin /opt/homebrew/opt[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.7/bin/pear update-channels[0m
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.5/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php/8.5.7: 533 files, 130MB
+==> Running `brew cleanup php`...
+Removing: /opt/homebrew/Cellar/php/8.5.6... (533 files, 130MB)
+==> Upgrading composer
+  2.9.8 -> 2.10.1 
+==> Pouring composer--2.10.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/composer/2.10.1: 4 files, 3.6MB
+==> Running `brew cleanup composer`...
+Removing: /opt/homebrew/Cellar/composer/2.9.8... (4 files, 3.4MB)
+==> Upgrading llhttp
+  9.4.1 -> 9.4.2 
+==> Pouring llhttp--9.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llhttp/9.4.2: 15 files, 164.4KB
+==> Running `brew cleanup llhttp`...
+Removing: /opt/homebrew/Cellar/llhttp/9.4.1... (15 files, 165.5KB)
+==> Upgrading node
+  26.0.0 -> 26.4.0 
+==> Installing node dependency: libffi
+==> Pouring libffi--3.6.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libffi/3.6.0: 18 files, 884.3KB
+==> Pouring node--26.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.4.0: 2,071 files, 92.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/26.0.0... (1,889 files, 82.9MB)
+==> Upgrading gemini-cli
+  0.42.0 -> 0.46.0 
+==> Pouring gemini-cli--0.46.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gemini-cli/0.46.0: 801 files, 100.4MB
+==> Running `brew cleanup gemini-cli`...
+Removing: /opt/homebrew/Cellar/gemini-cli/0.42.0... (814 files, 99.3MB)
+==> Upgrading dolt
+  2.0.5 -> 2.1.10 
+==> Pouring dolt--2.1.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dolt/2.1.10: 9 files, 116.3MB
+==> Running `brew cleanup dolt`...
+Removing: /opt/homebrew/Cellar/dolt/2.0.5... (9 files, 116.1MB)
+==> Upgrading beads
+  1.0.4 -> 1.0.5 
+==> Pouring beads--1.0.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/beads/1.0.5: 12 files, 134.0MB
+==> Running `brew cleanup beads`...
+Removing: /opt/homebrew/Cellar/beads/1.0.4... (12 files, 131MB)
+==> Upgrading fastlane
+  2.234.0 -> 2.236.1 
+==> Pouring fastlane--2.236.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> Summary
+🍺  /opt/homebrew/Cellar/fastlane/2.236.1: 4,547 files, 54.2MB
+==> Running `brew cleanup fastlane`...
+Removing: /opt/homebrew/Cellar/fastlane/2.234.0... (4,501 files, 53.7MB)
+==> Upgrading libgit2
+  1.9.3 -> 1.9.4 
+==> Pouring libgit2--1.9.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.4: 109 files, 5MB
+==> Running `brew cleanup libgit2`...
+Removing: /opt/homebrew/Cellar/libgit2/1.9.3... (109 files, 5MB)
+==> Upgrading jq
+  1.8.1 -> 1.8.2 
+==> Pouring jq--1.8.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jq/1.8.2: 20 files, 1.3MB
+==> Running `brew cleanup jq`...
+Removing: /opt/homebrew/Cellar/jq/1.8.1... (20 files, 1.2MB)
+==> Upgrading sdl2
+  -> 2.32.70 
+==> Installing sdl2-compat dependency: sdl3
+==> Pouring sdl3--3.4.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.10: 103 files, 6.3MB
+==> Pouring sdl2-compat--2.32.70.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2-compat/2.32.70: 117 files, 3.3MB
+==> Running `brew cleanup sdl2-compat`...
+Removing: /opt/homebrew/Cellar/sdl2/2.32.10... (94 files, 6.7MB)
+==> Upgrading python@3.11
+  3.11.15_1 -> 3.11.15_3 
+==> Pouring python@3.11--3.11.15_3.arm64_sequoia.bottle.1.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15_3/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15_3/bin/python3.11 -Im pip install -v[0m
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.15_3: 3,306 files, 64.9MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.15_1... (3,306 files, 65.0MB)
+==> Upgrading libass
+  0.17.4_1 -> 0.17.5 
+==> Pouring libass--0.17.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libass/0.17.5: 12 files, 613.3KB
+==> Running `brew cleanup libass`...
+Removing: /opt/homebrew/Cellar/libass/0.17.4_1... (12 files, 631.4KB)
+==> Upgrading ggshield
+  1.50.4_1 -> 1.52.2_1 
+==> Pouring ggshield--1.52.2_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ggshield/1.52.2_1: 2,156 files, 21.6MB
+==> Running `brew cleanup ggshield`...
+Removing: /opt/homebrew/Cellar/ggshield/1.50.4_1... (2,074 files, 21MB)
+==> Upgrading ffmpeg
+  8.1.1 -> 8.1.2 
+==> Pouring ffmpeg--8.1.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.1.2: 287 files, 54.3MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.1.1... (287 files, 54.2MB)
+==> Upgrading android-studio
+  2025.3.4.7,panda4-patch1 -> 2026.1.1.10,quail1-patch2
+==> Backing App 'Android Studio.app' up to '/opt/homebrew/Caskroom/android-studio/2025.3.4.7,panda4-patch1/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2025.3.4.7,panda4-patch1 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading anki
+  25.09 -> 26.05
+==> Backing App 'Anki.app' up to '/opt/homebrew/Caskroom/anki/25.09/Anki.app'
+==> Removing App '/Applications/Anki.app'
+==> Moving App 'Anki.app' to '/Applications/Anki.app'
+==> Purging files for version 25.09 of Cask anki
+🍺  anki was successfully upgraded!
+==> Upgrading antigravity
+  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+==> Purging files for version 2.2.1,5287492581195776 of Cask antigravity
+==> Upgrading burp-suite
+  2026.1.5 -> 2026.4.3
+==> Purging files for version 2026.4.3 of Cask burp-suite
+==> Upgrading claude-code@latest
+  2.1.193 -> 2.1.195
+==> Unlinking Binary '/opt/homebrew/bin/claude'
+==> Linking Binary 'claude' to '/opt/homebrew/bin/claude'
+==> Purging files for version 2.1.193 of Cask claude-code@latest
+🍺  claude-code@latest was successfully upgraded!
+==> Upgrading clickup
+  3.5.208,260505zrf6t7imk -> 3.5.230,260616wecrh5vza
+==> Backing App 'ClickUp.app' up to '/opt/homebrew/Caskroom/clickup/3.5.208,260505zrf6t7imk/ClickUp.app'
+==> Removing App '/Applications/ClickUp.app'
+==> Moving App 'ClickUp.app' to '/Applications/ClickUp.app'
+==> Purging files for version 3.5.208,260505zrf6t7imk of Cask clickup
+🍺  clickup was successfully upgraded!
+==> Upgrading figma
+  126.3.12 -> 126.6.11
+==> Backing App 'Figma.app' up to '/opt/homebrew/Caskroom/figma/126.3.12/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+==> Purging files for version 126.3.12 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading iterm2
+  3.6.10 -> 3.6.11
+==> Backing App 'iTerm.app' up to '/opt/homebrew/Caskroom/iterm2/3.6.10/iTerm.app'
+==> Removing App '/Applications/iTerm.app'
+==> Moving App 'iTerm.app' to '/Applications/iTerm.app'
+==> Purging files for version 3.6.10 of Cask iterm2
+🍺  iterm2 was successfully upgraded!
+==> Upgrading miro
+  0.11.116 -> 0.11.144
+Error: Problems with multiple casks:
+antigravity: It seems the App source '/Applications/Antigravity.app' is not there.
+burp-suite: It seems the App source '/Applications/Burp Suite Community Edition.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.144 of Cask miro
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> php@8.4
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php@8.4/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+php@8.4 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have php@8.4 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/sbin:$PATH"' >> ~/.zshrc
+
+For compilers to find php@8.4 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/php@8.4/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/php@8.4/include"
+
+The following php@8.4 executables are shadowed by other linked Homebrew commands:
+  pear (shadowed by /opt/homebrew/bin/pear from php)
+  peardev (shadowed by /opt/homebrew/bin/peardev from php)
+  pecl (shadowed by /opt/homebrew/bin/pecl from php)
+  phar (shadowed by /opt/homebrew/bin/phar from php)
+  phar.phar (shadowed by /opt/homebrew/bin/phar.phar from php)
+  php (shadowed by /opt/homebrew/bin/php from php)
+  php-cgi (shadowed by /opt/homebrew/bin/php-cgi from php)
+  php-config (shadowed by /opt/homebrew/bin/php-config from php)
+  php-fpm (shadowed by /opt/homebrew/sbin/php-fpm from php)
+  phpdbg (shadowed by /opt/homebrew/bin/phpdbg from php)
+  phpize (shadowed by /opt/homebrew/bin/phpize from php)
+Running these by name will not invoke the version provided by this formula.
+Run `brew link php@8.4` to switch the active version to this keg.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+
+To start php@8.4 now and restart at login:
+  brew services start php@8.4
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php@8.4/sbin/php-fpm --nodaemonize
+==> mise
+If you are using fish shell, mise will be activated for you automatically.
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.5/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> fastlane
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> python@3.11
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Upgraded 46 outdated packages
+libarchive          3.8.7                    -> 3.8.8
+libnghttp3          1.15.0                   -> 1.17.0
+libngtcp2           1.22.1                   -> 1.24.0
+curl                8.20.0                   -> 8.21.0
+fontconfig          2.17.1                   -> 2.18.1
+libvmaf             3.1.0                    -> 3.2.0
+aom                 3.14.0                   -> 3.14.1
+libavif             1.4.1                    -> 1.4.2
+sqlite              3.53.1                   -> 3.53.3
+php@8.4             8.4.21                   -> 8.4.22
+usage               3.3.0                    -> 3.5.3
+mise                2026.5.13                -> 2026.6.14
+gh                  2.92.0                   -> 2.95.0
+certifi             2026.4.22                -> 2026.6.17
+deno                2.7.14                   -> 2.9.0
+python@3.14         3.14.5                   -> 3.14.6
+yt-dlp              2026.3.17_2              -> 2026.6.9
+pipx                1.12.0                   -> 1.15.0
+cryptography        48.0.0                   -> 49.0.0
+python@3.13         3.13.13_1                -> 3.13.14
+fmt                 12.1.0                   -> 12.2.0
+glib                2.88.1                   -> 2.88.2
+graphite2           1.3.14                   -> 1.3.15
+harfbuzz            14.2.0                   -> 14.2.1
+pango               1.57.1                   -> 1.58.0
+php                 8.5.6                    -> 8.5.7
+composer            2.9.8                    -> 2.10.1
+llhttp              9.4.1                    -> 9.4.2
+node                26.0.0                   -> 26.4.0
+gemini-cli          0.42.0                   -> 0.46.0
+dolt                2.0.5                    -> 2.1.10
+beads               1.0.4                    -> 1.0.5
+fastlane            2.234.0                  -> 2.236.1
+libgit2             1.9.3                    -> 1.9.4
+jq                  1.8.1                    -> 1.8.2
+sdl2                2.32.70
+python@3.11         3.11.15_1                -> 3.11.15_3
+libass              0.17.4_1                 -> 0.17.5
+ggshield            1.50.4_1                 -> 1.52.2_1
+ffmpeg              8.1.1                    -> 8.1.2
+android-studio      2025.3.4.7,panda4-patch1 -> 2026.1.1.10,quail1-patch2
+anki                25.09                    -> 26.05
+claude-code@latest  2.1.193                  -> 2.1.195
+clickup             3.5.208,260505zrf6t7imk  -> 3.5.230,260616wecrh5vza
+figma               126.3.12                 -> 126.6.11
+iterm2              3.6.10                   -> 3.6.11
+==> 1 Deprecated or disabled package
+gemini-cli (deprecated)
+✔︎ JSON API packages.arm64_sequoia.jws.json
+==> Would upgrade 3 outdated packages
+antigravity  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+burp-suite   2026.1.5               -> 2026.4.3
+miro         0.11.116               -> 0.11.144
+==> Upgrading 3 outdated packages:
+antigravity  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+burp-suite   2026.1.5               -> 2026.4.3
+miro         0.11.116               -> 0.11.144
+==> Fetching downloads for: antigravity, burp-suite and miro
+✔︎ Cask antigravity (2.2.1,5287492581195776)
+✔︎ Cask burp-suite (2026.4.3)
+✔︎ Cask miro (0.11.144)
+==> Upgrading antigravity
+  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+==> Purging files for version 2.2.1,5287492581195776 of Cask antigravity
+==> Upgrading burp-suite
+  2026.1.5 -> 2026.4.3
+==> Purging files for version 2026.4.3 of Cask burp-suite
+==> Upgrading miro
+  0.11.116 -> 0.11.144
+Error: Problems with multiple casks:
+antigravity: It seems the App source '/Applications/Antigravity.app' is not there.
+burp-suite: It seems the App source '/Applications/Burp Suite Community Edition.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.144 of Cask miro
+понедельник, 29 июня 2026 г. 03:41:40 (+05): Очистка старых версий и кэша…
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/Cask/claude--2.1.195... (224.7MB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/Cask/claude--2.1.193... (222.2MB)
+Pruned 0 symbolic links and 13 directories from /opt/homebrew
+Removing: /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5... (1,707 files, 34.6MB)
+==> This operation has freed approximately 481.6MB of disk space.
+понедельник, 29 июня 2026 г. 03:41:49 (+05): Ежемесячное обновление Homebrew завершено.
+понедельник, 29 июня 2026 г. 03:41:53 (+05): Brewfile обновлён.
+понедельник, 29 июня 2026 г. 03:41:53 (+05): Antigravity binary not found.
+понедельник, 29 июня 2026 г. 03:41:53 (+05): Запуск Telegram keep-alive…
+понедельник, 29 июня 2026 г. 03:42:17 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
+понедельник, 29 июня 2026 г. 03:42:17 (+05): Telegram keep-alive успешно завершён.
+понедельник, 29 июня 2026 г. 03:42:17 (+05): Обнаружены изменения. Начинаем обработку...

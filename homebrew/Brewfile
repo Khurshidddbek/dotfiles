@@ -1,72 +1,128 @@
-tap "cqlabs/dcm"
+tap "cqlabs/dcm", "https://github.com/CQLabs/homebrew-dcm"
 tap "dart-lang/dart"
+tap "domt4/autoupdate", "https://github.com/DomT4/homebrew-autoupdate.git"
 tap "getsentry/tools"
-tap "homebrew/autoupdate"
 tap "leoafarias/fvm"
 tap "peripheryapp/periphery"
 tap "supabase/tap"
 tap "tuist/tuist"
+# Development kit for the Java programming language
 brew "openjdk"
+# Tool for reverse engineering 3rd party, closed, binary Android apps
 brew "apktool"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Memory upgrade for your coding agent
 brew "beads"
+# Dependency manager for Cocoa projects
 brew "cocoapods"
+# Library for command-line editing
 brew "readline"
+# General-purpose scripting language
 brew "php"
+# Dependency Manager for PHP
 brew "composer"
+# Command-line tool for getting & setting the default browser
 brew "defaultbrowser"
+# Secure runtime for JavaScript and TypeScript
 brew "deno"
+# Utility to configure multi-display resolutions and arrangements
 brew "displayplacer"
+# Modern, maintained replacement for ls
 brew "eza"
+# Easiest way to build and release mobile apps
 brew "fastlane"
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
+# Scanner for secrets and sensitive data in code
 brew "ggshield"
+# GitHub command-line tool
 brew "gh"
+# Distributed revision control system
 brew "git"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# Subtitle renderer for the ASS/SSA subtitle format
 brew "libass"
+# Configuration file processing library
 brew "libconfig"
+# Asynchronous event library
 brew "libevent"
+# Powerful, lightweight programming language
 brew "lua"
+# Fly through your shell history
 brew "mcfly"
+# Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Trigger notifications when a process completes
 brew "noti"
+# 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Framework for layout and rendering of i18n text
 brew "pango"
+# General-purpose scripting language
 brew "php@8.4"
+# Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
+# Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Formatting technology for Swift source code
 brew "swift-format"
+# Tool Command Language
 brew "tcl-tk"
+# OCR (Optical Character Recognition) engine
 brew "tesseract"
+# Internet file retriever
 brew "wget"
+# Little beautifier tool for xcodebuild
 brew "xcbeautify"
+# Build server protocol implementation for integrating Xcode with sourcekit-lsp
 brew "xcode-build-server"
+# Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
-brew "getsentry/tools/sentry-cli"
-brew "getsentry/tools/sentry-wizard"
-brew "leoafarias/fvm/fvm"
+# Android SDK component
 cask "android-platform-tools"
+# Tools for building Android applications
 cask "android-studio"
+# Memory training application
 cask "anki"
+# Agent orchestration platform
 cask "antigravity"
+# Web security testing toolkit
 cask "burp-suite"
-cask "claude-code"
+# Terminal-based AI coding assistant
+cask "claude-code@latest"
+# Productivity platform for tasks, docs, goals, and chat
 cask "clickup"
+# Collaborative team software
 cask "figma"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Clipboard manager
 cask "maccy"
+# Minimal browser that protects privacy
 cask "min"
+# Online collaborative whiteboard platform
 cask "miro"
+# Intercept, modify, replay, save HTTP/S traffic
 cask "mitmproxy"
+# JDK from the Eclipse Foundation (Adoptium)
 cask "temurin@17"
 npm "firebase-tools"
 npm "gtop"

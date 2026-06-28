@@ -133,6 +133,10 @@ while read -r file; do
       git add antigravity/
       COMMIT_PARTS+=("antigravity")
       ;;
+    hammerspoon/*)
+      git add hammerspoon/
+      COMMIT_PARTS+=("hammerspoon")
+      ;;
     flutter/*)
       git add flutter/
       COMMIT_PARTS+=("flutter")
