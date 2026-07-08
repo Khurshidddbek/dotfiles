@@ -6481,3 +6481,694 @@ Removing: /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5... (1,707 fi
 понедельник, 29 июня 2026 г. 03:42:17 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
 понедельник, 29 июня 2026 г. 03:42:17 (+05): Telegram keep-alive успешно завершён.
 понедельник, 29 июня 2026 г. 03:42:17 (+05): Обнаружены изменения. Начинаем обработку...
+понедельник, 29 июня 2026 г. 03:42:20 (+05): Изменения и логи успешно отправлены.
+среда,  8 июля 2026 г. 05:29:43 (+05): ===== Запуск run_monthly_tasks.sh =====
+среда,  8 июля 2026 г. 05:29:43 (+05): ===== Начало ежемесячного обновления Homebrew =====
+среда,  8 июля 2026 г. 05:29:43 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 5 taps (domt4/autoupdate, supabase/tap, dart-lang/dart, homebrew/core and homebrew/cask).
+==> New Formulae
+esbonio: Language server for working with Sphinx projects
+msdf-atlas-gen: Generator of multi-channel signed distance field atlases from fonts
+webfont: Generator of fonts from SVG icons, with TTF encoding and WOFF/WOFF2 decoding
+==> New Casks
+itermcompanion: Pairs iTerm2 with the iTerm2 Companion iPhone app
+otty: Terminal emulator built for code agents
+raycast-glaze: Create desktop apps by chatting with AI
+==> Outdated Formulae
+beads
+c-ares
+cocoapods
+composer
+deno
+fastlane
+ffmpeg
+gh
+git
+hdrhistogram_c
+jpeg-turbo
+libevent
+libtiff
+mise
+openssl@3
+php
+php@8.4
+python@3.13
+sdl3
+swift-format
+usage
+yt-dlp
+zoxide
+==> Outdated Casks
+burp-suite
+
+You have 23 outdated formulae and 1 outdated cask installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+Warning: Skipping domt4/autoupdate because it is not trusted. Run `brew trust domt4/autoupdate` to trust it.
+Warning: Skipping domt4/autoupdate because it is not trusted. Run `brew trust domt4/autoupdate` to trust it.
+среда,  8 июля 2026 г. 05:29:53 (+05): Обновление formulae и casks…
+Warning: The following taps are not trusted:
+  cqlabs/dcm
+  dart-lang/dart
+  domt4/autoupdate
+  getsentry/tools
+  leoafarias/fvm
+  peripheryapp/periphery
+  supabase/tap
+  tuist/tuist
+
+Homebrew is currently ignoring formulae, casks and commands from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula getsentry/tools/sentry-cli getsentry/tools/sentry-wizard
+  brew trust --formula leoafarias/fvm/fvm
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust cqlabs/dcm dart-lang/dart domt4/autoupdate getsentry/tools leoafarias/fvm peripheryapp/periphery supabase/tap tuist/tuist
+Untap them with:
+  brew untap cqlabs/dcm dart-lang/dart domt4/autoupdate getsentry/tools leoafarias/fvm peripheryapp/periphery supabase/tap tuist/tuist
+To disable trust checks:
+  export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
+This is not recommended and will be removed in a later release.
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Downloading bottle manifests
+✔︎ Bottle Manifest openssl@3 (3.6.3)
+✔︎ Bottle Manifest jpeg-turbo (3.2.0)
+✔︎ Bottle Manifest gh (2.96.0)
+✔︎ Bottle Manifest libtiff (4.7.2)
+✔︎ Bottle Manifest sdl3 (3.4.12)
+✔︎ Bottle Manifest swift-format (603.0.0)
+✔︎ Bottle Manifest hdrhistogram_c (0.11.10)
+✔︎ Bottle Manifest ffmpeg (8.1.2_1)
+✔︎ Bottle Manifest deno (2.9.1)
+✔︎ Bottle Manifest ffmpeg (8.1.2_1)
+✔︎ Bottle Manifest usage (3.5.4)
+✔︎ Bottle Manifest mise (2026.7.2)
+✔︎ Bottle Manifest yt-dlp (2026.7.4)
+✔︎ Bottle Manifest zoxide (0.10.0)
+✔︎ Bottle Manifest php@8.4 (8.4.23)
+✔︎ Bottle Manifest python@3.13 (3.13.14_1)
+✔︎ Bottle Manifest php (8.5.8)
+✔︎ Bottle Manifest beads (1.1.0)
+✔︎ Bottle Manifest c-ares (1.34.7)
+✔︎ Bottle Manifest libevent (2.1.13)
+✔︎ Bottle Manifest composer (2.10.2)
+✔︎ Bottle Manifest fastlane (2.237.0)
+✔︎ Bottle Manifest git (2.55.0)
+✔︎ Bottle Manifest cocoapods (1.17.0)
+==> Would install 1 dependency for php@8.4:
+json-c 0.19
+==> Would install 1 dependency for php:
+json-c 0.19
+==> Would install 1 dependency for composer:
+json-c 0.19
+==> Would install 1 dependency for git:
+json-c 0.19
+==> Would upgrade 28 outdated packages
+openssl@3       3.6.2                  -> 3.6.3 (10.9MB)
+jpeg-turbo      3.1.4.1                -> 3.2.0 (1.4MB)
+libtiff         4.7.1_1                -> 4.7.2 (2.0MB)
+php@8.4         8.4.22                 -> 8.4.23 (25.5MB)
+deno            2.9.0                  -> 2.9.1 (48.7MB)
+sdl3            3.4.10                 -> 3.4.12 (1.6MB)
+ffmpeg          8.1.2                  -> 8.1.2_1 (21.5MB)
+usage           3.5.3                  -> 3.5.4 (2.5MB)
+mise            2026.6.14              -> 2026.7.2 (35.5MB)
+gh              2.95.0                 -> 2.96.0 (13.4MB)
+swift-format    602.0.0                -> 603.0.0 (5.7MB)
+yt-dlp          2026.6.9               -> 2026.7.4 (5.3MB)
+hdrhistogram_c  0.11.9                 -> 0.11.10 (43.6KB)
+python@3.13     3.13.14                -> 3.13.14_1 (18.5MB)
+zoxide          0.9.9                  -> 0.10.0 (485.3KB)
+php             8.5.7                  -> 8.5.8 (29.3MB)
+composer        2.10.1                 -> 2.10.2 (830.5KB)
+c-ares          1.34.6                 -> 1.34.7 (308KB)
+beads           1.0.5                  -> 1.1.0 (45.7MB)
+fastlane        2.236.1                -> 2.237.0 (15.4MB)
+libevent        2.1.12_1               -> 2.1.13 (741.4KB)
+cocoapods       1.16.2_2               -> 1.17.0 (8.4MB)
+git             2.54.0                 -> 2.55.0 (23MB)
+antigravity     2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+burp-suite      2026.1.5               -> 2026.4.3
+figma           126.6.11               -> 126.6.12
+min             1.35.2                 -> 1.35.6
+miro            0.11.116               -> 0.11.154
+==> 1 Deprecated or disabled package
+min (deprecated)
+==> Upgrading 29 outdated packages:
+openssl@3       3.6.2                  -> 3.6.3 (10.9MB)
+jpeg-turbo      3.1.4.1                -> 3.2.0 (1.4MB)
+libtiff         4.7.1_1                -> 4.7.2 (2.0MB)
+php@8.4         8.4.22                 -> 8.4.23 (25.5MB)
+deno            2.9.0                  -> 2.9.1 (48.7MB)
+sdl3            3.4.10                 -> 3.4.12 (1.6MB)
+ffmpeg          8.1.2                  -> 8.1.2_1 (21.5MB)
+usage           3.5.3                  -> 3.5.4 (2.5MB)
+mise            2026.6.14              -> 2026.7.2 (35.5MB)
+gh              2.95.0                 -> 2.96.0 (13.4MB)
+swift-format    602.0.0                -> 603.0.0 (5.7MB)
+yt-dlp          2026.6.9               -> 2026.7.4 (5.3MB)
+hdrhistogram_c  0.11.9                 -> 0.11.10 (43.6KB)
+python@3.13     3.13.14                -> 3.13.14_1 (18.5MB)
+zoxide          0.9.9                  -> 0.10.0 (485.3KB)
+php             8.5.7                  -> 8.5.8 (29.3MB)
+composer        2.10.1                 -> 2.10.2 (830.5KB)
+c-ares          1.34.6                 -> 1.34.7 (308KB)
+beads           1.0.5                  -> 1.1.0 (45.7MB)
+fastlane        2.236.1                -> 2.237.0 (15.4MB)
+libevent        2.1.12_1               -> 2.1.13 (741.4KB)
+cocoapods       1.16.2_2               -> 1.17.0 (8.4MB)
+git             2.54.0                 -> 2.55.0 (23MB)
+php@8.4         8.4.22                 -> 8.4.23 (25.5MB)
+antigravity     2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+burp-suite      2026.1.5               -> 2026.4.3
+figma           126.6.11               -> 126.6.12
+min             1.35.2                 -> 1.35.6
+miro            0.11.116               -> 0.11.154
+Warning: min has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+✔︎ Bottle jpeg-turbo (3.2.0)
+✔︎ Bottle libtiff (4.7.2)
+✔︎ Bottle Manifest json-c (0.19)
+✔︎ Bottle json-c (0.19)
+✔︎ Bottle sdl3 (3.4.12)
+✔︎ Bottle usage (3.5.4)
+✔︎ Bottle hdrhistogram_c (0.11.10)
+✔︎ Bottle zoxide (0.10.0)
+✔︎ Bottle composer (2.10.2)
+✔︎ Bottle c-ares (1.34.7)
+✔︎ Bottle libevent (2.1.13)
+==> Fetching downloads for: openssl@3, jpeg-turbo, libtiff, php@8.4, deno, sdl3, ffmpeg, usage, mise, gh, swift-format, yt-dlp, hdrhistogram_c, python@3.13, zoxide, php, composer, c-ares, beads, fastlane, libevent, cocoapods, git, antigravity, burp-suite, figma, min and miro
+✔︎ Cask burp-suite (2026.4.3)
+✔︎ Bottle yt-dlp (2026.7.4)
+✔︎ Cask figma (126.6.12)
+✔︎ Cask miro (0.11.154)
+✔︎ Bottle openssl@3 (3.6.3)
+✔︎ Bottle swift-format (603.0.0)
+✔︎ Bottle cocoapods (1.17.0)
+✔︎ Bottle gh (2.96.0)
+✔︎ Bottle fastlane (2.237.0)
+✔︎ Bottle ffmpeg (8.1.2_1)
+✔︎ Bottle python@3.13 (3.13.14_1)
+✔︎ Bottle git (2.55.0)
+✔︎ Bottle php@8.4 (8.4.23)
+✔︎ Cask antigravity (2.2.1,5287492581195776)
+✔︎ Bottle php (8.5.8)
+✔︎ Bottle mise (2026.7.2)
+✔︎ Bottle beads (1.1.0)
+✔︎ Bottle deno (2.9.1)
+✔︎ Cask min (1.35.6)
+==> Upgrading openssl@3
+  3.6.2 -> 3.6.3 
+==> Pouring openssl@3--3.6.3.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+To add additional certificates, place .pem files in
+  /opt/homebrew/etc/openssl@3/certs
+
+and run
+  /opt/homebrew/opt/openssl@3/bin/c_rehash
+
+OpenSSL 3.6 is only supported until 2026-11-01 so the `openssl@3`
+formula will be downgraded to OpenSSL 3.5 (LTS) in a future update.
+==> Summary
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.3: 7,633 files, 37.8MB
+==> Running `brew cleanup openssl@3`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.2... (7,627 files, 37.7MB)
+==> Upgrading jpeg-turbo
+  3.1.4.1 -> 3.2.0 
+==> Pouring jpeg-turbo--3.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.2.0: 47 files, 4.3MB
+==> Running `brew cleanup jpeg-turbo`...
+Removing: /opt/homebrew/Cellar/jpeg-turbo/3.1.4.1... (47 files, 3.8MB)
+==> Upgrading libtiff
+  4.7.1_1 -> 4.7.2 
+==> Pouring libtiff--4.7.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtiff/4.7.2: 493 files, 9.2MB
+==> Running `brew cleanup libtiff`...
+Removing: /opt/homebrew/Cellar/libtiff/4.7.1_1... (488 files, 9.0MB)
+==> Upgrading php@8.4
+  8.4.22 -> 8.4.23 
+==> Installing php@8.4 dependency: json-c
+==> Pouring json-c--0.19.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/json-c/0.19: 34 files, 378.6KB
+==> Installing php@8.4
+==> Pouring php@8.4--8.4.23.arm64_sequoia.bottle.tar.gz
+Warning: php@8.4 was installed but not linked because php is already linked.
+To link this version, run:
+  brew link php@8.4
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set php_ini /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set php_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set doc_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set ext_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set bin_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set data_dir /opt/homebr[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set cfg_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set www_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set man_dir /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set test_dir /opt/homebr[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear config-set php_bin /opt/homebre[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php@8.4/8.4.23/bin/pear update-channels[0m
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php@8.4/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+php@8.4 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have php@8.4 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/sbin:$PATH"' >> ~/.zshrc
+
+For compilers to find php@8.4 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/php@8.4/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/php@8.4/include"
+
+The following php@8.4 executables are shadowed by other linked Homebrew commands:
+  pear (shadowed by /opt/homebrew/bin/pear from php)
+  peardev (shadowed by /opt/homebrew/bin/peardev from php)
+  pecl (shadowed by /opt/homebrew/bin/pecl from php)
+  phar (shadowed by /opt/homebrew/bin/phar from php)
+  phar.phar (shadowed by /opt/homebrew/bin/phar.phar from php)
+  php (shadowed by /opt/homebrew/bin/php from php)
+  php-cgi (shadowed by /opt/homebrew/bin/php-cgi from php)
+  php-config (shadowed by /opt/homebrew/bin/php-config from php)
+  php-fpm (shadowed by /opt/homebrew/sbin/php-fpm from php)
+  phpdbg (shadowed by /opt/homebrew/bin/phpdbg from php)
+  phpize (shadowed by /opt/homebrew/bin/phpize from php)
+Running these by name will not invoke the version provided by this formula.
+Run `brew link php@8.4` to switch the active version to this keg.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+
+To start php@8.4 now and restart at login:
+  brew services start php@8.4
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php@8.4/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php@8.4/8.4.23: 529 files, 107.7MB
+==> Running `brew cleanup php@8.4`...
+Removing: /opt/homebrew/Cellar/php@8.4/8.4.22... (529 files, 107.7MB)
+==> Upgrading deno
+  2.9.0 -> 2.9.1 
+==> Pouring deno--2.9.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.9.1: 12 files, 142.3MB
+==> Running `brew cleanup deno`...
+Removing: /opt/homebrew/Cellar/deno/2.9.0... (12 files, 142.2MB)
+==> Upgrading sdl3
+  3.4.10 -> 3.4.12 
+==> Pouring sdl3--3.4.12.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.12: 103 files, 6.3MB
+==> Running `brew cleanup sdl3`...
+Removing: /opt/homebrew/Cellar/sdl3/3.4.10... (103 files, 6.3MB)
+==> Upgrading ffmpeg
+  8.1.2 -> 8.1.2_1 
+==> Pouring ffmpeg--8.1.2_1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.1.2_1: 287 files, 54.3MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.1.2... (287 files, 54.3MB)
+==> Upgrading usage
+  3.5.3 -> 3.5.4 
+==> Pouring usage--3.5.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/usage/3.5.4: 13 files, 6.6MB
+==> Running `brew cleanup usage`...
+Removing: /opt/homebrew/Cellar/usage/3.5.3... (13 files, 8.7MB)
+==> Upgrading mise
+  2026.6.14 -> 2026.7.2 
+==> Pouring mise--2026.7.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+If you are using fish shell, mise will be activated for you automatically.
+==> Summary
+🍺  /opt/homebrew/Cellar/mise/2026.7.2: 15 files, 103MB
+==> Running `brew cleanup mise`...
+Removing: /opt/homebrew/Cellar/mise/2026.6.14... (15 files, 102.3MB)
+==> Upgrading gh
+  2.95.0 -> 2.96.0 
+==> Pouring gh--2.96.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.96.0: 238 files, 38.7MB
+==> Running `brew cleanup gh`...
+Removing: /opt/homebrew/Cellar/gh/2.95.0... (238 files, 38.7MB)
+==> Upgrading swift-format
+  602.0.0 -> 603.0.0 
+==> Pouring swift-format--603.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/swift-format/603.0.0: 10 files, 25.6MB
+==> Running `brew cleanup swift-format`...
+Removing: /opt/homebrew/Cellar/swift-format/602.0.0... (10 files, 25.2MB)
+==> Upgrading yt-dlp
+  2026.6.9 -> 2026.7.4 
+==> Pouring yt-dlp--2026.7.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2026.7.4: 1,694 files, 20.7MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2026.6.9... (1,940 files, 26.0MB)
+==> Upgrading hdrhistogram_c
+  0.11.9 -> 0.11.10 
+==> Pouring hdrhistogram_c--0.11.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/hdrhistogram_c/0.11.10: 22 files, 172.0KB
+==> Running `brew cleanup hdrhistogram_c`...
+Removing: /opt/homebrew/Cellar/hdrhistogram_c/0.11.9... (22 files, 173KB)
+==> Upgrading python@3.13
+  3.13.14 -> 3.13.14_1 
+==> Pouring python@3.13--3.13.14_1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.14_1: 3,622 files, 72.6MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.14... (3,622 files, 72.6MB)
+==> Upgrading zoxide
+  0.9.9 -> 0.10.0 
+==> Pouring zoxide--0.10.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zoxide/0.10.0: 18 files, 1MB
+==> Running `brew cleanup zoxide`...
+Removing: /opt/homebrew/Cellar/zoxide/0.9.9... (18 files, 1MB)
+==> Upgrading php
+  8.5.7 -> 8.5.8 
+==> Pouring php--8.5.8.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set php_ini /opt/homebrew/etc[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set php_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set doc_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set ext_dir /opt/homebrew/lib[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set bin_dir /opt/homebrew/opt[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set data_dir /opt/homebrew/sh[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set cfg_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set www_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set man_dir /opt/homebrew/sha[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set test_dir /opt/homebrew/sh[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear config-set php_bin /opt/homebrew/opt[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/php/8.5.8/bin/pear update-channels[0m
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.5/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php/8.5.8: 533 files, 130MB
+==> Running `brew cleanup php`...
+Removing: /opt/homebrew/Cellar/php/8.5.7... (533 files, 130MB)
+==> Upgrading composer
+  2.10.1 -> 2.10.2 
+==> Pouring composer--2.10.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/composer/2.10.2: 4 files, 3.7MB
+==> Running `brew cleanup composer`...
+Removing: /opt/homebrew/Cellar/composer/2.10.1... (4 files, 3.6MB)
+==> Upgrading c-ares
+  1.34.6 -> 1.34.7 
+==> Pouring c-ares--1.34.7.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/c-ares/1.34.7: 176 files, 1MB
+==> Running `brew cleanup c-ares`...
+Removing: /opt/homebrew/Cellar/c-ares/1.34.6... (176 files, 1MB)
+==> Upgrading beads
+  1.0.5 -> 1.1.0 
+==> Pouring beads--1.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/beads/1.1.0: 12 files, 135.4MB
+==> Running `brew cleanup beads`...
+Removing: /opt/homebrew/Cellar/beads/1.0.5... (12 files, 134.0MB)
+==> Upgrading fastlane
+  2.236.1 -> 2.237.0 
+==> Pouring fastlane--2.237.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> Summary
+🍺  /opt/homebrew/Cellar/fastlane/2.237.0: 4,550 files, 54.3MB
+==> Running `brew cleanup fastlane`...
+Removing: /opt/homebrew/Cellar/fastlane/2.236.1... (4,547 files, 54.2MB)
+==> Upgrading libevent
+  2.1.12_1 -> 2.1.13 
+==> Pouring libevent--2.1.13.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libevent/2.1.13: 58 files, 2.4MB
+==> Running `brew cleanup libevent`...
+Removing: /opt/homebrew/Cellar/libevent/2.1.12_1... (57 files, 2.3MB)
+==> Upgrading cocoapods
+  1.16.2_2 -> 1.17.0 
+==> Pouring cocoapods--1.17.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cocoapods/1.17.0: 13,200 files, 23.6MB
+==> Running `brew cleanup cocoapods`...
+Removing: /opt/homebrew/Cellar/cocoapods/1.16.2_2... (13,729 files, 30.3MB)
+==> Upgrading git
+  2.54.0 -> 2.55.0 
+==> Pouring git--2.55.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.55.0: 1,730 files, 63.6MB
+==> Running `brew cleanup git`...
+Removing: /opt/homebrew/Cellar/git/2.54.0... (1,719 files, 62.9MB)
+==> Upgrading antigravity
+  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+==> Purging files for version 2.2.1,5287492581195776 of Cask antigravity
+==> Upgrading burp-suite
+  2026.1.5 -> 2026.4.3
+==> Purging files for version 2026.4.3 of Cask burp-suite
+==> Upgrading figma
+  126.6.11 -> 126.6.12
+==> Backing up App 'Figma.app' to '/opt/homebrew/Caskroom/figma/126.6.11/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+Warning: min has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+==> Purging files for version 126.6.11 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading min
+  1.35.2 -> 1.35.6
+==> Purging files for version 1.35.6 of Cask min
+==> Upgrading miro
+  0.11.116 -> 0.11.154
+Error: Problems with multiple casks:
+antigravity: It seems the App source '/Applications/Antigravity.app' is not there.
+burp-suite: It seems the App source '/Applications/Burp Suite Community Edition.app' is not there.
+min: It seems the App source '/Applications/Min.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.154 of Cask miro
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> openssl@3
+To add additional certificates, place .pem files in
+  /opt/homebrew/etc/openssl@3/certs
+
+and run
+  /opt/homebrew/opt/openssl@3/bin/c_rehash
+
+OpenSSL 3.6 is only supported until 2026-11-01 so the `openssl@3`
+formula will be downgraded to OpenSSL 3.5 (LTS) in a future update.
+==> php@8.4
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php@8.4/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+php@8.4 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have php@8.4 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/sbin:$PATH"' >> ~/.zshrc
+
+For compilers to find php@8.4 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/php@8.4/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/php@8.4/include"
+
+The following php@8.4 executables are shadowed by other linked Homebrew commands:
+  pear (shadowed by /opt/homebrew/bin/pear from php)
+  peardev (shadowed by /opt/homebrew/bin/peardev from php)
+  pecl (shadowed by /opt/homebrew/bin/pecl from php)
+  phar (shadowed by /opt/homebrew/bin/phar from php)
+  phar.phar (shadowed by /opt/homebrew/bin/phar.phar from php)
+  php (shadowed by /opt/homebrew/bin/php from php)
+  php-cgi (shadowed by /opt/homebrew/bin/php-cgi from php)
+  php-config (shadowed by /opt/homebrew/bin/php-config from php)
+  php-fpm (shadowed by /opt/homebrew/sbin/php-fpm from php)
+  phpdbg (shadowed by /opt/homebrew/bin/phpdbg from php)
+  phpize (shadowed by /opt/homebrew/bin/phpize from php)
+Running these by name will not invoke the version provided by this formula.
+Run `brew link php@8.4` to switch the active version to this keg.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+
+To start php@8.4 now and restart at login:
+  brew services start php@8.4
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php@8.4/sbin/php-fpm --nodaemonize
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> mise
+If you are using fish shell, mise will be activated for you automatically.
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.5/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> fastlane
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Upgraded 24 outdated packages
+openssl@3       3.6.2     -> 3.6.3
+jpeg-turbo      3.1.4.1   -> 3.2.0
+libtiff         4.7.1_1   -> 4.7.2
+php@8.4         8.4.22    -> 8.4.23
+deno            2.9.0     -> 2.9.1
+sdl3            3.4.10    -> 3.4.12
+ffmpeg          8.1.2     -> 8.1.2_1
+usage           3.5.3     -> 3.5.4
+mise            2026.6.14 -> 2026.7.2
+gh              2.95.0    -> 2.96.0
+swift-format    602.0.0   -> 603.0.0
+yt-dlp          2026.6.9  -> 2026.7.4
+hdrhistogram_c  0.11.9    -> 0.11.10
+python@3.13     3.13.14   -> 3.13.14_1
+zoxide          0.9.9     -> 0.10.0
+php             8.5.7     -> 8.5.8
+composer        2.10.1    -> 2.10.2
+c-ares          1.34.6    -> 1.34.7
+beads           1.0.5     -> 1.1.0
+fastlane        2.236.1   -> 2.237.0
+libevent        2.1.12_1  -> 2.1.13
+cocoapods       1.16.2_2  -> 1.17.0
+git             2.54.0    -> 2.55.0
+figma           126.6.11  -> 126.6.12
+==> 1 Deprecated or disabled package
+min (deprecated)
+Warning: min has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+==> Would upgrade 4 outdated packages
+antigravity  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+burp-suite   2026.1.5               -> 2026.4.3
+min          1.35.2                 -> 1.35.6
+miro         0.11.116               -> 0.11.154
+==> 1 Deprecated or disabled package
+min (deprecated)
+==> Upgrading 4 outdated packages:
+antigravity  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+burp-suite   2026.1.5               -> 2026.4.3
+min          1.35.2                 -> 1.35.6
+miro         0.11.116               -> 0.11.154
+==> Fetching downloads for: antigravity, burp-suite, min and miro
+✔︎ Cask min (1.35.6)
+✔︎ Cask antigravity (2.2.1,5287492581195776)
+✔︎ Cask burp-suite (2026.4.3)
+✔︎ Cask miro (0.11.154)
+==> Upgrading antigravity
+  2.0.1,6566078776737792 -> 2.2.1,5287492581195776
+==> Purging files for version 2.2.1,5287492581195776 of Cask antigravity
+==> Upgrading burp-suite
+  2026.1.5 -> 2026.4.3
+Warning: min has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01.
+==> Purging files for version 2026.4.3 of Cask burp-suite
+==> Upgrading min
+  1.35.2 -> 1.35.6
+==> Purging files for version 1.35.6 of Cask min
+==> Upgrading miro
+  0.11.116 -> 0.11.154
+Error: Problems with multiple casks:
+antigravity: It seems the App source '/Applications/Antigravity.app' is not there.
+burp-suite: It seems the App source '/Applications/Burp Suite Community Edition.app' is not there.
+min: It seems the App source '/Applications/Min.app' is not there.
+miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Purging files for version 0.11.154 of Cask miro
+==> 1 Deprecated or disabled package
+min (deprecated)
+среда,  8 июля 2026 г. 05:33:34 (+05): Очистка старых версий и кэша…
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/Cask/claude-code@latest--2.1.202... (243.6MB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/Cask/claude-code@latest--2.1.201... (231.7MB)
+Removing: /Users/khurshidddbek/Library/Caches/Homebrew/bootsnap/4d4f04dd5cb2b3d1cc2088fdde2e7ea415ab6a872c50a809c9bfa164253517b3... (1,040 files, 9.3MB)
+Pruned 0 symbolic links and 11 directories from /opt/homebrew
+==> This operation has freed approximately 484.7MB of disk space.
+среда,  8 июля 2026 г. 05:33:42 (+05): Ежемесячное обновление Homebrew завершено.
+среда,  8 июля 2026 г. 05:33:45 (+05): Brewfile обновлён.
+среда,  8 июля 2026 г. 05:33:45 (+05): Antigravity binary not found.
+среда,  8 июля 2026 г. 05:33:45 (+05): Запуск Telegram keep-alive…
+Server closed the connection: [Errno 54] Connection reset by peer
+среда,  8 июля 2026 г. 05:34:18 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
+среда,  8 июля 2026 г. 05:34:18 (+05): Telegram keep-alive успешно завершён.
+среда,  8 июля 2026 г. 05:34:18 (+05): Обнаружены изменения. Начинаем обработку...
