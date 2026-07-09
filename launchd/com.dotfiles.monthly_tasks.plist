@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Файл com.dotfiles.monthly_tasks.plist запускает скрипт run_monthly_tasks.sh,
-    который включает в себя обновление Homebrew и обработку dotfiles.
-    Запускается 1-го числа каждого месяца в 03:00, а также каждые 30 дней
-    (StartInterval) на случай, если компьютер был выключен во время основного окна.
+    Файл com.dotfiles.monthly_tasks.plist ежедневно в 12:00 запускает
+    anacron-обёртку run_monthly_tasks_anacron.sh. Обёртка сама решает,
+    пора ли выполнять ежемесячные задачи (run_monthly_tasks.sh): они
+    запускаются, если с последнего успешного прогона прошло 30 дней.
+    Такая схема не теряет запуск, если мак был выключен в назначенный
+    момент — задачи выполнятся в ближайший включённый день.
 -->
 <plist version="1.0">
 <dict>
@@ -15,23 +17,17 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh</string>
+        <string>/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh</string>
     </array>
 
-    <!-- Запуск 1-го числа каждого месяца в 03:00 -->
+    <!-- Ежедневная проверка в 12:00 (сам прогон — раз в 30 дней) -->
     <key>StartCalendarInterval</key>
     <dict>
-        <key>Day</key>
-        <integer>1</integer>
         <key>Hour</key>
-        <integer>3</integer>
+        <integer>12</integer>
         <key>Minute</key>
         <integer>0</integer>
     </dict>
-
-    <!-- Резервный запуск каждые 30 дней -->
-    <key>StartInterval</key>
-    <integer>2592000</integer>
 
     <!-- Логи -->
     <key>StandardOutPath</key>
