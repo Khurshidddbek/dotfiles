@@ -94,6 +94,27 @@ else
 fi
 
 # ---------------------------------------------------------------------------
+# 1c. Проверяем размер кеша Claude Code (~/.claude/projects)
+# ---------------------------------------------------------------------------
+# Только уведомляет при превышении порога — ничего не удаляет и не изменяет.
+
+CLAUDE_PROJECTS_DIR="$HOME/.claude/projects"
+CLAUDE_CACHE_LIMIT_KB=$((5 * 1024 * 1024))  # 5 ГБ
+
+if [[ -d "$CLAUDE_PROJECTS_DIR" ]]; then
+  CLAUDE_CACHE_KB=$(du -sk "$CLAUDE_PROJECTS_DIR" 2>/dev/null | awk '{print $1}')
+  CLAUDE_CACHE_GB=$(awk "BEGIN {printf \"%.2f\", ${CLAUDE_CACHE_KB:-0} / 1024 / 1024}")
+  if (( ${CLAUDE_CACHE_KB:-0} > CLAUDE_CACHE_LIMIT_KB )); then
+    noti -t "Claude Code: кеш превысил 5 ГБ" -m "Папка ~/.claude/projects занимает ${CLAUDE_CACHE_GB} ГБ. Данные не тронуты — реши сам, когда очищать." || true
+    echo "$(date): Кеш Claude Code превысил лимит: ${CLAUDE_CACHE_GB} ГБ (> 5 ГБ). Отправлено уведомление." >> "$LOG_FILE"
+  else
+    echo "$(date): Кеш Claude Code в норме: ${CLAUDE_CACHE_GB} ГБ (лимит 5 ГБ)." >> "$LOG_FILE"
+  fi
+else
+  echo "$(date): Папка ~/.claude/projects не найдена, проверка кеша пропущена." >> "$LOG_FILE"
+fi
+
+# ---------------------------------------------------------------------------
 # 2. Проверяем изменения в репозитории
 # ---------------------------------------------------------------------------
 
