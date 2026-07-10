@@ -47,8 +47,9 @@ source $ZSH/oh-my-zsh.sh
 #                               ОПЦИИ SHELL
 # =============================================================================
 
-# Включение автоматической коррекции команд
-ENABLE_CORRECTION="true"
+# Автокоррекция команд намеренно отключена: раньше ENABLE_CORRECTION задавалась
+# ПОСЛЕ загрузки oh-my-zsh и не действовала. Автоправку легко включить, задав
+# ENABLE_CORRECTION="true" ДО `source $ZSH/oh-my-zsh.sh`, но она чаще мешает.
 
 # Настройки автозавершения и других функций
 # Вы можете раскомментировать и настроить по своему усмотрению
@@ -68,6 +69,11 @@ zstyle ':omz:update' frequency 90    # Частота автообновлени
 export HISTSIZE=50000
 export SAVEHIST=50000
 
+# Качество истории: убираем дубли и лишние пробелы, делимся историей между
+# сессиями сразу. Хорошо сочетается с mcfly (Ctrl-R) и zoxide.
+setopt HIST_IGNORE_ALL_DUPS HIST_IGNORE_SPACE HIST_REDUCE_BLANKS
+setopt SHARE_HISTORY INC_APPEND_HISTORY
+
 # =============================================================================
 #                              АЛИАСЫ
 # =============================================================================
@@ -77,6 +83,9 @@ export SAVEHIST=50000
 alias reinstall-pods='f clean && f pub get && cd ios && rm -rf Pods Podfile.lock && pod repo update && pod install && cd .. && noti -t "Cocoapods" -m "Pods reinstalled successfully"'
 
 alias ls="eza --icons --group-directories-first"
+alias ll="eza -l --icons --group-directories-first --git"
+alias la="eza -la --icons --group-directories-first --git"
+alias lt="eza --tree --level=2 --icons --group-directories-first"
 
 # =============================================================================
 #                              ФУНКЦИИ
@@ -133,11 +142,6 @@ fi
 # Antigravity Alias
 alias ag="antigravity"
 
-# Added by Antigravity
-export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
-
-# Added by Antigravity
-export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
-
-# Added by Antigravity
+# Added by Antigravity (путь уже добавляется идемпотентно в .zprofile —
+# здесь достаточно одной строки на случай запуска без .zprofile)
 export PATH="/Users/khurshidddbek/.antigravity/antigravity/bin:$PATH"
