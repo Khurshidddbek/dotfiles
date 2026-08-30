@@ -1,19 +1,12 @@
-tap "cqlabs/dcm", "https://github.com/CQLabs/homebrew-dcm"
-tap "dart-lang/dart"
-tap "domt4/autoupdate", "https://github.com/DomT4/homebrew-autoupdate.git"
-tap "getsentry/tools"
-tap "leoafarias/fvm"
-tap "peripheryapp/periphery"
-tap "supabase/tap"
-tap "tuist/tuist"
+tap "leoafarias/fvm", trusted: { formulae: ["fvm"] }
 # Development kit for the Java programming language
 brew "openjdk"
 # Tool for reverse engineering 3rd party, closed, binary Android apps
 brew "apktool"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
-# Memory upgrade for your coding agent
-brew "beads"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Library for command-line editing
@@ -34,6 +27,8 @@ brew "eza"
 brew "fastlane"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Manage Flutter SDK versions per project
+brew "fvm"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Interact with Google Gemini AI models from the command-line
@@ -70,6 +65,8 @@ brew "php@8.4"
 brew "pinentry-mac"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Interpreted, interactive, object-oriented programming language
@@ -78,6 +75,8 @@ brew "python@3.13"
 brew "speedtest-cli"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Modern and pretty fancy file manager for the terminal
+brew "superfile"
 # Formatting technology for Swift source code
 brew "swift-format"
 # Tool Command Language
@@ -90,6 +89,8 @@ brew "wget"
 brew "xcbeautify"
 # Build server protocol implementation for integrating Xcode with sourcekit-lsp
 brew "xcode-build-server"
+# Generate your Xcode project from a spec file and your folder structure
+brew "xcodegen"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Feature-rich command-line audio/video downloader
@@ -102,28 +103,26 @@ cask "android-platform-tools"
 cask "android-studio"
 # Memory training application
 cask "anki"
-# Agent orchestration platform
-cask "antigravity"
-# Web security testing toolkit
-cask "burp-suite"
 # Terminal-based AI coding assistant
 cask "claude-code@latest"
 # Productivity platform for tasks, docs, goals, and chat
 cask "clickup"
 # Collaborative team software
 cask "figma"
+cask "font-meslo-lg-nerd-font"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Clipboard manager
 cask "maccy"
-# Minimal browser that protects privacy
-cask "min"
 # Online collaborative whiteboard platform
 cask "miro"
 # Intercept, modify, replay, save HTTP/S traffic
 cask "mitmproxy"
+# Web browser focused on privacy and on minimizing tracking and fingerprinting
+cask "mullvad-browser"
 # JDK from the Eclipse Foundation (Adoptium)
 cask "temurin@17"
 npm "firebase-tools"
 npm "gtop"
 npm "typescript"
+npm "yarn"

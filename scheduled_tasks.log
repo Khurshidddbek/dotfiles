@@ -7172,3 +7172,1744 @@ Server closed the connection: [Errno 54] Connection reset by peer
 среда,  8 июля 2026 г. 05:34:18 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
 среда,  8 июля 2026 г. 05:34:18 (+05): Telegram keep-alive успешно завершён.
 среда,  8 июля 2026 г. 05:34:18 (+05): Обнаружены изменения. Начинаем обработку...
+среда,  8 июля 2026 г. 05:34:21 (+05): Изменения и логи успешно отправлены.
+Fri Aug  7 12:02:03 +05 2026: Anacron: прошло 30 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Fri Aug  7 12:02:07 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Fri Aug  7 12:02:07 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Fri Aug  7 12:02:07 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Fri Aug  7 12:02:07 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Fri Aug  7 12:02:07 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Fri Aug  7 12:02:07 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Fri Aug  7 12:02:07 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sat Aug  8 12:00:05 +05 2026: Anacron: прошло 31 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sat Aug  8 12:00:05 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sat Aug  8 12:00:05 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sat Aug  8 12:00:05 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sat Aug  8 12:00:05 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sat Aug  8 12:00:05 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sat Aug  8 12:00:05 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sat Aug  8 12:00:05 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sun Aug  9 12:05:49 +05 2026: Anacron: прошло 32 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sun Aug  9 12:05:49 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sun Aug  9 12:05:49 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sun Aug  9 12:05:49 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sun Aug  9 12:05:50 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sun Aug  9 12:05:50 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sun Aug  9 12:05:50 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sun Aug  9 12:05:50 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Mon Aug 10 12:07:21 +05 2026: Anacron: прошло 33 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Mon Aug 10 12:07:21 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Mon Aug 10 12:07:21 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Mon Aug 10 12:07:21 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Mon Aug 10 12:07:21 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Mon Aug 10 12:07:21 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Mon Aug 10 12:07:21 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Mon Aug 10 12:07:21 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Tue Aug 11 12:08:08 +05 2026: Anacron: прошло 34 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Tue Aug 11 12:08:08 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Tue Aug 11 12:08:08 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Tue Aug 11 12:08:08 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Tue Aug 11 12:08:08 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Tue Aug 11 12:08:08 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Tue Aug 11 12:08:08 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Tue Aug 11 12:08:08 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Wed Aug 12 12:10:11 +05 2026: Anacron: прошло 35 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Wed Aug 12 12:10:11 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Wed Aug 12 12:10:11 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Wed Aug 12 12:10:11 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Wed Aug 12 12:10:11 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Wed Aug 12 12:10:11 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Wed Aug 12 12:10:11 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Wed Aug 12 12:10:11 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Thu Aug 13 12:01:35 +05 2026: Anacron: прошло 36 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Thu Aug 13 12:01:35 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Thu Aug 13 12:01:35 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Thu Aug 13 12:01:35 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Thu Aug 13 12:01:35 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Thu Aug 13 12:01:35 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Thu Aug 13 12:01:35 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Thu Aug 13 12:01:35 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Fri Aug 14 12:14:01 +05 2026: Anacron: прошло 37 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Fri Aug 14 12:14:01 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Fri Aug 14 12:14:01 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Fri Aug 14 12:14:01 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Fri Aug 14 12:14:01 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Fri Aug 14 12:14:01 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Fri Aug 14 12:14:01 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Fri Aug 14 12:14:01 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sat Aug 15 12:06:46 +05 2026: Anacron: прошло 38 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sat Aug 15 12:06:46 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sat Aug 15 12:06:46 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sat Aug 15 12:06:46 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sat Aug 15 12:06:46 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sat Aug 15 12:06:46 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sat Aug 15 12:06:46 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sat Aug 15 12:06:46 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sun Aug 16 12:10:19 +05 2026: Anacron: прошло 39 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sun Aug 16 12:10:19 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sun Aug 16 12:10:19 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sun Aug 16 12:10:19 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sun Aug 16 12:10:19 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sun Aug 16 12:10:19 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sun Aug 16 12:10:19 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sun Aug 16 12:10:19 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Mon Aug 17 12:06:52 +05 2026: Anacron: прошло 40 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Mon Aug 17 12:06:52 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Mon Aug 17 12:06:52 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Mon Aug 17 12:06:52 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Mon Aug 17 12:06:52 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Mon Aug 17 12:06:52 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Mon Aug 17 12:06:52 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Mon Aug 17 12:06:52 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Tue Aug 18 12:08:00 +05 2026: Anacron: прошло 41 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Tue Aug 18 12:08:00 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Tue Aug 18 12:08:00 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Tue Aug 18 12:08:00 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Tue Aug 18 12:08:00 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Tue Aug 18 12:08:00 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Tue Aug 18 12:08:00 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Tue Aug 18 12:08:00 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Wed Aug 19 12:00:05 +05 2026: Anacron: прошло 42 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Wed Aug 19 12:00:05 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Wed Aug 19 12:00:05 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Wed Aug 19 12:00:05 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Wed Aug 19 12:00:05 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Wed Aug 19 12:00:05 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Wed Aug 19 12:00:05 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Wed Aug 19 12:00:05 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Thu Aug 20 12:09:27 +05 2026: Anacron: прошло 43 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Thu Aug 20 12:09:27 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Thu Aug 20 12:09:27 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Thu Aug 20 12:09:27 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Thu Aug 20 12:09:27 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Thu Aug 20 12:09:27 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Thu Aug 20 12:09:27 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Thu Aug 20 12:09:27 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Fri Aug 21 12:05:54 +05 2026: Anacron: прошло 44 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Fri Aug 21 12:05:54 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Fri Aug 21 12:05:54 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Fri Aug 21 12:05:54 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Fri Aug 21 12:05:54 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Fri Aug 21 12:05:54 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Fri Aug 21 12:05:54 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Fri Aug 21 12:05:54 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sat Aug 22 12:11:10 +05 2026: Anacron: прошло 45 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sat Aug 22 12:11:10 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sat Aug 22 12:11:10 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sat Aug 22 12:11:10 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sat Aug 22 12:11:10 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sat Aug 22 12:11:10 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sat Aug 22 12:11:10 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sat Aug 22 12:11:10 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sun Aug 23 12:12:29 +05 2026: Anacron: прошло 46 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sun Aug 23 12:12:29 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sun Aug 23 12:12:29 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sun Aug 23 12:12:29 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sun Aug 23 12:12:29 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sun Aug 23 12:12:29 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sun Aug 23 12:12:29 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sun Aug 23 12:12:29 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Mon Aug 24 12:04:51 +05 2026: Anacron: прошло 47 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Mon Aug 24 12:04:51 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Mon Aug 24 12:04:51 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Mon Aug 24 12:04:51 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Mon Aug 24 12:04:51 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Mon Aug 24 12:04:51 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Mon Aug 24 12:04:51 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Mon Aug 24 12:04:51 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Tue Aug 25 12:10:21 +05 2026: Anacron: прошло 48 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Tue Aug 25 12:10:21 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Tue Aug 25 12:10:21 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Tue Aug 25 12:10:21 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Tue Aug 25 12:10:21 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Tue Aug 25 12:10:21 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Tue Aug 25 12:10:21 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Tue Aug 25 12:10:21 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Wed Aug 26 12:00:05 +05 2026: Anacron: прошло 49 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Wed Aug 26 12:00:05 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Wed Aug 26 12:00:05 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Wed Aug 26 12:00:05 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Wed Aug 26 12:00:05 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Wed Aug 26 12:00:05 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Wed Aug 26 12:00:05 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Wed Aug 26 12:00:05 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Thu Aug 27 12:05:24 +05 2026: Anacron: прошло 50 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Thu Aug 27 12:05:24 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Thu Aug 27 12:05:24 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Thu Aug 27 12:05:24 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Thu Aug 27 12:05:24 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Thu Aug 27 12:05:24 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Thu Aug 27 12:05:24 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Thu Aug 27 12:05:24 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Fri Aug 28 12:00:05 +05 2026: Anacron: прошло 51 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Fri Aug 28 12:00:05 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Fri Aug 28 12:00:05 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Fri Aug 28 12:00:05 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Fri Aug 28 12:00:05 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Fri Aug 28 12:00:05 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Fri Aug 28 12:00:05 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Fri Aug 28 12:00:05 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sat Aug 29 12:04:53 +05 2026: Anacron: прошло 52 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sat Aug 29 12:04:53 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sat Aug 29 12:04:53 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sat Aug 29 12:04:53 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sat Aug 29 12:04:53 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sat Aug 29 12:04:53 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sat Aug 29 12:04:53 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sat Aug 29 12:04:53 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+Sun Aug 30 12:09:35 +05 2026: Anacron: прошло 53 дн. с последнего успешного прогона — запускаем ежемесячные задачи.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks_anacron.sh: line 39: noti: command not found
+Sun Aug 30 12:09:35 +05 2026: ===== Запуск run_monthly_tasks.sh =====
+Sun Aug 30 12:09:35 +05 2026: ===== Начало ежемесячного обновления Homebrew =====
+Sun Aug 30 12:09:35 +05 2026: Обновление индекса Homebrew…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 13: brew: command not found
+Sun Aug 30 12:09:35 +05 2026: Обновление formulae и casks…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 17: brew: command not found
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 18: brew: command not found
+Sun Aug 30 12:09:35 +05 2026: Очистка старых версий и кэша…
+/Users/khurshidddbek/dotfiles/scripts/scheduled/homebrew_update.sh: line 21: brew: command not found
+Sun Aug 30 12:09:35 +05 2026: Ежемесячное обновление Homebrew завершено.
+/Users/khurshidddbek/dotfiles/scripts/scheduled/run_monthly_tasks.sh: line 25: brew: command not found
+Sun Aug 30 12:09:35 +05 2026: Anacron: прогон завершился с ошибкой, повторная попытка завтра.
+воскресенье, 30 августа 2026 г. 23:38:24 (+05): ===== Запуск run_monthly_tasks.sh =====
+воскресенье, 30 августа 2026 г. 23:38:24 (+05): ===== Начало ежемесячного обновления Homebrew =====
+воскресенье, 30 августа 2026 г. 23:38:24 (+05): Обновление индекса Homebrew…
+==> Updating Homebrew...
+Updated 3 taps (leoafarias/fvm, homebrew/core and homebrew/cask).
+==> New Formulae
+amy: Nostr client from the Amethyst project
+betterglobekey: Reworked Globe key for faster input source switching
+gffcompare: Compare, merge and annotate GFF/GTF transcript files
+leoafarias/fvm/fvm@4.3.0
+pixivbiu: Pixiv client. Easy to search, browse, and download artworks
+plink-ng: Whole-genome association analysis toolset (PLINK 2.0)
+pythia: Monte Carlo event generator
+readwise-cli: Command-line interface for Readwise and Reader
+robotcode: Ultimate Robot Framework Toolset
+tele: Keyboard-first Telegram client for the terminal, written in Go
+xeve: Very fast Essential Video Encoder, MPEG-5 EVC (Essential Video Coding)
+==> New Casks
+afterglow: Classic After Dark screen savers emulator
+arm-performix: Performance analysis toolkit for Arm server and cloud environments
+atlas-app: Source control for coding agents
+bifrost: Samsung firmware downloader
+channel-works: AI Business OS for customer support, analytics, collaboration, and marketing
+crisp: Menu bar display manager: DDC brightness, HiDPI, presets, virtual displays
+davit: GUI for Apple's container CLI
+droppy: Drag and drop file shelf
+font-paper-mono
+keychron-assistant: Companion app for Keychron Launcher's Quick Start feature
+leigod: Game network accelerator
+motrix@beta: Open-source download manager
+nativ: Run AI models locally
+pixcake: AI photo editing software for commercial photography
+sjmcl: Minecraft launcher built with the community
+tcp-viewer: Packet capture and inspection tool
+thoughtdag: Visual workspace for editable LLM context graphs
+triggerflo: Focus timer and Kanban board for tracking tasks
+unsloth: Desktop application for Unsloth Studio
+==> Outdated Formulae
+ada-url
+apktool
+apr-util
+c-ares
+ca-certificates
+certifi
+cffi
+composer
+cryptography
+dartaotruntime
+dav1d
+deno
+eza
+fastlane
+ffmpeg
+fontconfig
+freetds
+fvm
+ggshield
+gh
+glib
+harfbuzz
+lame
+libarchive
+libffi
+libgcrypt
+libgit2
+libksba
+libnghttp2
+libnghttp3
+libngtcp2
+libpq
+libpsl
+libssh2
+libtool
+libvpx
+little-cms2
+llhttp
+lua
+merve
+mise
+node
+noti
+nspr
+nss
+openjdk
+openldap
+p11-kit
+pango
+php
+php@8.4
+pipx
+poppler
+pydantic
+python@3.11
+python@3.13
+python@3.14
+ruby
+sdl3
+simdjson
+simdutf
+sqlite
+svt-av1
+tcl-tk
+terminal-notifier
+tesseract
+usage
+x265
+yazi
+yt-dlp
+==> Outdated Casks
+android-platform-tools
+anki
+claude-code@latest
+font-meslo-lg-nerd-font
+maccy
+temurin@17
+
+You have 70 outdated formulae and 6 outdated casks installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+воскресенье, 30 августа 2026 г. 23:38:31 (+05): Обновление formulae и casks…
+==> Downloading bottle manifests
+✔︎ Bottle Manifest ca-certificates (2026-08-13)
+✔︎ Bottle Manifest libnghttp2 (1.70.0)
+✔︎ Bottle Manifest libtool (2.6.2)
+✔︎ Bottle Manifest libngtcp2 (1.25.0)
+✔︎ Bottle Manifest libpsl (0.23.3)
+✔︎ Bottle Manifest libssh2 (1.11.1_4)
+✔︎ Bottle Manifest libnghttp3 (1.18.0)
+✔︎ Bottle Manifest libffi (3.8.0)
+✔︎ Bottle Manifest dav1d (1.5.4)
+✔︎ Bottle Manifest sqlite (3.53.4)
+✔︎ Bottle Manifest apr-util (1.6.5)
+✔︎ Bottle Manifest freetds (1.5.19)
+✔︎ Bottle Manifest libpq (18.6)
+✔︎ Bottle Manifest fontconfig (2.18.3)
+✔︎ Bottle Manifest openldap (2.7.0)
+✔︎ Bottle Manifest php@8.4 (8.4.25)
+✔︎ Bottle Manifest terminal-notifier (3.0.0_1)
+✔︎ Bottle Manifest mise (2026.8.14)
+✔︎ Bottle Manifest libksba (1.8.1)
+✔︎ Bottle Manifest simdjson (4.6.9)
+✔︎ Bottle Manifest gh (2.98.0)
+✔︎ Bottle Manifest dartaotruntime (3.13.2)
+✔︎ Bottle Manifest glib (2.88.3)
+✔︎ Bottle Manifest certifi (2026.7.22)
+✔︎ Bottle Manifest little-cms2 (2.19.1)
+✔︎ Bottle Manifest libarchive (3.8.9)
+✔︎ Bottle Manifest deno (2.9.6)
+✔︎ Bottle Manifest harfbuzz (14.4.0)
+✔︎ Bottle Manifest openjdk (26.0.2.1)
+✔︎ Bottle Manifest yt-dlp (2026.8.19)
+✔︎ Bottle Manifest python@3.14 (3.14.7)
+✔︎ Bottle Manifest pipx (1.16.7)
+✔︎ Bottle Manifest cffi (2.1.1)
+✔︎ Bottle Manifest usage (6.5.0)
+✔︎ Bottle Manifest simdutf (9.1.0)
+✔︎ Bottle Manifest nspr (4.40)
+✔︎ Bottle Manifest cryptography (50.0.1)
+✔︎ Bottle Manifest python@3.13 (3.13.15)
+✔︎ Bottle Manifest nss (3.128)
+✔︎ Bottle Manifest c-ares (1.34.8)
+✔︎ Bottle Manifest pango (1.58.2)
+✔︎ Bottle Manifest lua (5.5.1)
+✔︎ Bottle Manifest svt-av1 (4.2.0)
+✔︎ Bottle Manifest php (8.5.10)
+✔︎ Bottle Manifest composer (2.10.3)
+✔︎ Bottle Manifest libgcrypt (1.12.3)
+✔︎ Bottle Manifest noti (3.9.0)
+✔︎ Bottle Manifest tesseract (5.5.3)
+✔︎ Bottle Manifest apktool (3.0.3)
+✔︎ Bottle Manifest libvpx (1.17.0)
+✔︎ Bottle Manifest yazi (26.8.15)
+✔︎ Bottle Manifest llhttp (9.4.3)
+✔︎ Bottle Manifest tcl-tk (9.0.4)
+✔︎ Bottle Manifest fastlane (2.238.0)
+✔︎ Bottle Manifest ruby (4.0.6_1)
+✔︎ Bottle Manifest libgit2 (1.9.7)
+✔︎ Bottle Manifest ada-url (4.0.0)
+✔︎ Bottle Manifest eza (0.23.5)
+✔︎ Bottle Manifest x265 (4.3)
+✔︎ Bottle Manifest merve (1.2.2_2)
+✔︎ Bottle Manifest pydantic (2.13.5)
+✔︎ Bottle Manifest p11-kit (0.26.5)
+✔︎ Bottle Manifest sdl3 (3.4.14)
+✔︎ Bottle Manifest fvm (4.3.0)
+✔︎ Bottle Manifest lame (4.0)
+✔︎ Bottle Manifest node (26.8.1)
+✔︎ Bottle Manifest python@3.11 (3.11.16)
+✔︎ Bottle Manifest poppler (26.08.0)
+✔︎ Bottle Manifest ggshield (1.54.0)
+✔︎ Bottle Manifest ffmpeg (9.0.1_1)
+==> Fetching downloads for: libffi, ca-certificates, apr-util, libnghttp2, libnghttp3, libngtcp2, libpsl, libssh2, libtool, freetds, fontconfig, dav1d, libpq, openldap, sqlite, php@8.4, glib, harfbuzz, little-cms2, openjdk, libarchive, mise, libksba, simdjson, gh, terminal-notifier, dartaotruntime, certifi, deno, python@3.14, yt-dlp, pipx, cffi, cryptography, python@3.13, simdutf, pango, php, composer, nspr, nss, usage, tesseract, c-ares, svt-av1, apktool, lua, libgcrypt, noti, yazi, libvpx, tcl-tk, ruby, fastlane, llhttp, libgit2, eza, sdl3, ada-url, x265, merve, node, p11-kit, poppler, pydantic, python@3.11, fvm, lame, ggshield, ffmpeg, php@8.4, python@3.11, python@3.13, python@3.14, android-platform-tools, android-studio, anki, claude-code@latest, clickup, figma, font-meslo-lg-nerd-font, maccy, miro, mullvad-browser and temurin@17
+==> Would install 1 dependency for lame:
+mpg123 1.33.7
+==> Would install 1 dependency for ffmpeg:
+mpg123 1.33.7
+==> Would upgrade 81 outdated packages
+libffi                   3.6.0                     -> 3.8.0 (271.0KB)
+ca-certificates          2026-05-14                -> 2026-08-13 (112.2KB)
+apr-util                 1.6.3_1                   -> 1.6.5 (251.1KB)
+libnghttp2               1.69.0                    -> 1.70.0 (235KB)
+libnghttp3               1.17.0                    -> 1.18.0 (189.7KB)
+libngtcp2                1.24.0                    -> 1.25.0 (428.9KB)
+libpsl                   0.22.0                    -> 0.23.3 (139.3KB)
+libssh2                  1.11.1_1                  -> 1.11.1_4 (424KB)
+libtool                  2.5.4                     -> 2.6.2 (1.1MB)
+freetds                  1.5.18                    -> 1.5.19 (5.4MB)
+fontconfig               2.18.1                    -> 2.18.3 (452.3KB)
+dav1d                    1.5.3                     -> 1.5.4 (393.3KB)
+libpq                    18.4                      -> 18.6 (8MB)
+openldap                 2.6.13                    -> 2.7.0 (3MB)
+sqlite                   3.53.3                    -> 3.53.4 (2.5MB)
+php@8.4                  8.4.23                    -> 8.4.25 (25.5MB)
+glib                     2.88.2                    -> 2.88.3 (9.3MB)
+harfbuzz                 14.2.1                    -> 14.4.0 (3.7MB)
+little-cms2              2.19                      -> 2.19.1 (436.6KB)
+openjdk                  26.0.1                    -> 26.0.2.1 (223.5MB)
+libarchive               3.8.8                     -> 3.8.9 (1.6MB)
+mise                     2026.7.2                  -> 2026.8.14 (45.6MB)
+libksba                  1.8.0                     -> 1.8.1 (182.7KB)
+simdjson                 4.6.4                     -> 4.6.9 (1.4MB)
+gh                       2.96.0                    -> 2.98.0 (13.7MB)
+terminal-notifier        2.0.0                     -> 3.0.0_1 (363.0KB)
+dartaotruntime           3.12.2                    -> 3.13.2 (2.3MB)
+certifi                  2026.6.17                 -> 2026.7.22 (6.5KB)
+deno                     2.9.1                     -> 2.9.6 (44MB)
+python@3.14              3.14.6                    -> 3.14.7 (19.2MB)
+yt-dlp                   2026.7.4                  -> 2026.8.19 (5.4MB)
+pipx                     1.15.0                    -> 1.16.7 (500.8KB)
+cffi                     2.0.0_1                   -> 2.1.1 (354KB)
+cryptography             49.0.0                    -> 50.0.1 (3.8MB)
+python@3.13              3.13.14_1                 -> 3.13.15 (18.4MB)
+simdutf                  9.0.0                     -> 9.1.0 (394.3KB)
+pango                    1.58.0                    -> 1.58.2 (904.3KB)
+php                      8.5.8                     -> 8.5.10 (29.3MB)
+composer                 2.10.2                    -> 2.10.3 (831.4KB)
+nspr                     4.39                      -> 4.40 (332.6KB)
+nss                      3.126                     -> 3.128 (6.4MB)
+usage                    3.5.4                     -> 6.5.0 (4.1MB)
+tesseract                5.5.2                     -> 5.5.3 (13.2MB)
+c-ares                   1.34.7                    -> 1.34.8 (307.6KB)
+svt-av1                  4.1.0                     -> 4.2.0 (1.4MB)
+apktool                  3.0.2                     -> 3.0.3 (15.2MB)
+lua                      5.5.0                     -> 5.5.1 (341.5KB)
+libgcrypt                1.12.2                    -> 1.12.3 (1.5MB)
+noti                     3.8.0                     -> 3.9.0 (3.8MB)
+yazi                     26.5.6                    -> 26.8.15 (13.5MB)
+libvpx                   1.16.0                    -> 1.17.0 (1.9MB)
+tcl-tk                   9.0.3                     -> 9.0.4 (10.1MB)
+ruby                     4.0.5                     -> 4.0.6_1 (17MB)
+fastlane                 2.237.0                   -> 2.238.0 (19.5MB)
+llhttp                   9.4.2                     -> 9.4.3 (38.6KB)
+libgit2                  1.9.4                     -> 1.9.7 (2.0MB)
+eza                      0.23.4                    -> 0.23.5 (768.8KB)
+sdl3                     3.4.12                    -> 3.4.14 (1.6MB)
+ada-url                  3.4.4                     -> 4.0.0 (340.9KB)
+x265                     4.2                       -> 4.3 (5.6MB)
+merve                    1.2.2_1                   -> 1.2.2_2 (33.4KB)
+node                     26.4.0                    -> 26.8.1 (19.9MB)
+p11-kit                  0.26.4                    -> 0.26.5 (995KB)
+poppler                  26.07.0                   -> 26.08.0 (9.9MB)
+pydantic                 2.13.4                    -> 2.13.5 (4.7MB)
+python@3.11              3.11.15_3                 -> 3.11.16 (15.3MB)
+fvm                      4.1.2                     -> 4.3.0 (1.6MB)
+lame                     3.100                     -> 4.0 (669.4KB)
+ggshield                 1.52.2_1                  -> 1.54.0 (5.9MB)
+ffmpeg                   8.1.2_1                   -> 9.0.1_1 (21.7MB)
+android-platform-tools   37.0.0                    -> 37.0.1
+android-studio           2026.1.1.10,quail1-patch2 -> 2026.1.3.8,quail3-patch1
+anki                     26.05                     -> 26.08.1
+claude-code@latest       2.1.235                   -> 2.1.251
+clickup                  3.5.230,260616wecrh5vza   -> 3.5.262,260717dcrpwg7m0
+figma                    126.6.12                  -> 126.8.16
+font-meslo-lg-nerd-font  3.4.0                     -> 3.5.1
+maccy                    2.6.1                     -> 2.7.1
+miro                     0.11.116                  -> 0.11.168
+mullvad-browser          15.0.18                   -> 15.0.20
+temurin@17               17.0.19,10                -> 17.0.20.1,1
+✔︎ Bottle ca-certificates (2026-08-13)
+✔︎ Bottle libnghttp3 (1.18.0)
+✔︎ Bottle libpsl (0.23.3)
+✔︎ Bottle libffi (3.8.0)
+✔︎ Bottle apr-util (1.6.5)
+✔︎ Bottle libnghttp2 (1.70.0)
+✔︎ Bottle dav1d (1.5.4)
+✔︎ Bottle libngtcp2 (1.25.0)
+✔︎ Bottle libssh2 (1.11.1_4)
+✔︎ Bottle fontconfig (2.18.3)
+✔︎ Bottle libtool (2.6.2)
+✔︎ Bottle little-cms2 (2.19.1)
+✔︎ Bottle libksba (1.8.1)
+✔︎ Bottle simdjson (4.6.9)
+✔︎ Bottle terminal-notifier (3.0.0_1)
+✔︎ Bottle certifi (2026.7.22)
+✔︎ Bottle pipx (1.16.7)
+✔︎ Bottle cffi (2.1.1)
+✔︎ Bottle sqlite (3.53.4)
+✔︎ Bottle cryptography (50.0.1)
+✔︎ Bottle harfbuzz (14.4.0)
+✔︎ Bottle simdutf (9.1.0)
+✔︎ Bottle libarchive (3.8.9)
+✔︎ Bottle pango (1.58.2)
+✔︎ Bottle openldap (2.7.0)
+✔︎ Bottle nspr (4.40)
+✔︎ Bottle dartaotruntime (3.13.2)
+✔︎ Bottle composer (2.10.3)
+✔︎ Bottle c-ares (1.34.8)
+✔︎ Bottle svt-av1 (4.2.0)
+✔︎ Bottle nss (3.128)
+✔︎ Bottle tesseract (5.5.3)
+✔︎ Bottle lua (5.5.1)
+✔︎ Bottle libgcrypt (1.12.3)
+✔︎ Bottle freetds (1.5.19)
+✔︎ Bottle noti (3.9.0)
+✔︎ Bottle libvpx (1.17.0)
+✔︎ Bottle tcl-tk (9.0.4)
+✔︎ Bottle apktool (3.0.3)
+✔︎ Bottle glib (2.88.3)
+✔︎ Bottle llhttp (9.4.3)
+✔︎ Bottle libgit2 (1.9.7)
+✔︎ Bottle yt-dlp (2026.8.19)
+✔︎ Bottle eza (0.23.5)
+✔︎ Bottle ada-url (4.0.0)
+✔︎ Bottle sdl3 (3.4.14)
+✔︎ Bottle merve (1.2.2_2)
+✔︎ Bottle libpq (18.6)
+✔︎ Bottle p11-kit (0.26.5)
+✔︎ Bottle poppler (26.08.0)
+✔︎ Bottle usage (6.5.0)
+✔︎ Bottle fvm (4.3.0)
+✔︎ Bottle lame (4.0)
+✔︎ Bottle python@3.11 (3.11.16)
+✔︎ Bottle Manifest mpg123 (1.33.7)
+✔︎ Bottle x265 (4.3)
+✔︎ Bottle ggshield (1.54.0)
+✔︎ Bottle mpg123 (1.33.7)
+✔︎ Bottle ruby (4.0.6_1)
+✔︎ Bottle pydantic (2.13.5)
+✔︎ Bottle fastlane (2.238.0)
+✔︎ Bottle yazi (26.8.15)
+✔︎ Cask claude-code@latest (2.1.251)
+✔︎ Bottle gh (2.98.0)
+✔︎ Cask maccy (2.7.1)
+✔︎ Cask figma (126.8.16)
+✔︎ Cask android-platform-tools (37.0.1)
+✔︎ Cask clickup (3.5.262,260717dcrpwg7m0)
+✔︎ Cask miro (0.11.168)
+✔︎ Cask font-meslo-lg-nerd-font (3.5.1)
+✔︎ Bottle php (8.5.10)
+✔︎ Bottle python@3.13 (3.13.15)
+✔︎ Bottle python@3.14 (3.14.7)
+✔︎ Bottle deno (2.9.6)
+✔︎ Bottle node (26.8.1)
+✔︎ Bottle php@8.4 (8.4.25)
+✔︎ Cask android-studio (2026.1.3.8,quail3-patch1)
+✔︎ Bottle ffmpeg (9.0.1_1)
+✔︎ Bottle mise (2026.8.14)
+✔︎ Cask mullvad-browser (15.0.20)
+✔︎ Cask temurin@17 (17.0.20.1,1)
+✔︎ Bottle openjdk (26.0.2.1)
+✔︎ Cask anki (26.08.1)
+==> Upgrading libffi
+  3.6.0 -> 3.8.0 
+==> Pouring libffi--3.8.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libffi/3.8.0: 18 files, 951.7KB
+==> Upgrading ca-certificates
+  2026-05-14 -> 2026-08-13 
+==> Pouring ca-certificates--2026-08-13.all.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-08-13: 5 files, 204.3KB
+==> Upgrading apr-util
+  1.6.3_1 -> 1.6.5 
+==> Pouring apr-util--1.6.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/apr-util/1.6.5: 55 files, 905.6KB
+==> Upgrading libnghttp2
+  1.69.0 -> 1.70.0 
+==> Pouring libnghttp2--1.70.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.70.0: 14 files, 858.4KB
+==> Upgrading libnghttp3
+  1.17.0 -> 1.18.0 
+==> Pouring libnghttp3--1.18.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.18.0: 20 files, 601.6KB
+==> Upgrading libngtcp2
+  1.24.0 -> 1.25.0 
+==> Pouring libngtcp2--1.25.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.25.0: 21 files, 1.4MB
+==> Upgrading libpsl
+  0.22.0 -> 0.23.3 
+==> Pouring libpsl--0.23.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpsl/0.23.3: 18 files, 286.4KB
+==> Upgrading libssh2
+  1.11.1_1 -> 1.11.1_4 
+==> Pouring libssh2--1.11.1_4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1_4: 201 files, 1.3MB
+==> Upgrading libtool
+  2.5.4 -> 2.6.2 
+==> Pouring libtool--2.6.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtool/2.6.2: 78 files, 4.2MB
+==> Upgrading freetds
+  1.5.18 -> 1.5.19 
+==> Pouring freetds--1.5.19.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetds/1.5.19: 2,703 files, 25.4MB
+==> Upgrading fontconfig
+  2.18.1 -> 2.18.3 
+==> Pouring fontconfig--2.18.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fontconfig/2.18.3: 102 files, 1.9MB
+==> Upgrading dav1d
+  1.5.3 -> 1.5.4 
+==> Pouring dav1d--1.5.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.4: 16 files, 976KB
+==> Upgrading libpq
+  18.4 -> 18.6 
+==> Pouring libpq--18.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpq/18.6: 2,429 files, 35.4MB
+==> Upgrading openldap
+  2.6.13 -> 2.7.0 
+==> Pouring openldap--2.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openldap/2.7.0: 339 files, 9.0MB
+==> Upgrading sqlite
+  3.53.3 -> 3.53.4 
+==> Pouring sqlite--3.53.4.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.53.4: 13 files, 5.3MB
+==> Upgrading php@8.4
+  8.4.23 -> 8.4.25 
+Warning: php@8.4 was installed but not linked because php is already linked.
+To link this version, run:
+  brew link php@8.4
+==> Pouring php@8.4--8.4.25.arm64_sequoia.bottle.tar.gz
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+Updating channel "doc.php.net"
+Update of Channel "doc.php.net" succeeded
+Updating channel "pear.php.net"
+Update of Channel "pear.php.net" succeeded
+Updating channel "pecl.php.net"
+Update of Channel "pecl.php.net" succeeded
+🍺  /opt/homebrew/Cellar/php@8.4/8.4.25: 529 files, 107.7MB
+==> Upgrading glib
+  2.88.2 -> 2.88.3 
+==> Pouring glib--2.88.3.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.88.3: 501 files, 39.7MB
+==> Upgrading harfbuzz
+  14.2.1 -> 14.4.0 
+==> Pouring harfbuzz--14.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/14.4.0: 96 files, 13.6MB
+==> Upgrading little-cms2
+  2.19 -> 2.19.1 
+==> Pouring little-cms2--2.19.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/little-cms2/2.19.1: 23 files, 1.4MB
+==> Upgrading openjdk
+  26.0.1 -> 26.0.2.1 
+==> Pouring openjdk--26.0.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjdk/26.0.2.1: 549 files, 397.8MB
+==> Upgrading libarchive
+  3.8.8 -> 3.8.9 
+==> Pouring libarchive--3.8.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.9: 65 files, 4MB
+==> Upgrading mise
+  2026.7.2 -> 2026.8.14 
+==> Pouring mise--2026.8.14.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mise/2026.8.14: 15 files, 143.7MB
+==> Upgrading libksba
+  1.8.0 -> 1.8.1 
+==> Pouring libksba--1.8.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libksba/1.8.1: 19 files, 536.7KB
+==> Upgrading simdjson
+  4.6.4 -> 4.6.9 
+==> Pouring simdjson--4.6.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.6.9: 19 files, 8.0MB
+==> Upgrading gh
+  2.96.0 -> 2.98.0 
+==> Pouring gh--2.98.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.98.0: 238 files, 39.8MB
+==> Upgrading terminal-notifier
+  2.0.0 -> 3.0.0_1 
+==> Pouring terminal-notifier--3.0.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/terminal-notifier/3.0.0_1: 12 files, 528.1KB
+==> Upgrading dartaotruntime
+  3.12.2 -> 3.13.2 
+==> Pouring dartaotruntime--3.13.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dartaotruntime/3.13.2: 8 files, 5.3MB
+==> Upgrading certifi
+  2026.6.17 -> 2026.7.22 
+==> Pouring certifi--2026.7.22.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2026.7.22: 44 files, 21.9KB
+==> Upgrading deno
+  2.9.1 -> 2.9.6 
+==> Pouring deno--2.9.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/deno/2.9.6: 12 files, 125MB
+==> Upgrading python@3.14
+  3.14.6 -> 3.14.7 
+==> Pouring python@3.14--3.14.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.7: 3,776 files, 74.4MB
+==> Upgrading yt-dlp
+  2026.7.4 -> 2026.8.19 
+==> Pouring yt-dlp--2026.8.19.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2026.8.19: 1,698 files, 20.9MB
+==> Upgrading pipx
+  1.15.0 -> 1.16.7 
+==> Pouring pipx--1.16.7.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pipx/1.16.7: 209 files, 2.1MB
+==> Upgrading cffi
+  2.0.0_1 -> 2.1.1 
+==> Pouring cffi--2.1.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cffi/2.1.1: 71 files, 1.2MB
+==> Upgrading cryptography
+  49.0.0 -> 50.0.1 
+==> Pouring cryptography--50.0.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cryptography/50.0.1: 248 files, 13.3MB
+==> Upgrading python@3.13
+  3.13.14_1 -> 3.13.15 
+==> Pouring python@3.13--3.13.15.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.15: 3,641 files, 71.2MB
+==> Upgrading simdutf
+  9.0.0 -> 9.1.0 
+==> Pouring simdutf--9.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/9.1.0: 65 files, 2MB
+==> Upgrading pango
+  1.58.0 -> 1.58.2 
+==> Pouring pango--1.58.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.58.2: 69 files, 3.7MB
+==> Upgrading php
+  8.5.8 -> 8.5.10 
+==> Pouring php--8.5.10.arm64_sequoia.bottle.tar.gz
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+config-set succeeded
+Updating channel "doc.php.net"
+Update of Channel "doc.php.net" succeeded
+Updating channel "pear.php.net"
+Update of Channel "pear.php.net" succeeded
+Updating channel "pecl.php.net"
+Update of Channel "pecl.php.net" succeeded
+🍺  /opt/homebrew/Cellar/php/8.5.10: 533 files, 130MB
+==> Upgrading composer
+  2.10.2 -> 2.10.3 
+==> Pouring composer--2.10.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/composer/2.10.3: 4 files, 3.7MB
+==> Upgrading nspr
+  4.39 -> 4.40 
+==> Pouring nspr--4.40.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nspr/4.40: 79 files, 1.2MB
+==> Upgrading nss
+  3.126 -> 3.128 
+==> Pouring nss--3.128.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nss/3.128: 210 files, 19.8MB
+==> Upgrading usage
+  3.5.4 -> 6.5.0 
+==> Pouring usage--6.5.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/usage/6.5.0: 14 files, 12.0MB
+==> Upgrading tesseract
+  5.5.2 -> 5.5.3 
+==> Pouring tesseract--5.5.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tesseract/5.5.3: 75 files, 34.6MB
+==> Upgrading c-ares
+  1.34.7 -> 1.34.8 
+==> Pouring c-ares--1.34.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/c-ares/1.34.8: 176 files, 1MB
+==> Upgrading svt-av1
+  4.1.0 -> 4.2.0 
+==> Pouring svt-av1--4.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/4.2.0: 23 files, 3.3MB
+==> Upgrading apktool
+  3.0.2 -> 3.0.3 
+==> Pouring apktool--3.0.3.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/apktool/3.0.3: 5 files, 15.5MB
+==> Upgrading lua
+  5.5.0 -> 5.5.1 
+==> Pouring lua--5.5.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lua/5.5.1: 30 files, 928.1KB
+==> Upgrading libgcrypt
+  1.12.2 -> 1.12.3 
+==> Pouring libgcrypt--1.12.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgcrypt/1.12.3: 24 files, 4.1MB
+==> Upgrading noti
+  3.8.0 -> 3.9.0 
+==> Pouring noti--3.9.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/noti/3.9.0: 11 files, 9.8MB
+==> Upgrading yazi
+  26.5.6 -> 26.8.15 
+==> Pouring yazi--26.8.15.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yazi/26.8.15: 17 files, 28.3MB
+==> Upgrading libvpx
+  1.16.0 -> 1.17.0 
+==> Pouring libvpx--1.17.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvpx/1.17.0: 22 files, 4.4MB
+==> Upgrading tcl-tk
+  9.0.3 -> 9.0.4 
+==> Pouring tcl-tk--9.0.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tcl-tk/9.0.4: 3,155 files, 39.9MB
+==> Upgrading ruby
+  4.0.5 -> 4.0.6_1 
+==> Pouring ruby--4.0.6_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ruby/4.0.6_1: 19,312 files, 59.4MB
+==> Upgrading fastlane
+  2.237.0 -> 2.238.0 
+==> Pouring fastlane--2.238.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fastlane/2.238.0: 5,369 files, 65.8MB
+==> Upgrading llhttp
+  9.4.2 -> 9.4.3 
+==> Pouring llhttp--9.4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llhttp/9.4.3: 15 files, 147.8KB
+==> Upgrading libgit2
+  1.9.4 -> 1.9.7 
+==> Pouring libgit2--1.9.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.7: 109 files, 5.0MB
+==> Upgrading eza
+  0.23.4 -> 0.23.5 
+==> Pouring eza--0.23.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/eza/0.23.5: 15 files, 1.6MB
+==> Upgrading sdl3
+  3.4.12 -> 3.4.14 
+==> Pouring sdl3--3.4.14.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.14: 103 files, 6.3MB
+==> Upgrading ada-url
+  3.4.4 -> 4.0.0 
+==> Pouring ada-url--4.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ada-url/4.0.0: 56 files, 1MB
+==> Upgrading x265
+  4.2 -> 4.3 
+==> Pouring x265--4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x265/4.3: 12 files, 17.4MB
+==> Upgrading merve
+  1.2.2_1 -> 1.2.2_2 
+==> Pouring merve--1.2.2_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/merve/1.2.2_2: 19 files, 137.3KB
+==> Upgrading node
+  26.4.0 -> 26.8.1 
+==> Pouring node--26.8.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.8.1: 2,077 files, 70.7MB
+==> Upgrading p11-kit
+  0.26.4 -> 0.26.5 
+==> Pouring p11-kit--0.26.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/p11-kit/0.26.5: 33 files, 4.8MB
+==> Upgrading poppler
+  26.07.0 -> 26.08.0 
+==> Pouring poppler--26.08.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/poppler/26.08.0: 447 files, 34.2MB
+==> Upgrading pydantic
+  2.13.4 -> 2.13.5 
+==> Pouring pydantic--2.13.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pydantic/2.13.5: 298 files, 13.8MB
+==> Upgrading python@3.11
+  3.11.15_3 -> 3.11.16 
+==> Pouring python@3.11--3.11.16.arm64_sequoia.bottle.tar.gz
+Looking in links: /private/tmp/tmpj09jz3kl
+Processing /private/tmp/tmpj09jz3kl/setuptools-84.0.0-py3-none-any.whl
+Processing /private/tmp/tmpj09jz3kl/pip-26.2.1-py3-none-any.whl
+Installing collected packages: setuptools, pip
+  WARNING: The scripts pip3 and pip3.11 are installed in '/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+Successfully installed pip-26.2.1 setuptools-84.0.0
+Using pip 26.2.1 from /opt/homebrew/lib/python3.11/site-packages/pip (python 3.11)
+Processing /opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ensurepip/_bundled/setuptools-84.0.0-py3-none-any.whl
+Processing /opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ensurepip/_bundled/pip-26.2.1-py3-none-any.whl
+Processing /opt/homebrew/Cellar/python@3.11/3.11.16/libexec/wheel-0.48.0-py3-none-any.whl
+Installing collected packages: wheel, setuptools, pip
+  Creating /private/tmp/pip-target-o8cegh28/bin
+  changing mode of /private/tmp/pip-target-o8cegh28/bin/wheel to 755
+  changing mode of /private/tmp/pip-target-o8cegh28/bin/pip to 755
+  changing mode of /private/tmp/pip-target-o8cegh28/bin/pip3 to 755
+  changing mode of /private/tmp/pip-target-o8cegh28/bin/pip3.11 to 755
+
+Successfully installed pip-26.2.1 setuptools-84.0.0 wheel-0.48.0
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.16: 3,304 files, 64.2MB
+==> Upgrading fvm
+  4.1.2 -> 4.3.0 
+==> Pouring fvm--4.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fvm/4.3.0: 8 files, 4.6MB
+==> Upgrading lame
+  3.100 -> 4.0 
+==> Installing lame dependency: mpg123
+==> Pouring mpg123--1.33.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.7: 34 files, 1.9MB
+==> Installing lame
+==> Pouring lame--4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lame/4.0: 29 files, 1.9MB
+==> Upgrading ggshield
+  1.52.2_1 -> 1.54.0 
+==> Pouring ggshield--1.54.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ggshield/1.54.0: 2,273 files, 23.5MB
+==> Upgrading ffmpeg
+  8.1.2_1 -> 9.0.1_1 
+==> Pouring ffmpeg--9.0.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/9.0.1_1: 290 files, 54.4MB
+==> Upgrading android-platform-tools
+  37.0.0 -> 37.0.1
+==> Unlinking Binary '/opt/homebrew/bin/adb'
+==> Unlinking Binary '/opt/homebrew/bin/etc1tool'
+==> Unlinking Binary '/opt/homebrew/bin/fastboot'
+==> Unlinking Binary '/opt/homebrew/bin/hprof-conv'
+==> Unlinking Binary '/opt/homebrew/bin/make_f2fs'
+==> Unlinking Binary '/opt/homebrew/bin/make_f2fs_casefold'
+==> Unlinking Binary '/opt/homebrew/bin/mke2fs'
+==> Linking Binary 'adb' to '/opt/homebrew/bin/adb'
+==> Linking Binary 'etc1tool' to '/opt/homebrew/bin/etc1tool'
+==> Linking Binary 'fastboot' to '/opt/homebrew/bin/fastboot'
+==> Linking Binary 'hprof-conv' to '/opt/homebrew/bin/hprof-conv'
+==> Linking Binary 'make_f2fs' to '/opt/homebrew/bin/make_f2fs'
+==> Linking Binary 'make_f2fs_casefold' to '/opt/homebrew/bin/make_f2fs_casefold'
+==> Linking Binary 'mke2fs' to '/opt/homebrew/bin/mke2fs'
+==> Purging files for version 37.0.0 of Cask android-platform-tools
+🍺  android-platform-tools was successfully upgraded!
+==> Upgrading android-studio
+  2026.1.1.10,quail1-patch2 -> 2026.1.3.8,quail3-patch1
+==> Backing up App 'Android Studio.app' to '/opt/homebrew/Caskroom/android-studio/2026.1.1.10,quail1-patch2/Android Studio.app'
+==> Removing App '/Applications/Android Studio.app'
+==> Unlinking Binary '/opt/homebrew/bin/studio'
+==> Moving App 'Android Studio.app' to '/Applications/Android Studio.app'
+==> Linking Binary 'studio' to '/opt/homebrew/bin/studio'
+==> Purging files for version 2026.1.1.10,quail1-patch2 of Cask android-studio
+🍺  android-studio was successfully upgraded!
+==> Upgrading anki
+  26.05 -> 26.08.1
+==> Backing up App 'Anki.app' to '/opt/homebrew/Caskroom/anki/26.05/Anki.app'
+==> Removing App '/Applications/Anki.app'
+==> Moving App 'Anki.app' to '/Applications/Anki.app'
+==> Purging files for version 26.05 of Cask anki
+🍺  anki was successfully upgraded!
+==> Upgrading claude-code@latest
+  2.1.235 -> 2.1.251
+==> Unlinking Binary '/opt/homebrew/bin/claude'
+==> Linking Binary 'claude' to '/opt/homebrew/bin/claude'
+==> Purging files for version 2.1.235 of Cask claude-code@latest
+🍺  claude-code@latest was successfully upgraded!
+==> Upgrading clickup
+  3.5.230,260616wecrh5vza -> 3.5.262,260717dcrpwg7m0
+==> Backing up App 'ClickUp.app' to '/opt/homebrew/Caskroom/clickup/3.5.230,260616wecrh5vza/ClickUp.app'
+==> Removing App '/Applications/ClickUp.app'
+==> Moving App 'ClickUp.app' to '/Applications/ClickUp.app'
+==> Purging files for version 3.5.230,260616wecrh5vza of Cask clickup
+🍺  clickup was successfully upgraded!
+==> Upgrading figma
+  126.6.12 -> 126.8.16
+==> Backing up App 'Figma.app' to '/opt/homebrew/Caskroom/figma/126.6.12/Figma.app'
+==> Removing App '/Applications/Figma.app'
+==> Moving App 'Figma.app' to '/Applications/Figma.app'
+==> Purging files for version 126.6.12 of Cask figma
+🍺  figma was successfully upgraded!
+==> Upgrading font-meslo-lg-nerd-font
+  3.4.0 -> 3.5.1
+==> Backing up Font 'MesloLGSNerdFontPropo-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontPropo-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-Regular.ttf'
+==> Backing up Font 'MesloLGLDZNerdFont-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFont-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-BoldItalic.ttf'
+==> Backing up Font 'MesloLGLDZNerdFont-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFont-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-Italic.ttf'
+==> Backing up Font 'MesloLGLDZNerdFont-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFont-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-Regular.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontMono-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontMono-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-Bold.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontMono-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontMono-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-BoldItalic.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontMono-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontMono-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-Italic.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontMono-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontMono-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-Regular.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontPropo-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontPropo-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-Bold.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontPropo-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontPropo-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-BoldItalic.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontPropo-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontPropo-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-Italic.ttf'
+==> Backing up Font 'MesloLGLDZNerdFontPropo-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFontPropo-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-Regular.ttf'
+==> Backing up Font 'MesloLGLNerdFont-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFont-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-Bold.ttf'
+==> Backing up Font 'MesloLGLNerdFont-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFont-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-BoldItalic.ttf'
+==> Backing up Font 'MesloLGLNerdFont-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFont-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-Italic.ttf'
+==> Backing up Font 'MesloLGLNerdFont-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFont-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-Regular.ttf'
+==> Backing up Font 'MesloLGLNerdFontMono-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontMono-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-Bold.ttf'
+==> Backing up Font 'MesloLGLNerdFontMono-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontMono-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-BoldItalic.ttf'
+==> Backing up Font 'MesloLGLNerdFontMono-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontMono-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-Italic.ttf'
+==> Backing up Font 'MesloLGLNerdFontMono-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontMono-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-Regular.ttf'
+==> Backing up Font 'MesloLGLNerdFontPropo-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontPropo-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-Bold.ttf'
+==> Backing up Font 'MesloLGLNerdFontPropo-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontPropo-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-BoldItalic.ttf'
+==> Backing up Font 'MesloLGLNerdFontPropo-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontPropo-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-Italic.ttf'
+==> Backing up Font 'MesloLGLNerdFontPropo-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLNerdFontPropo-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-Regular.ttf'
+==> Backing up Font 'MesloLGMDZNerdFont-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFont-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-Bold.ttf'
+==> Backing up Font 'MesloLGMDZNerdFont-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFont-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-BoldItalic.ttf'
+==> Backing up Font 'MesloLGMDZNerdFont-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFont-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-Italic.ttf'
+==> Backing up Font 'MesloLGMDZNerdFont-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFont-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-Regular.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontMono-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontMono-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-Bold.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontMono-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontMono-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-BoldItalic.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontMono-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontMono-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-Italic.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontMono-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontMono-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-Regular.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontPropo-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontPropo-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-Bold.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontPropo-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontPropo-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-BoldItalic.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontPropo-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontPropo-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-Italic.ttf'
+==> Backing up Font 'MesloLGMDZNerdFontPropo-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMDZNerdFontPropo-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-Regular.ttf'
+==> Backing up Font 'MesloLGMNerdFont-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFont-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-Bold.ttf'
+==> Backing up Font 'MesloLGMNerdFont-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFont-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-BoldItalic.ttf'
+==> Backing up Font 'MesloLGMNerdFont-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFont-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-Italic.ttf'
+==> Backing up Font 'MesloLGMNerdFont-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFont-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-Regular.ttf'
+==> Backing up Font 'MesloLGMNerdFontMono-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontMono-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-Bold.ttf'
+==> Backing up Font 'MesloLGMNerdFontMono-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontMono-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-BoldItalic.ttf'
+==> Backing up Font 'MesloLGMNerdFontMono-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontMono-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-Italic.ttf'
+==> Backing up Font 'MesloLGMNerdFontMono-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontMono-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-Regular.ttf'
+==> Backing up Font 'MesloLGMNerdFontPropo-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontPropo-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-Bold.ttf'
+==> Backing up Font 'MesloLGMNerdFontPropo-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontPropo-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-BoldItalic.ttf'
+==> Backing up Font 'MesloLGMNerdFontPropo-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontPropo-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-Italic.ttf'
+==> Backing up Font 'MesloLGMNerdFontPropo-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGMNerdFontPropo-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-Regular.ttf'
+==> Backing up Font 'MesloLGSDZNerdFont-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFont-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-Bold.ttf'
+==> Backing up Font 'MesloLGSDZNerdFont-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFont-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-BoldItalic.ttf'
+==> Backing up Font 'MesloLGSDZNerdFont-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFont-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-Italic.ttf'
+==> Backing up Font 'MesloLGSDZNerdFont-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFont-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-Regular.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontMono-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontMono-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-Bold.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontMono-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontMono-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-BoldItalic.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontMono-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontMono-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-Italic.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontMono-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontMono-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-Regular.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontPropo-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontPropo-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-Bold.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontPropo-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontPropo-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-BoldItalic.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontPropo-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontPropo-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-Italic.ttf'
+==> Backing up Font 'MesloLGSDZNerdFontPropo-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSDZNerdFontPropo-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-Regular.ttf'
+==> Backing up Font 'MesloLGSNerdFont-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFont-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-Bold.ttf'
+==> Backing up Font 'MesloLGSNerdFont-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFont-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-BoldItalic.ttf'
+==> Backing up Font 'MesloLGSNerdFont-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFont-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-Italic.ttf'
+==> Backing up Font 'MesloLGSNerdFont-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFont-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-Regular.ttf'
+==> Backing up Font 'MesloLGSNerdFontMono-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontMono-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-Bold.ttf'
+==> Backing up Font 'MesloLGSNerdFontMono-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontMono-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-BoldItalic.ttf'
+==> Backing up Font 'MesloLGSNerdFontMono-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontMono-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-Italic.ttf'
+==> Backing up Font 'MesloLGSNerdFontMono-Regular.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontMono-Regular.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-Regular.ttf'
+==> Backing up Font 'MesloLGSNerdFontPropo-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontPropo-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-Bold.ttf'
+==> Backing up Font 'MesloLGSNerdFontPropo-BoldItalic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontPropo-BoldItalic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-BoldItalic.ttf'
+==> Backing up Font 'MesloLGSNerdFontPropo-Italic.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGSNerdFontPropo-Italic.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-Italic.ttf'
+==> Backing up Font 'MesloLGLDZNerdFont-Bold.ttf' to '/opt/homebrew/Caskroom/font-meslo-lg-nerd-font/3.4.0/MesloLGLDZNerdFont-Bold.ttf'
+==> Removing Font '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-Bold.ttf'
+==> Moving Font 'MesloLGLDZNerdFont-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-Bold.ttf'
+==> Moving Font 'MesloLGLDZNerdFont-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-BoldItalic.ttf'
+==> Moving Font 'MesloLGLDZNerdFont-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-Italic.ttf'
+==> Moving Font 'MesloLGLDZNerdFont-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFont-Regular.ttf'
+==> Moving Font 'MesloLGLDZNerdFontMono-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-Bold.ttf'
+==> Moving Font 'MesloLGLDZNerdFontMono-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'MesloLGLDZNerdFontMono-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-Italic.ttf'
+==> Moving Font 'MesloLGLDZNerdFontMono-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontMono-Regular.ttf'
+==> Moving Font 'MesloLGLDZNerdFontPropo-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-Bold.ttf'
+==> Moving Font 'MesloLGLDZNerdFontPropo-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'MesloLGLDZNerdFontPropo-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-Italic.ttf'
+==> Moving Font 'MesloLGLDZNerdFontPropo-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLDZNerdFontPropo-Regular.ttf'
+==> Moving Font 'MesloLGLNerdFont-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-Bold.ttf'
+==> Moving Font 'MesloLGLNerdFont-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-BoldItalic.ttf'
+==> Moving Font 'MesloLGLNerdFont-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-Italic.ttf'
+==> Moving Font 'MesloLGLNerdFont-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFont-Regular.ttf'
+==> Moving Font 'MesloLGLNerdFontMono-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-Bold.ttf'
+==> Moving Font 'MesloLGLNerdFontMono-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'MesloLGLNerdFontMono-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-Italic.ttf'
+==> Moving Font 'MesloLGLNerdFontMono-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontMono-Regular.ttf'
+==> Moving Font 'MesloLGLNerdFontPropo-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-Bold.ttf'
+==> Moving Font 'MesloLGLNerdFontPropo-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'MesloLGLNerdFontPropo-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-Italic.ttf'
+==> Moving Font 'MesloLGLNerdFontPropo-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGLNerdFontPropo-Regular.ttf'
+==> Moving Font 'MesloLGMDZNerdFont-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-Bold.ttf'
+==> Moving Font 'MesloLGMDZNerdFont-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-BoldItalic.ttf'
+==> Moving Font 'MesloLGMDZNerdFont-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-Italic.ttf'
+==> Moving Font 'MesloLGMDZNerdFont-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFont-Regular.ttf'
+==> Moving Font 'MesloLGMDZNerdFontMono-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-Bold.ttf'
+==> Moving Font 'MesloLGMDZNerdFontMono-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'MesloLGMDZNerdFontMono-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-Italic.ttf'
+==> Moving Font 'MesloLGMDZNerdFontMono-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontMono-Regular.ttf'
+==> Moving Font 'MesloLGMDZNerdFontPropo-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-Bold.ttf'
+==> Moving Font 'MesloLGMDZNerdFontPropo-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'MesloLGMDZNerdFontPropo-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-Italic.ttf'
+==> Moving Font 'MesloLGMDZNerdFontPropo-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMDZNerdFontPropo-Regular.ttf'
+==> Moving Font 'MesloLGMNerdFont-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-Bold.ttf'
+==> Moving Font 'MesloLGMNerdFont-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-BoldItalic.ttf'
+==> Moving Font 'MesloLGMNerdFont-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-Italic.ttf'
+==> Moving Font 'MesloLGMNerdFont-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFont-Regular.ttf'
+==> Moving Font 'MesloLGMNerdFontMono-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-Bold.ttf'
+==> Moving Font 'MesloLGMNerdFontMono-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'MesloLGMNerdFontMono-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-Italic.ttf'
+==> Moving Font 'MesloLGMNerdFontMono-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontMono-Regular.ttf'
+==> Moving Font 'MesloLGMNerdFontPropo-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-Bold.ttf'
+==> Moving Font 'MesloLGMNerdFontPropo-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'MesloLGMNerdFontPropo-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-Italic.ttf'
+==> Moving Font 'MesloLGMNerdFontPropo-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGMNerdFontPropo-Regular.ttf'
+==> Moving Font 'MesloLGSDZNerdFont-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-Bold.ttf'
+==> Moving Font 'MesloLGSDZNerdFont-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-BoldItalic.ttf'
+==> Moving Font 'MesloLGSDZNerdFont-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-Italic.ttf'
+==> Moving Font 'MesloLGSDZNerdFont-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFont-Regular.ttf'
+==> Moving Font 'MesloLGSDZNerdFontMono-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-Bold.ttf'
+==> Moving Font 'MesloLGSDZNerdFontMono-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'MesloLGSDZNerdFontMono-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-Italic.ttf'
+==> Moving Font 'MesloLGSDZNerdFontMono-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontMono-Regular.ttf'
+==> Moving Font 'MesloLGSDZNerdFontPropo-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-Bold.ttf'
+==> Moving Font 'MesloLGSDZNerdFontPropo-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'MesloLGSDZNerdFontPropo-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-Italic.ttf'
+==> Moving Font 'MesloLGSDZNerdFontPropo-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSDZNerdFontPropo-Regular.ttf'
+==> Moving Font 'MesloLGSNerdFont-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-Bold.ttf'
+==> Moving Font 'MesloLGSNerdFont-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-BoldItalic.ttf'
+==> Moving Font 'MesloLGSNerdFont-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-Italic.ttf'
+==> Moving Font 'MesloLGSNerdFont-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFont-Regular.ttf'
+==> Moving Font 'MesloLGSNerdFontMono-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-Bold.ttf'
+==> Moving Font 'MesloLGSNerdFontMono-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'MesloLGSNerdFontMono-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-Italic.ttf'
+==> Moving Font 'MesloLGSNerdFontMono-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontMono-Regular.ttf'
+==> Moving Font 'MesloLGSNerdFontPropo-Bold.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-Bold.ttf'
+==> Moving Font 'MesloLGSNerdFontPropo-BoldItalic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'MesloLGSNerdFontPropo-Italic.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-Italic.ttf'
+==> Moving Font 'MesloLGSNerdFontPropo-Regular.ttf' to '/Users/khurshidddbek/Library/Fonts/MesloLGSNerdFontPropo-Regular.ttf'
+==> Purging files for version 3.4.0 of Cask font-meslo-lg-nerd-font
+🍺  font-meslo-lg-nerd-font was successfully upgraded!
+==> Upgrading maccy
+  2.6.1 -> 2.7.1
+==> Quitting application 'org.p0deje.Maccy'...
+Application 'org.p0deje.Maccy' quit successfully.
+==> Backing up App 'Maccy.app' to '/opt/homebrew/Caskroom/maccy/2.6.1/Maccy.app'
+==> Removing App '/Applications/Maccy.app'
+==> Moving App 'Maccy.app' to '/Applications/Maccy.app'
+==> Purging files for version 2.6.1 of Cask maccy
+🍺  maccy was successfully upgraded!
+==> Reopening 1 application closed during upgrade:
+org.p0deje.Maccy
+Error: miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Upgrading miro
+  0.11.116 -> 0.11.168
+==> Purging files for version 0.11.168 of Cask miro
+==> Upgrading mullvad-browser
+  15.0.18 -> 15.0.20
+==> Backing up App 'Mullvad Browser.app' to '/opt/homebrew/Caskroom/mullvad-browser/15.0.18/Mullvad Browser.app'
+==> Removing App '/Applications/Mullvad Browser.app'
+==> Moving App 'Mullvad Browser.app' to '/Applications/Mullvad Browser.app'
+==> Purging files for version 15.0.18 of Cask mullvad-browser
+🍺  mullvad-browser was successfully upgraded!
+==> Upgrading temurin@17
+  17.0.19,10 -> 17.0.20.1,1
+==> Uninstalling packages with `sudo` (which may request your password)...
+net.temurin.17.jdk
+==> Running installer for temurin@17 with `sudo` (which may request your password)...
+installer: Package name is Eclipse Temurin
+installer: Installing at base path /
+installer: The install was successful.
+==> Purging files for version 17.0.19,10 of Cask temurin@17
+🍺  temurin@17 was successfully upgraded!
+==> Cleanup
+==> libffi
+Removing: /opt/homebrew/Cellar/libffi/3.6.0... (18 files, 884.3KB)
+==> ca-certificates
+Removing: /opt/homebrew/Cellar/ca-certificates/2026-05-14... (4 files, 200.6KB)
+==> apr-util
+Removing: /opt/homebrew/Cellar/apr-util/1.6.3_1... (55 files, 937.4KB)
+==> libnghttp2
+Removing: /opt/homebrew/Cellar/libnghttp2/1.69.0... (14 files, 850.4KB)
+==> libnghttp3
+Removing: /opt/homebrew/Cellar/libnghttp3/1.17.0... (20 files, 617.3KB)
+==> libngtcp2
+Removing: /opt/homebrew/Cellar/libngtcp2/1.24.0... (21 files, 1.4MB)
+==> libpsl
+Removing: /opt/homebrew/Cellar/libpsl/0.22.0... (16 files, 312.8KB)
+==> libssh2
+Removing: /opt/homebrew/Cellar/libssh2/1.11.1_1... (201 files, 1.3MB)
+==> libtool
+Removing: /opt/homebrew/Cellar/libtool/2.5.4... (76 files, 4.1MB)
+==> freetds
+Removing: /opt/homebrew/Cellar/freetds/1.5.18... (2,703 files, 25.6MB)
+==> fontconfig
+Removing: /opt/homebrew/Cellar/fontconfig/2.18.1... (102 files, 1.8MB)
+==> dav1d
+Removing: /opt/homebrew/Cellar/dav1d/1.5.3... (16 files, 945.0KB)
+==> libpq
+Removing: /opt/homebrew/Cellar/libpq/18.4... (2,428 files, 35.7MB)
+==> openldap
+Removing: /opt/homebrew/Cellar/openldap/2.6.13... (342 files, 9.2MB)
+==> sqlite
+Removing: /opt/homebrew/Cellar/sqlite/3.53.3... (13 files, 5.4MB)
+==> php@8.4
+Removing: /opt/homebrew/Cellar/php@8.4/8.4.23... (529 files, 107.7MB)
+==> glib
+Removing: /opt/homebrew/Cellar/glib/2.88.2... (506 files, 40MB)
+==> harfbuzz
+Removing: /opt/homebrew/Cellar/harfbuzz/14.2.1... (94 files, 13.2MB)
+==> little-cms2
+Removing: /opt/homebrew/Cellar/little-cms2/2.19... (23 files, 1.5MB)
+==> openjdk
+Removing: /opt/homebrew/Cellar/openjdk/26.0.1... (550 files, 399MB)
+==> libarchive
+Removing: /opt/homebrew/Cellar/libarchive/3.8.8... (65 files, 4.1MB)
+==> mise
+Removing: /opt/homebrew/Cellar/mise/2026.7.2... (15 files, 103MB)
+==> libksba
+Removing: /opt/homebrew/Cellar/libksba/1.8.0... (19 files, 529.9KB)
+==> simdjson
+Removing: /opt/homebrew/Cellar/simdjson/4.6.4... (19 files, 8.0MB)
+==> gh
+Removing: /opt/homebrew/Cellar/gh/2.96.0... (238 files, 38.7MB)
+==> terminal-notifier
+Removing: /opt/homebrew/Cellar/terminal-notifier/2.0.0... (13 files, 488.7KB)
+==> dartaotruntime
+Removing: /opt/homebrew/Cellar/dartaotruntime/3.12.2... (8 files, 5.2MB)
+==> certifi
+Removing: /opt/homebrew/Cellar/certifi/2026.6.17... (40 files, 21.4KB)
+==> deno
+Removing: /opt/homebrew/Cellar/deno/2.9.1... (12 files, 142.3MB)
+==> python@3.14
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.6... (4,102 files, 82.8MB)
+==> yt-dlp
+Removing: /opt/homebrew/Cellar/yt-dlp/2026.7.4... (1,694 files, 20.7MB)
+==> pipx
+Removing: /opt/homebrew/Cellar/pipx/1.15.0... (168 files, 1.4MB)
+==> cffi
+Removing: /opt/homebrew/Cellar/cffi/2.0.0_1... (99 files, 1.8MB)
+==> cryptography
+Removing: /opt/homebrew/Cellar/cryptography/49.0.0... (242 files, 12.4MB)
+==> python@3.13
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.14_1... (3,622 files, 72.6MB)
+==> simdutf
+Removing: /opt/homebrew/Cellar/simdutf/9.0.0... (65 files, 2MB)
+==> pango
+Removing: /opt/homebrew/Cellar/pango/1.58.0... (69 files, 3.8MB)
+==> php
+Removing: /opt/homebrew/Cellar/php/8.5.8... (533 files, 130MB)
+==> composer
+Removing: /opt/homebrew/Cellar/composer/2.10.2... (4 files, 3.7MB)
+==> nspr
+Removing: /opt/homebrew/Cellar/nspr/4.39... (79 files, 1.2MB)
+==> nss
+Removing: /opt/homebrew/Cellar/nss/3.126... (210 files, 19.1MB)
+==> usage
+Removing: /opt/homebrew/Cellar/usage/3.5.4... (13 files, 6.6MB)
+==> tesseract
+Removing: /opt/homebrew/Cellar/tesseract/5.5.2... (75 files, 34.9MB)
+==> c-ares
+Removing: /opt/homebrew/Cellar/c-ares/1.34.7... (176 files, 1MB)
+==> svt-av1
+Removing: /opt/homebrew/Cellar/svt-av1/4.1.0... (23 files, 3.1MB)
+==> apktool
+Removing: /opt/homebrew/Cellar/apktool/3.0.2... (5 files, 15.5MB)
+==> lua
+Removing: /opt/homebrew/Cellar/lua/5.5.0... (30 files, 980.7KB)
+==> libgcrypt
+Removing: /opt/homebrew/Cellar/libgcrypt/1.12.2... (24 files, 4MB)
+==> noti
+Removing: /opt/homebrew/Cellar/noti/3.8.0... (8 files, 9.5MB)
+==> yazi
+Removing: /opt/homebrew/Cellar/yazi/26.5.6... (17 files, 20.1MB)
+==> libvpx
+Removing: /opt/homebrew/Cellar/libvpx/1.16.0... (22 files, 4.4MB)
+==> tcl-tk
+Removing: /opt/homebrew/Cellar/tcl-tk/9.0.3... (3,158 files, 40.1MB)
+==> ruby
+Removing: /opt/homebrew/Cellar/ruby/4.0.5... (19,310 files, 61MB)
+==> fastlane
+Removing: /opt/homebrew/Cellar/fastlane/2.237.0... (4,550 files, 54.3MB)
+==> llhttp
+Removing: /opt/homebrew/Cellar/llhttp/9.4.2... (15 files, 164.4KB)
+==> libgit2
+Removing: /opt/homebrew/Cellar/libgit2/1.9.4... (109 files, 5MB)
+==> eza
+Removing: /opt/homebrew/Cellar/eza/0.23.4... (15 files, 1.4MB)
+==> sdl3
+Removing: /opt/homebrew/Cellar/sdl3/3.4.12... (103 files, 6.3MB)
+==> ada-url
+Removing: /opt/homebrew/Cellar/ada-url/3.4.4... (55 files, 1.3MB)
+==> x265
+Removing: /opt/homebrew/Cellar/x265/4.2... (12 files, 17.1MB)
+==> merve
+Removing: /opt/homebrew/Cellar/merve/1.2.2_1... (19 files, 154.8KB)
+==> node
+Removing: /opt/homebrew/Cellar/node/26.4.0... (2,071 files, 92.7MB)
+==> p11-kit
+Removing: /opt/homebrew/Cellar/p11-kit/0.26.4... (33 files, 4.8MB)
+==> poppler
+Removing: /opt/homebrew/Cellar/poppler/26.07.0... (447 files, 34.1MB)
+==> pydantic
+Removing: /opt/homebrew/Cellar/pydantic/2.13.4... (298 files, 13.9MB)
+==> python@3.11
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.15_3... (3,306 files, 64.9MB)
+==> fvm
+Removing: /opt/homebrew/Cellar/fvm/4.1.2... (8 files, 4.5MB)
+==> lame
+Removing: /opt/homebrew/Cellar/lame/3.100... (27 files, 2.3MB)
+==> ggshield
+Removing: /opt/homebrew/Cellar/ggshield/1.52.2_1... (2,156 files, 21.6MB)
+==> ffmpeg
+Removing: /opt/homebrew/Cellar/ffmpeg/8.1.2_1... (287 files, 54.3MB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> php@8.4
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php@8.4/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+php@8.4 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have php@8.4 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/opt/homebrew/opt/php@8.4/sbin:$PATH"' >> ~/.zshrc
+
+For compilers to find php@8.4 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/php@8.4/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/php@8.4/include"
+
+The following php@8.4 executables are shadowed by other linked Homebrew commands:
+  pear (shadowed by /opt/homebrew/bin/pear from php)
+  peardev (shadowed by /opt/homebrew/bin/peardev from php)
+  pecl (shadowed by /opt/homebrew/bin/pecl from php)
+  phar (shadowed by /opt/homebrew/bin/phar from php)
+  phar.phar (shadowed by /opt/homebrew/bin/phar.phar from php)
+  php (shadowed by /opt/homebrew/bin/php from php)
+  php-cgi (shadowed by /opt/homebrew/bin/php-cgi from php)
+  php-config (shadowed by /opt/homebrew/bin/php-config from php)
+  php-fpm (shadowed by /opt/homebrew/sbin/php-fpm from php)
+  phpdbg (shadowed by /opt/homebrew/bin/phpdbg from php)
+  phpize (shadowed by /opt/homebrew/bin/phpize from php)
+Running these by name will not invoke the version provided by this formula.
+Run `brew link php@8.4` to switch the active version to this keg.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+
+To start php@8.4 now and restart at login:
+  brew services start php@8.4
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php@8.4/sbin/php-fpm --nodaemonize
+==> openjdk
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+openjdk is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS provides similar software and installing this software in
+parallel can cause all kinds of trouble.
+
+If you need to have openjdk first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openjdk you may need to set:
+  export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+==> mise
+If you are using fish shell, mise will be activated for you automatically.
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.5/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> tesseract
+This formula contains only the "eng", "osd", and "snum" language data files.
+If you need any other supported languages, run `brew install tesseract-lang`.
+==> lua
+You may also want luarocks:
+  brew install luarocks
+==> tcl-tk
+The sqlite3_analyzer binary is in the `sqlite-analyzer` formula.
+==> fastlane
+Fastlane will install additional gems to FASTLANE_GEM_HOME, which defaults to
+  ${HOME}/.local/share/fastlane/4.0.0
+==> node
+Single Executable Application is disabled as it doesn't work with shared libnode.
+Temporal support is disabled as it doesn't work with shared ICU library.
+==> python@3.11
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> fvm
+The following fvm executables are shadowed by other commands earlier in your PATH:
+  fvm (shadowed by /Users/khurshidddbek/.pub-cache/bin/fvm)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Upgraded 80 outdated packages
+libffi                   3.6.0                     -> 3.8.0
+ca-certificates          2026-05-14                -> 2026-08-13
+apr-util                 1.6.3_1                   -> 1.6.5
+libnghttp2               1.69.0                    -> 1.70.0
+libnghttp3               1.17.0                    -> 1.18.0
+libngtcp2                1.24.0                    -> 1.25.0
+libpsl                   0.22.0                    -> 0.23.3
+libssh2                  1.11.1_1                  -> 1.11.1_4
+libtool                  2.5.4                     -> 2.6.2
+freetds                  1.5.18                    -> 1.5.19
+fontconfig               2.18.1                    -> 2.18.3
+dav1d                    1.5.3                     -> 1.5.4
+libpq                    18.4                      -> 18.6
+openldap                 2.6.13                    -> 2.7.0
+sqlite                   3.53.3                    -> 3.53.4
+php@8.4                  8.4.23                    -> 8.4.25
+glib                     2.88.2                    -> 2.88.3
+harfbuzz                 14.2.1                    -> 14.4.0
+little-cms2              2.19                      -> 2.19.1
+openjdk                  26.0.1                    -> 26.0.2.1
+libarchive               3.8.8                     -> 3.8.9
+mise                     2026.7.2                  -> 2026.8.14
+libksba                  1.8.0                     -> 1.8.1
+simdjson                 4.6.4                     -> 4.6.9
+gh                       2.96.0                    -> 2.98.0
+terminal-notifier        2.0.0                     -> 3.0.0_1
+dartaotruntime           3.12.2                    -> 3.13.2
+certifi                  2026.6.17                 -> 2026.7.22
+deno                     2.9.1                     -> 2.9.6
+python@3.14              3.14.6                    -> 3.14.7
+yt-dlp                   2026.7.4                  -> 2026.8.19
+pipx                     1.15.0                    -> 1.16.7
+cffi                     2.0.0_1                   -> 2.1.1
+cryptography             49.0.0                    -> 50.0.1
+python@3.13              3.13.14_1                 -> 3.13.15
+simdutf                  9.0.0                     -> 9.1.0
+pango                    1.58.0                    -> 1.58.2
+php                      8.5.8                     -> 8.5.10
+composer                 2.10.2                    -> 2.10.3
+nspr                     4.39                      -> 4.40
+nss                      3.126                     -> 3.128
+usage                    3.5.4                     -> 6.5.0
+tesseract                5.5.2                     -> 5.5.3
+c-ares                   1.34.7                    -> 1.34.8
+svt-av1                  4.1.0                     -> 4.2.0
+apktool                  3.0.2                     -> 3.0.3
+lua                      5.5.0                     -> 5.5.1
+libgcrypt                1.12.2                    -> 1.12.3
+noti                     3.8.0                     -> 3.9.0
+yazi                     26.5.6                    -> 26.8.15
+libvpx                   1.16.0                    -> 1.17.0
+tcl-tk                   9.0.3                     -> 9.0.4
+ruby                     4.0.5                     -> 4.0.6_1
+fastlane                 2.237.0                   -> 2.238.0
+llhttp                   9.4.2                     -> 9.4.3
+libgit2                  1.9.4                     -> 1.9.7
+eza                      0.23.4                    -> 0.23.5
+sdl3                     3.4.12                    -> 3.4.14
+ada-url                  3.4.4                     -> 4.0.0
+x265                     4.2                       -> 4.3
+merve                    1.2.2_1                   -> 1.2.2_2
+node                     26.4.0                    -> 26.8.1
+p11-kit                  0.26.4                    -> 0.26.5
+poppler                  26.07.0                   -> 26.08.0
+pydantic                 2.13.4                    -> 2.13.5
+python@3.11              3.11.15_3                 -> 3.11.16
+fvm                      4.1.2                     -> 4.3.0
+lame                     3.100                     -> 4.0
+ggshield                 1.52.2_1                  -> 1.54.0
+ffmpeg                   8.1.2_1                   -> 9.0.1_1
+android-platform-tools   37.0.0                    -> 37.0.1
+android-studio           2026.1.1.10,quail1-patch2 -> 2026.1.3.8,quail3-patch1
+anki                     26.05                     -> 26.08.1
+claude-code@latest       2.1.235                   -> 2.1.251
+clickup                  3.5.230,260616wecrh5vza   -> 3.5.262,260717dcrpwg7m0
+figma                    126.6.12                  -> 126.8.16
+font-meslo-lg-nerd-font  3.4.0                     -> 3.5.1
+maccy                    2.6.1                     -> 2.7.1
+mullvad-browser          15.0.18                   -> 15.0.20
+temurin@17               17.0.19,10                -> 17.0.20.1,1
+==> Downloading Homebrew API data
+✔︎ JSON API packages.arm64_sequoia.jws.json
+==> Fetching downloads for: miro
+==> Would upgrade 1 outdated package
+miro 0.11.116 -> 0.11.168
+✔︎ Cask miro (0.11.168)
+Error: miro: It seems the App source '/Applications/Miro.app' is not there.
+==> Upgrading miro
+  0.11.116 -> 0.11.168
+==> Purging files for version 0.11.168 of Cask miro
+понедельник, 31 августа 2026 г. 00:15:07 (+05): Очистка старых версий и кэша…
+==> Autoremoving 1 unneeded formula:
+usage
+Uninstalling /opt/homebrew/Cellar/usage/6.5.0... (14 files, 12.0MB)
+Pruned 0 symbolic links and 13 directories from /opt/homebrew
+понедельник, 31 августа 2026 г. 00:15:14 (+05): Ежемесячное обновление Homebrew завершено.
+понедельник, 31 августа 2026 г. 00:15:16 (+05): Brewfile обновлён.
+понедельник, 31 августа 2026 г. 00:15:16 (+05): Antigravity binary not found.
+понедельник, 31 августа 2026 г. 00:15:16 (+05): Запуск Telegram keep-alive…
+понедельник, 31 августа 2026 г. 00:15:37 (+05): Telegram keep-alive: найдено 14 чатов, отправлено сообщений: 14
+понедельник, 31 августа 2026 г. 00:15:37 (+05): Telegram keep-alive успешно завершён.
+понедельник, 31 августа 2026 г. 00:15:37 (+05): Кеш Claude Code в норме: 1,02 ГБ (лимит 5 ГБ).
+понедельник, 31 августа 2026 г. 00:15:37 (+05): Обнаружены изменения. Начинаем обработку...
