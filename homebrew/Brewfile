@@ -29,10 +29,6 @@ brew "fastlane"
 brew "ffmpeg"
 # Manage Flutter SDK versions per project
 brew "fvm"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
-# Interact with Google Gemini AI models from the command-line
-brew "gemini-cli"
 # Scanner for secrets and sensitive data in code
 brew "ggshield"
 # GitHub command-line tool
@@ -53,10 +49,10 @@ brew "lua"
 brew "mcfly"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # Trigger notifications when a process completes
 brew "noti"
-# 7-Zip (high compression file archiver) implementation
-brew "p7zip"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # General-purpose scripting language
@@ -71,10 +67,6 @@ brew "poppler"
 brew "python@3.11"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
-# Command-line interface for https://speedtest.net bandwidth tests
-brew "speedtest-cli"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
-brew "stow"
 # Modern and pretty fancy file manager for the terminal
 brew "superfile"
 # Formatting technology for Swift source code
@@ -87,8 +79,6 @@ brew "tesseract"
 brew "wget"
 # Little beautifier tool for xcodebuild
 brew "xcbeautify"
-# Build server protocol implementation for integrating Xcode with sourcekit-lsp
-brew "xcode-build-server"
 # Generate your Xcode project from a spec file and your folder structure
 brew "xcodegen"
 # Blazing fast terminal file manager written in Rust, based on async I/O
@@ -103,6 +93,8 @@ cask "android-platform-tools"
 cask "android-studio"
 # Memory training application
 cask "anki"
+# Display management tool
+cask "betterdisplay"
 # Terminal-based AI coding assistant
 cask "claude-code@latest"
 # Productivity platform for tasks, docs, goals, and chat
@@ -114,12 +106,6 @@ cask "font-meslo-lg-nerd-font"
 cask "iterm2"
 # Clipboard manager
 cask "maccy"
-# Online collaborative whiteboard platform
-cask "miro"
-# Intercept, modify, replay, save HTTP/S traffic
-cask "mitmproxy"
-# Web browser focused on privacy and on minimizing tracking and fingerprinting
-cask "mullvad-browser"
 # JDK from the Eclipse Foundation (Adoptium)
 cask "temurin@17"
 npm "firebase-tools"
